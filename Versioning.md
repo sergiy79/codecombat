@@ -2,7 +2,7 @@ We're building a lot of inter-connected data here at CodeCombat. Levels, Compone
 
 Non versioned documents, when modified, simply overwrite the database entry with the new data. Not so with versioned documents. You can only post new versions of a given document.
 
-## Version Numbering
+## Numbering
 Versions are two numbers: major and minor. Both start at 0, and are incremented by one when a new version is created. When making a new version, you have a choice: a new minor version of an existing major version, or a new major version? Here's an example history:
 
 First version created is always 0.0
@@ -11,7 +11,7 @@ New major version created is 1.0
 New minor version of major version 0 is 0.2, since its last minor version was 1
 New minor version of major version 1 is 1.1, since its last minor version was 0
 
-# Version References
+# References
 References from a document to a version document tend to point to the latest minor version of a given major version. That is, the reference effectively says "Whatever document is the latest minor version of x document for y major version". This allows propagation of changes to be targeted. If a new version of a document would break other documents referencing it, a new major version is created and the references continue to point to the old version. If the change would not break things, or would fix broken things, then a new minor version should be created for that document.
 
 For example, say a Level uses the AI system, version 0.47. You want to change the AI system to add a new feature. If the new feature doesn't conflict with existing functionality, it should be a new minor version, which automatically chooses 0.48. But, if the change would fundamentally alter how AI works, then a new major version is called for, and it would probably be 1.0. If this new major version is created and later on you realize 0.47 has a bug, you can still go back and fix it to create version 0.48 while version 1.0 remains the same.
