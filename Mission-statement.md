@@ -1,0 +1,5 @@
+The following statement is what we are working to make true:
+
+__CodeCombat is a major, integral part of the vibrant programming community, where newcomers learn how useful, rewarding, and fun it can be, and where programmers of every skill level come to challenge and expand their abilities. It reflects and encourages the best parts of the programming community, in particular shared, open resources and continued learning and experimentation.__
+
+One of the main ways to do this is to provide various outlets for people to participate in the project at every level. If CodeCombat is to be a major part of the programming community, it must be a product of the community as much as possible. The contribute page was the first step on this process, a general outline of what people can do to take part and make this project theirs. Efforts should be directed to make it as easy and frictionless as possible for people to join in however they'd like.
