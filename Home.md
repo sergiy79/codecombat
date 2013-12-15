@@ -1,0 +1,1 @@
+Welcome to the codecombat wiki!
