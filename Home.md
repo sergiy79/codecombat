@@ -21,7 +21,7 @@ Hello [Archmages](codecombat.com/contribute#archmage), welcome to the developer 
 
 * [[Client Models]]
 * [[Views]]
-* [[Events]]
+* [[Events, Subscriptions, Shortcuts]]
 
 ## Backend Development
 
