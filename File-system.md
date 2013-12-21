@@ -5,12 +5,12 @@ Files are manipulated through urls beginning with /file/. A file such as /file/<
 
 GridFS has no conception of folders built in, but we have a 'path' metadata property which can serve as a folder designation for a given file. So a file accessed at "/file/folder1/folder2/sound.mp3' would have metadata something like:
 
-{
+`{
      filename: 'sound.mp3',
      metadata: {
           path: 'folder1/folder2'
      }
-}
+}`
 
 Only one file can exist for any given full path. If you upload a file of the same name to the same path, the original will be overwritten if the property 'force' is truthy, otherwise the operation will fail.
 
@@ -18,7 +18,7 @@ Database documents that need links to GridFS files should use paths instead of i
 
 Paths for files that are associated with a particular document should generally follow the pattern:
 
-/db/<document.type>/<document.id>/filename.ext
+`/db/<document.type>/<document.id>/filename.ext`
 
 That way, all files associated with a given level or thang.type can be found with a query for that path. This also encourages organizing files according to the document that uses it. If two documents would use the same resource, have copies of the file rather than trying to link to the same resource from two different documents. This simplifies tracking where a given resource is used.
 
