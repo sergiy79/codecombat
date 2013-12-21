@@ -26,7 +26,7 @@ Hello [Archmages](codecombat.com/contribute#archmage), welcome to the developer 
 ## Backend Development
 
 * [[Coco Backend Overview]]
-* [[Security]]
+* [[Permissions]]
 * [[File System]]
 
 ## Gameplay
