@@ -2,6 +2,8 @@ This is not an exhaustive list, but these are the most important for you to know
 
 You don't need to learn how to use all of these tools, but please take some time to familiarize yourself with at least the ones you'll be using for the area(s) you'd like to work on.
 
+If you add a project or tool to CodeCombat, please list it here and on the open-source shoutout section of the [legal page](https://github.com/codecombat/codecombat/blob/master/app/templates/legal.jade).
+
 ## Core Languages
 
 * [CoffeeScript](http://coffeescript.org/): Used throughout the site instead of JavaScript. If you're familiar with Python or Ruby then you'll feel right at home. If you're familiar with JavaScript, you'll find CoffeeScript seeks to fix many of JavaScript's faults and, we think, does a pretty good job.
@@ -34,8 +36,8 @@ You don't need to learn how to use all of these tools, but please take some time
 * [Keymaster](https://github.com/madrobby/keymaster): Keyboard bound events.
 * [Twitter Bootstrap](http://getbootstrap.com/2.3.2/): Used mainly for styling and its JavaScript components. Scaffolding isn't really used. We're on 2.3.2, but will eventually migrate to 3.
 * [Moment](http://momentjs.com/): Formats times and dates.
-* Treema: Custom built library for editing schema-defined JSON data. Used for all editors. Scott is mainly in charge of working on this.
-* Lodash, Underscore-string and TV4 are also available in the browser.
+* [Treema](https://github.com/codecombat/treema): Custom built library for editing schema-defined JSON data. Used for all editors. Scott is mainly in charge of working on this.
+* Lodash, Underscore.String, and TV4 are also available in the browser.
 
 ### Gameplay Libraries and Services
 
@@ -44,8 +46,9 @@ You don't need to learn how to use all of these tools, but please take some time
 * [Box2D](http://box2d.org/): Physics engine.
 * [Aether](https://github.com/codecombat/aether): Custom built library for running and deeply analyzing code. Used in gameplay to show things like what code is running at any given frame or where the code breaks and why. Nick is mainly in charge of working on this.
 * [Firebase](https://www.firebase.com/): Service that synchronizes data between multiple clients. Used for synchronizing gameplay data when multiple people are playing on the same level. We also plan to use it for other inter-player communications, like chatting with friends or inviting other players to join in a campaign.
+* [Firepad](http://www.firepad.io/): Collaborative text-editor built on top of Firebase, used as the backbone of CodeCombat's spell editor.
 
 ## Other tools
 * [Jasmine](http://jasmine.github.io/2.0/introduction.html): Used for testing.
-* [Karma](https://github.com/karma-runner/karma): Test runner
+* [Karma](https://github.com/karma-runner/karma): Test runner.
 * [Brunch](https://github.com/brunch/brunch): Assembles the project, and is pretty much central to everything development.
