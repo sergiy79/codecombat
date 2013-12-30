@@ -29,15 +29,24 @@ Hello [Archmages](codecombat.com/contribute#archmage), welcome to the developer 
 * [[Permissions]]
 * [[File System]]
 
-## Gameplay
-???
+## Game Engine
+
+* CodeCombat uses a [[Thang Component System]] architecture.
+    * A [[Thang]] can be an ogre, a land, an arrow--anything.
+    * Thangs are just clusters of [[Component]]s.
+    * [[System]]s organize the Components.
+* [[World]]s simulate deterministically.
+* The [[Surface]] is what we call our graphics layer.
+* The [[Tome]] is our spell editor.
+* [[Multiplayer]]
+
+## Level Editor
+* **TODO**: organize an outline here
+
+## Thang Editor
+* **TODO**: document this if anyone cares to gaze upon it
 
 ## Side Projects
 
-### Treema
-
-* [[General purpose]]
-* [[Treema Structure]]
-
-### Aether
-???
+* [[Treema]], our general interface for editing JSON data with schemas
+* [[Aether]], our transpiler
