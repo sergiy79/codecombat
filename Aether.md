@@ -1,0 +1,13 @@
+When players type code into your website, you can do one of three things:
+
+1. Just `eval()` their code--let them hack the level and break their own page if they want to, but don't let other players run that code, since it's a security risk.
+2. Send the code to your server, where you can lock it way, way down in its own process, run it, and send it back to the player. If it explodes, tell them it didn't work.
+3. Magic.
+
+CodeCombat chose option three, and thus [Aether](https://github.com/codecombat/aether) was spawned. When a player casts their code spell, we go crazy on it--we lint it, we parse it, we sandbox it, we rewrite it, we transpile it, we parse it again, we rewrite it more, we instrument it, we transform it into continuation-passing style so we can execute it piecemeal, we transpile it again, we send it over to a Web Worker, we jam it into our [[World]] simulation, we run it, and then we serialize the results, the control flow, the execution metrics, and any errors back to the main thread. (Yes, we're still talking about JavaScript here.)
+
+Why? It turns out you have to be crazy like this if you want to provide live-coding performance, friendly error messages, multiplayer security, offline play, and time-travel debugging, [Brett-Victor-style](http://worrydream.com/LearnableProgramming/).
+
+Aether is a separate GitHub project, since we could imagine it being useful to others who want to do similarly crazy things with JavaScript and learnable programming. See more details on [its project page](https://github.com/codecombat/aether). It needs a lot of work to be both the novice's friend and hacker's superweapon that it can be, but the basics are all there, if not yet organized into a good open source project.
+
+If you want to play CodeCombat in other languages, like CoffeeScript, Python, Ruby, Haskell, ClojureScript, whatever--then mostly what we'll need is ambitious Archmages ready to contribute parsers from those languages to [the Mozilla Spidermonkey abstract syntax tree format](https://developer.mozilla.org/en-US/docs/SpiderMonkey/Parser_API) like [Esprima](http://esprima.org/) and [Acorn](http://marijnhaverbeke.nl/acorn/) do for JavaScript. Or possibly we could make use of existing JavaScript transpilers for those languages. We just need to be able to get the player's code from the source language into the first step of Aether's transpilation pipeline. If it sounds fun, reach out and let's make it happen!
