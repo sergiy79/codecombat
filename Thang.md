@@ -11,7 +11,12 @@ A very simple Thang might be a land. Let's look at a default Dungeon Floor Thang
 Represented as JSON, these Components are simply:
 
 ```javascript
-[{"original":"524b4150ff92f1f4f8000024","majorVersion":0,"config":{"stateless":true}},{"original":"524b7aff7fc0f6d519000006","majorVersion":0},{"original":"524b75ad7fc0f6d519000001","majorVersion":0,"config":{"pos":{"x":10,"y":30,"z":1},"width":20,"height":20,"depth":2,"shape":"sheet"}}]
+[
+  {"original":"524b4150ff92f1f4f8000024","majorVersion":0,
+    "config":{"stateless":true}},
+  {"original":"524b7aff7fc0f6d519000006","majorVersion":0},
+  {"original":"524b75ad7fc0f6d519000001","majorVersion":0,
+    "config":{"pos":{"x":10,"y":30,"z":1},"width":20,"height":20,"depth":2,"shape":"sheet"}}]
 ```
 
 A more complex Thang might have 20+ Components, and its ThangType might have many animations and sounds associated.
