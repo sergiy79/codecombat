@@ -45,7 +45,9 @@ module.exports = Surface = class Surface extends FoundationClass
 
 Shortcuts are keyboard shortcuts. These are handled by [keymaster](https://github.com/madrobby/keymaster).
 
-All `Coco*` subclasses support keyboard shortcuts. They are enabled when the object is created and removed when destroy is called.
+All `Coco*` subclasses support keyboard shortcuts. They are enabled when the object is created and removed when `destroy` is called.
+
+Shortcuts that have to work inside the LevelView must go through ACE in the SpellView--see the [Tome docs](https://github.com/codecombat/codecombat/wiki/Tome#keyboard-shortcuts) for more info.
 
 ## Inheritance
 
