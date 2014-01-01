@@ -74,7 +74,7 @@ Labels are like Marks, but for text, since we don't want the text to actually sc
 
 ![Paths example](https://dl.dropboxusercontent.com/u/138899/GitHub%20Wikis/surface_01.png)
 
-CodeCobmat uses these path indicators to give hints to the past and future positions, actions, and targets of Thangs, since otherwise you'd have to manually scrub through time to figure out what's going to happen or has happened each time you change the code. The visual styling can get overwhelming sometimes, and the performance is often horrendous, so we want to try another approach that scales better. If we could find a way to do animated, fading-out footprint trails, that would be awesome.
+CodeCombat uses these path indicators to give hints to the past and future positions, actions, and targets of Thangs, since otherwise you'd have to manually scrub through time to figure out what's going to happen or has happened each time you change the code. The visual styling can get overwhelming sometimes, and the performance is often horrendous, so we want to try another approach that scales better. If we could find a way to do animated, fading-out footprint trails, that would be awesome.
 
 In a Level's UI System, one can configure whether paths show up never, when the level is paused, just for the selected unit, or always. This is done on a per-level basis based on whether and when it's overwhelming or useful to see paths in that level. Probably what we should do is to add an option or shortcut for players to toggle through the path settings, too.
 
