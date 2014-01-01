@@ -1,4 +1,4 @@
-Hello [Archmages](codecombat.com/contribute#archmage), welcome to the developer wiki for CodeCombat! These documents are designed to give you everything you need to know, technical and non-technical, to dive into the project.
+Hello [Archmages](codecombat.com/contribute#archmage)! Welcome to the developer wiki for CodeCombat. These documents are designed to give you everything you need to know, technical and non-technical, to dive into the project. If you see an opportunity to improve the docs, go ahead!
 
 ## Stuff Everyone Should Know
 
@@ -10,22 +10,19 @@ Hello [Archmages](codecombat.com/contribute#archmage), welcome to the developer 
 * [[JSON-Schema]]
 * [[Coco Models]]
 * [[Coding Guidelines]]
-
-## Main Systems
-
-* [[Versioning]]
 * [[Testing]]
-* [[i18n]]
 
 ## Frontend Development
 
 * [[Client Models]]
 * [[Views]]
 * [[Events, Subscriptions, Shortcuts]]
+* [[i18n]]
 
 ## Backend Development
 
 * [[Coco Backend Overview]]
+* [[Versioning]]
 * [[Permissions]]
 * [[File System]]
 
