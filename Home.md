@@ -21,10 +21,12 @@ Hello [Archmages](codecombat.com/contribute#archmage)! Welcome to the developer 
 
 ## Backend Development
 
-* [[Coco Backend Overview]]
+* [[File System]]
+
+## Key Systems
+
 * [[Versioning]]
 * [[Permissions]]
-* [[File System]]
 
 ## Game Engine
 
