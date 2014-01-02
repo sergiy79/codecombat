@@ -17,7 +17,6 @@ Hello [Archmages](codecombat.com/contribute#archmage)! Welcome to the developer 
 * [[Client Models]]
 * [[Views]]
 * [[Events, Subscriptions, Shortcuts]]
-* [[i18n]]
 
 ## Backend Development
 
