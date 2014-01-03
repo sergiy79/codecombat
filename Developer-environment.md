@@ -13,6 +13,8 @@ curl https://raw.github.com/codecombat/codecombat/master/scripts/devSetup/bootst
 
 This should work on Mac and Linux, but it's brand new, so please let us know of any problems you run into. On Mac, you'll need [Xcode Developer Tools](http://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12). On Linux, you'll need ruby, curl, and git installed. We'll be making it work on Windows soon.
 
+To get a sandbox copy of the CodeCombat database for your local Mongo, see [Restoring a backup](#restoring-a-backup).
+
 ### The do-it-yourself way
 
 **TODO: document this better**
@@ -45,8 +47,8 @@ Usually, restarting it by hitting Ctrl-C once in the Brunch terminal window will
 
 When building in the dev environment, you have a filtered copy of the live database with just the publicly available data. It may look like what you'll find on the site, but changes you make won't show up on the site. Currently, there's no automatic way to transfer data you make on your dev environment back to production, so be sure to build levels you want to share on the site.
 
-####Restoring a backup
-If you have access to the file containing the backup, you can import it into your locally running database with the following steps.
+#### Restoring a backup
+Download [the public CodeCombat MongoDB sandbox copy backup](https://s3.amazonaws.com/uploads.hipchat.com/60497/416620/ZMjjuurAEY3SUb9/coco_backup_public.tar.gz) and import it into your locally running database with the following steps.
 
 1. Make sure the database is running on your computer.
 2. If the backup file is compressed, uncompress it (for instance, if it is a .tar.gz file, run `tar xzvf [filename]`) 
