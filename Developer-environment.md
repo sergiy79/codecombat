@@ -45,6 +45,13 @@ Usually, restarting it by hitting Ctrl-C once in the Brunch terminal window will
 
 When building in the dev environment, you have a filtered copy of the live database with just the publicly available data. It may look like what you'll find on the site, but changes you make won't show up on the site. Currently, there's no automatic way to transfer data you make on your dev environment back to production, so be sure to build levels you want to share on the site.
 
+####Restoring a backup
+If you have access to the file containing the backup, you can import it into your locally running database with the following steps.
+
+1. Make sure the database is running on your computer.
+2. If the backup file is compressed, uncompress it (for instance, if it is a .tar.gz file, run `tar xzvf [filename]`) 
+3. Step 2 should generate a `dump` folder. To import this run `mongorestore [path to dump]` if mongorestore is in your path, or if it's not and you used the script, run `[path to CodeCombat folder]/bin/mongo/mongorestore [path to dump]`
+
 ### Third Party Services
 
 API services we use such as MailChimp will not be accessible unless you have an API key. Generally you shouldn't need them to work on the site, but if you do then let us know and we'll see if we can get something worked out. Some systems may break without the keys, and so will need to be modified to soldier on without them.
