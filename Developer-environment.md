@@ -1,11 +1,29 @@
 ## Getting started
 
-1. Set up a GitHub account if you don't already have one.
+### The new, easy, buggy way
+
+1. [Set up a GitHub account](https://help.github.com/articles/set-up-git) if you don't already have one.
+1. Open a terminal and paste this in:
+```bash
+curl https://raw.github.com/codecombat/codecombat/master/scripts/devSetup/bootstrap.sh | sudo bash
+```
+1. Follow the prompts. This should download and install all the necessary dependencies.
+1. Run the scripts at `coco/bin/startDatabase.py`, `coco/bin/startBrunch.py`, and `coco/bin/startApp.py`.
+1. Go to [http://localhost:3000](http://localhost:3000) to see your local CodeCombat in action.
+
+This should work on Mac and Linux, but it's brand new, so please let us know of any problems you run into. On Mac, you'll need [Xcode Developer Tools](http://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12). On Linux, you'll need ruby, curl, and git installed. We'll be making it work on Windows soon.
+
+### The do-it-yourself way
+
+**TODO: document this better**
+
+1. [Set up a GitHub account](https://help.github.com/articles/set-up-git) if you don't already have one.
 1. Fork the CodeCombat project.
 1. `git clone` it to your computer.
 1. Install software (gem, npm, npm_modules).
 1. Run whatever is required to download the dev environment mongo stuff.
 1. Run bin/coco-brunch and bin/coco-dev-server.
+1. Go to [http://localhost:3000](http://localhost:3000) to see your local CodeCombat in action.
 
 ## Working in the environment
 
