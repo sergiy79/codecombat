@@ -13,7 +13,7 @@ curl https://raw.github.com/codecombat/codecombat/master/scripts/devSetup/bootst
 
 This should work on Mac and Linux, but it's brand new, so please let us know of any problems you run into. On Mac, you'll need [Xcode Developer Tools](http://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12). On Linux, you'll need ruby, curl, and git installed. We'll be making it work on Windows soon.
 
-To get a sandbox copy of the CodeCombat database for your local Mongo, see [Restoring a backup](#restoring-a-backup).
+To get a sandbox copy of the CodeCombat database for your local Mongo, see [Restoring a backup](https://github.com/codecombat/codecombat/wiki/Developer-environment#restoring-a-backup).
 
 ### The do-it-yourself way
 
