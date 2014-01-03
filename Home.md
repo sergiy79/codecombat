@@ -3,9 +3,9 @@ Hello [Archmages](codecombat.com/contribute#archmage)! Welcome to the developer 
 ## Stuff Everyone Should Know
 
 * [[Mission Statement]]
-* [[Technical Overview]]
-* [[Developer Environment]]
+* [[Developer Environment]] -- Start here to get CodeCombat set up on your computer.
 * [[Developer Organization]]
+* [[Technical Overview]]
 * [[Third Party Software and Services]]
 * [[JSON-Schema]]
 * [[Coco Models]]
