@@ -5,7 +5,7 @@
 1. [Set up a GitHub account](https://help.github.com/articles/set-up-git) if you don't already have one.
 1. Open a terminal and paste this in:
 ```bash
-curl https://raw.github.com/codecombat/codecombat/master/scripts/devSetup/bootstrap.sh | sudo bash
+curl https://raw.github.com/codecombat/codecombat/master/scripts/devSetup/bootstrap.sh | bash
 ```
 1. Follow the prompts. This should download and install all the necessary dependencies.
 1. Run the scripts at `coco/bin/startDatabase.py`, `coco/bin/startBrunch.py`, and `coco/bin/startApp.py`.
