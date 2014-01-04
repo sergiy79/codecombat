@@ -36,11 +36,13 @@ Each LevelView has a God which listens for spells cast and summons new Angels on
 
 It's also possible to simulate Worlds on the main thread without using workers--we put that in for easily performance profiling and to make it run in IE 9. It completely blocks the UI, though. I heard that's bad.
 
-## Aether and Instrumenting the User Code
+## Aether and Instrumenting the Player Code
 
 Our transpiler, [[Aether]], does things like handle, prettify, and standardize error messages. It also logs statement execution metrics and logs control flow. Soon it will also provide the necessary data to support our amazing time-travel debugger (which has yet to be written). All of this stuff needs to be serialized, though, and that's often a performance penalty--so much so that we often just turn it off for levels with lots of user code execution like Gridmancer. It needs work on the performance so we're not trying to send too much runtime information, but rather just the information the player needs to see.
 
 Whereas most of the Thang state is consumed by the Surface, the Aether runtime information is consumed by the spell editor within the [[Tome]].
+
+The way that player code interacts with the world is through the `programming.Programmable` [[Component]]. It gets very crazy when we are running the `programming.Plans`-provided `plan()` method in a level, so also see that Component to check out how we do piecemeal execution and yielding of control flow.
 
 ## Goals
 
