@@ -21,7 +21,7 @@ To get a sandbox copy of the CodeCombat database for your local Mongo, see [Rest
 
 1. [Set up a GitHub account](https://help.github.com/articles/set-up-git) if you don't already have one.
 1. Fork the CodeCombat project.
-1. `git clone` it to your computer into the ~/Desktop/coco.
+1. `git clone` it to your computer into ~/Desktop/coco.
 1. Install software
   1. sudo npm install
   1. bower install
