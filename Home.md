@@ -1,4 +1,4 @@
-Hello [Archmages](codecombat.com/contribute#archmage)! Welcome to the developer wiki for CodeCombat. These documents are designed to give you everything you need to know, technical and non-technical, to dive into the project. If you see an opportunity to improve the docs, go ahead!
+Hello [Archmages](http://codecombat.com/contribute#archmage)! Welcome to the developer wiki for CodeCombat. These documents are designed to give you everything you need to know, technical and non-technical, to dive into the project. If you see an opportunity to improve the docs, go ahead!
 
 ## Stuff Everyone Should Know
 
