@@ -18,7 +18,7 @@ Let's try to keep it to these five channels so that everything can be as open as
 
 * Discuss particular issues in [the issue tracker](https://github.com/codecombat/codecombat/issues).
 * Discuss anything possibly interesting to others in [the CodeCombat Discourse forum](http://discourse.codecombat.com/).
-* Ask anything time-sensitive and public in [the CodeCombat HipChat room](http://www.hipchat.com/g3plnOKqa).
+* Ask anything time-sensitive and public in [the CodeCombat HipChat room](http://www.hipchat.com/g3plnOKqa) ([IRC instructions here](http://larryfox.us/writing/hipchat-with-irc/)).
 * Go into high-bandwidth collaboration on a Google Hangout call (organize it via HipChat)
 * Use the Contact form on [codecombat.com](http://codecombat.com) to send the team a private email. Try to use the public methods if possible, since open-source projects thrive on transparency.
 
