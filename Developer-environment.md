@@ -21,13 +21,13 @@ To get a sandbox copy of the CodeCombat database for your local Mongo, see [Rest
 
 1. [Set up a GitHub account](https://help.github.com/articles/set-up-git) if you don't already have one.
 1. Fork the CodeCombat project.
-1. `git clone` it to your computer.
+1. `git clone` it to your computer into the ~/Desktop/coco.
 1. Install software
   1. sudo npm install
   1. bower install
   1. sudo npm install -g brunch
   1. Download [MongoDB 2.5.4](http://www.mongodb.org/downloads) and put the mongo folder in bin
-1. Run bin/coco-brunch and bin/coco-dev-server.
+1. Run bin/coco-mongodb, bin/coco-brunch and bin/coco-dev-server.
 1. Go to [http://localhost:3000](http://localhost:3000) to see your local CodeCombat in action.
 
 ## Working in the environment
