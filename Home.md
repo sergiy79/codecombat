@@ -5,11 +5,11 @@ Hello [Archmages](codecombat.com/contribute#archmage)! Welcome to the developer 
 * [[Mission Statement]]
 * [[Developer Environment]] -- Start here to get CodeCombat set up on your computer.
 * [[Developer Organization]]
+* [[Coding Guidelines]]
 * [[Technical Overview]]
 * [[Third Party Software and Services]]
 * [[JSON-Schema]]
 * [[Coco Models]]
-* [[Coding Guidelines]]
 * [[Testing]]
 
 ## Frontend Development
