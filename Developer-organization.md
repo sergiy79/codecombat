@@ -6,7 +6,7 @@ Found a bug? Want a feature? Go ahead and make an issue in [our GitHub issue tra
 
 See an issue that you think you can handle? Want to make an improvement? Just [fork this repository](https://help.github.com/articles/fork-a-repo), make your changes, and [submit a pull request](https://help.github.com/articles/using-pull-requests).
 
-We will need you to agree to a very simple contributor license agreement before we accept your pull request. Basically, it says that you have the right to contribute this code--it's not some proprietary code we can't use. We don't have the form up yet, but we will soon. 
+We will need you to [agree to a very simple contributor license agreement](http://codecombat.com/cla) before we accept your pull request. Basically, it says that you have the right to contribute this code--it's not some proprietary code we can't use.
 
 We are going to organize our branches [something like this](http://nvie.com/posts/a-successful-git-branching-model/), but you probably don't need to get into that.
 
