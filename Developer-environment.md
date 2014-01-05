@@ -11,7 +11,7 @@ curl https://raw.github.com/codecombat/codecombat/master/scripts/devSetup/bootst
 1. Run each of these scripts in their own separate terminal window:
     * `coco/bin/startDatabase.py` (starts MongoDB, which stays running and awaits connections)
     * `coco/bin/startBrunch.py` (starts brunch, which stays running and watches for file changes)
-    * `coco/bin/startApp.py`, (starts your local webserver, which stays running and watches for file changes)
+    * `coco/bin/startApp.py` (starts your local webserver, which stays running and watches for file changes)
 1. Go to [http://localhost:3000](http://localhost:3000) to see your local CodeCombat in action.
 
 This should work on Mac and Linux, but it's brand new, so please let us know of any problems you run into. On Mac, you'll need [Xcode Developer Tools](http://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12). On Linux, you'll need ruby, curl, and git installed. We'll be making it work on Windows soon.
