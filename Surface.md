@@ -44,6 +44,8 @@ It's also possible to convert to screen coordinates, but we never ended up needi
 
 CodeCombat's sprite art is all stored in the database in vector format, which lets us go resolution independent and save a lot of download time compared to our old raster art system. The sprite sheets are built on the fly from the vector data when you go to play a level. See [app/lib/LevelLoader.coffee](https://github.com/codecombat/codecombat/blob/master/app/lib/LevelLoader.coffee) for how that's done. The vector art files are exported from Adobe Flash Creative Cloud targeted at CreateJS, and we wrote a custom parser to pull the animation data from the exported JavaScript files. That stuff is in the [app/lib/sprites](https://github.com/codecombat/codecombat/blob/master/app/lib/sprites). Then there's the [[Thang Editor]], which provides a GUI for turning those vector sprites into a usable ThangType that can be used in the [[Level Editor]]. Since the sprite export and Thang Editor import are a bit tricky, you probably don't need to know about them; unless someone really wants to work on them, they'll be an undocumented internal use tool.
 
+![Ogre Brawler in the Thang Editor](https://dl.dropboxusercontent.com/u/138899/GitHub%20Wikis/thang_editor_00.png)
+
 As far as the art style: we just wanted to make it look like [Kingdom Rush](http://www.kingdomrush.com/). We all loved that game, and our wives loved it, too. So instead of making something covered in explosions and blood that would look even more awesome but also shout this-game-is-for-boys, we went for a more universally appealing style, while still making something we ourselves liked and that wasn't too kiddified.
 
 ## CocoSprite
