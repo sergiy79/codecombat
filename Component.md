@@ -1,5 +1,7 @@
 In our [[Thang Component System]] architecture, the Components are the building blocks that attach real data and behavior to Thangs. (Normally, Components in this type of system don't contain code, but in our system they do--in fact, they're mostly code.)
 
+Note that because we don't yet safely sandbox Component code and haven't quite finished those permissions, you can't actually edit Components yet as a non-admin. So to edit them and add new ones, [install the local server](Developer Environment) and create a local account there, which will automatically be an admin account. Then [send us](Developer Organization) the Component edits for review and addition to the live site.
+
 Let's do a series of exmaples. We'll start with a Thang named William with [[ThangType]] of [Soldier](http://codecombat.com/editor/thang/soldier]). William has these Components by default:
 
 * `action.Acts`
@@ -68,4 +70,4 @@ Components automatically copy all the properties from their `config` constructor
 
 Components can be as simple as adding a single property, like the `movement.Land` Component just adding  `isLand`, or as complex as managing the entire programming environment, like the `programming.Programmable` Component.
 
-Note that because we don't yet safely sandbox Component code, and haven't quite finished the permissions on them, you can't actually edit Components yet as a non-admin. We're working on it. Until then, if you want to play around with editing Components, just contact us and we'll figure something out.
+To see all the entity data for, say, the `movement.JumpsStraightUp` Component, I can just go to [http://localhost:3000/db/level_component/jumpsstraightup](http://localhost:3000/db/level_component/jumpsstraightup).
