@@ -47,7 +47,7 @@ Documentation for general programming knowledge. CodeCombat needs in addition to
 ## Other kinds of data:
 
 ### Thangs
-Individual elements in a Level are Thangs. (Not "Things", because that would be confusing, and not "Entities", because that's so boring.) Because these are denormalized as an array of them within the Level model, there's no explicit Thang model. Any given Thang within a level is pretty much just a single Thang.Type (which describes audio and visuals) and an array of Level.Components (which describe behavior).
+Individual elements in a Level are [[Thang]]s. Because these are denormalized as an array of them within the Level model, there's no explicit Thang model. Any given Thang within a level is pretty much just a single ThangType (which describes audio and visuals) and an array of [[Component]]s (which describe behavior).
 
 ### Scripts
 Like Thangs, these are denormalized to just an array of them within a Level. Each Script consists mainly of how it is triggered and what happens when it's triggered.
