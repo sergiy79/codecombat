@@ -30,14 +30,14 @@ You can **check the issues list** or just [talk to us](http://discourse.codecomb
 
 * **Server**: improving the Node.js server and database code
 * **Play view**: everything you see when playing a level, and possibly the most concrete stuff to work on
-* **Spell editor**: within the play view lurks CodeCombat's beating heart, which can be made much more amazing
-* **Level editor**: some concrete parts, some abstract parts, some parts so meta they'll blow your mind
-* **Surface**: everything to do with graphics and sound lives in here
-* **World**: the game engine itself, with code split between GitHub and the Components and Systems in the database
+* **[[Tome]] (spell editor)**: within the play view lurks CodeCombat's beating heart, which can be made much more amazing
+* **[[Level editor]]**: some concrete parts, some abstract parts, some parts so meta they'll blow your mind
+* **[[Surface]]**: everything to do with graphics and sound lives in here
+* **[[World]]**: the game engine itself, with code split between GitHub and the Components and Systems in the database
 * **Website**: we'd appreciate any help with our web design or improvements to our copy
-* **i18n**: we have a preliminary system for internationalization already, but it could be much better
-* **Treema**: another GitHub repository entirely, this project handles making editable GUIs for JSON data
-* **Aether**: if you like computer science, compilers, programming languages, and craaazy code, you'll love our JavaScript transpiler project
-* **Tests**: we have been naughty and not written enough tests, so if you're into testing, let's do it
+* **[[i18n]]**: we have a preliminary system for internationalization already, but it could be much better
+* **[[Treema]]**: another GitHub repository entirely, this project handles making editable GUIs for JSON data
+* **[[Aether]]**: if you like computer science, compilers, programming languages, and craaazy code, you'll love our JavaScript transpiler project
+* **[[Testing]]**: we have been naughty and not written enough tests, so if you're into testing, let's do it
 
 Of course, there are other things you can do without needing to get into this GitHub to do it, like making levels, playtesting, writing documentation, translating, and helping other players. See [our /contribute page](http://codecombat.com/contribute) for details.
