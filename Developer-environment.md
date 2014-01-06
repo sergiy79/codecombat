@@ -5,7 +5,7 @@
 If you're running Mac OS X, you can see a screencast of the process [here.](https://www.youtube.com/watch?v=fom1ksXSbKM)
 
 1. [Set up a GitHub account](https://help.github.com/articles/set-up-git) if you don't already have one.
-1. (Optional) If you'd like your changes able to be integrated into the official CodeCombat repository, click the *Fork* button in the upper left hand corner of the page.
+1. (Optional) If you'd like your changes able to be integrated into the official CodeCombat repository, click the *Fork* button in the upper right hand corner of the page.
 1. Open a terminal. 
     * If you've forked the repository, paste in the following command *with your forked repository URL*
 ```bash
