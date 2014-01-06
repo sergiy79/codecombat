@@ -4,6 +4,8 @@
 
 If you're running Mac OS X, you can see a screencast of the process [here.](https://www.youtube.com/watch?v=fom1ksXSbKM)
 
+These directions apply to Linux and Mac OS X. For Windows, [see the paragraph near the bottom of this section.](#windows_details)
+
 1. [Set up a GitHub account](https://help.github.com/articles/set-up-git) if you don't already have one.
 1. (Optional) If you'd like your changes able to be integrated into the official CodeCombat repository, click the *Fork* button in the upper right hand corner of the page.
 1. Open a terminal. 
@@ -24,9 +26,12 @@ curl https://raw.github.com/codecombat/codecombat/master/scripts/devSetup/bootst
 
 This should work on Mac and Linux, but it's brand new, so please let us know of any problems you run into. On Mac, you'll need [Xcode Developer Tools](http://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12). On Linux, you'll need ruby, curl, and git installed. 
 
+To get a sandbox copy of the CodeCombat database for your local Mongo, see [Restoring a backup](https://github.com/codecombat/codecombat/wiki/Developer-environment#restoring-a-backup).
+
+<a name="windows_details"></a>
+####Windows 
 There isn't support for Windows yet, so you'll have to [download VirtualBox](http://download.virtualbox.org/virtualbox/4.3.6/VirtualBox-4.3.6-91406-Win.exe), install it, then [download](http://54.204.18.206/CoCoLinux.ova) and import the CodeCombat Linux appliance by going to File:Import Appliance. Once you have the Linux virtual machine running, the follow the directions above. To ease development, you can set up a shared folder so that you can edit files in Windows and have them accessible to the Ubuntu VM. See directions for setting up shared folders [here.](http://mikesmithers.wordpress.com/2011/03/23/installing-ubuntu-in-virtualbox-on-a-windows-7-host/#attachment_898) You can also [set up bridged networking](http://askubuntu.com/questions/196118/how-to-access-localhost-on-virtualbox-host-machine) so that your server is accessible from Windows.
 
-To get a sandbox copy of the CodeCombat database for your local Mongo, see [Restoring a backup](https://github.com/codecombat/codecombat/wiki/Developer-environment#restoring-a-backup).
 
 ### The do-it-yourself way
 
