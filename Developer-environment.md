@@ -3,7 +3,13 @@
 ### The new, easy, buggy way
 
 1. [Set up a GitHub account](https://help.github.com/articles/set-up-git) if you don't already have one.
-1. Open a terminal and paste this in:
+1. (Optional) If you'd like your changes able to be integrated into the official CodeCombat repository, click the *Fork* button in the upper left hand corner of the page.
+1. Open a terminal. 
+    * If you've forked the repository, paste in the following command *with your forked repository URL*
+```bash
+curl https://raw.github.com/codecombat/codecombat/master/scripts/devSetup/bootstrap.sh | bash -s your_repository_url
+```
+    * If you haven't forked the repository, copy and paste in the following command
 ```bash
 curl https://raw.github.com/codecombat/codecombat/master/scripts/devSetup/bootstrap.sh | bash
 ```
