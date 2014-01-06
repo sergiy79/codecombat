@@ -1,6 +1,6 @@
 ## Getting started
 
-### The new, easy, buggy way
+### The easy, hands-off way
 
 If you're running Mac OS X, you can see a screencast of the process [here.](https://www.youtube.com/watch?v=fom1ksXSbKM) If you're running Ubuntu, you can see a screencast [here.](http://youtu.be/usN85KSiWUM)
 
