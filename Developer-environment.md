@@ -2,7 +2,7 @@
 
 ### The new, easy, buggy way
 
-If you're running Mac OS X, you can see a screencast of the process [here.](https://www.youtube.com/watch?v=fom1ksXSbKM)
+If you're running Mac OS X, you can see a screencast of the process [here.](https://www.youtube.com/watch?v=fom1ksXSbKM) If you're running Ubuntu, you can see a screencast [here.](http://youtu.be/usN85KSiWUM)
 
 These directions apply to Linux and Mac OS X. For Windows, [see the paragraph near the bottom of this section.](#windows_details)
 
