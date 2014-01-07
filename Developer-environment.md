@@ -17,7 +17,7 @@ curl https://raw.github.com/codecombat/codecombat/master/scripts/devSetup/bootst
 ```bash
 curl https://raw.github.com/codecombat/codecombat/master/scripts/devSetup/bootstrap.sh | bash
 ```
-1. Follow the prompts. This should download and install all the necessary dependencies. The exact command should depend on the directory you are in, but should look something like:
+1. Follow the prompts. This should download and install all the necessary dependencies. If you've used the script above, it will prompt you to run the command below. If you cloned the repository yourself, you can also run the script below (you may need to edit it based on your current working directory.)
 ```
 sudo python ./coco/scripts/devSetup/setup.py
 ```
