@@ -25,6 +25,7 @@ sudo python ./coco/scripts/devSetup/setup.py
     * `coco/bin/coco-mongodb` (starts MongoDB, which stays running and awaits connections)
     * `coco/bin/coco-brunch` (starts brunch, which stays running and watches for file changes, may need to be run as sudo to increase the ulimit if brunch fails)
     * `coco/bin/coco-dev-server` (starts your local webserver, which stays running and watches for file changes)
+1. Do the [MongoDB database import](https://github.com/codecombat/codecombat/wiki/Developer-environment#setup) *(we're working to making this optional)*
 1. Go to [http://localhost:3000](http://localhost:3000) to see your local CodeCombat in action.
 
 This should work on Mac and Linux, but it's brand new, so please let us know of any problems you run into. On Mac, you'll need [Xcode Developer Tools](http://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12). On Linux, you'll need ruby, curl, and git installed. 
