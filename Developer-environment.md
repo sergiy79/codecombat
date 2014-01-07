@@ -17,7 +17,10 @@ curl https://raw.github.com/codecombat/codecombat/master/scripts/devSetup/bootst
 ```bash
 curl https://raw.github.com/codecombat/codecombat/master/scripts/devSetup/bootstrap.sh | bash
 ```
-1. Follow the prompts. This should download and install all the necessary dependencies.
+1. Follow the prompts. This should download and install all the necessary dependencies. The exact command should depend on the directory you are in, but should look something like:
+```
+sudo python ./coco/scripts/devSetup/setup.py
+```
 1. Run each of these scripts in their own separate terminal window:
     * `coco/bin/coco-mongodb` (starts MongoDB, which stays running and awaits connections)
     * `coco/bin/coco-brunch` (starts brunch, which stays running and watches for file changes, may need to be run as sudo to increase the ulimit if brunch fails)
