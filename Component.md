@@ -2,7 +2,7 @@ In our [[Thang Component System]] architecture, the Components are the building 
 
 Note that because we don't yet safely sandbox Component code and haven't quite finished those permissions, you can't actually edit Components yet as a non-admin. So to edit them and add new ones, [install the local server](Developer Environment) and create a local account there, which will automatically be an admin account. Then [send us](Developer Organization) the Component edits for review and addition to the live site.
 
-Let's do a series of exmaples. We'll start with a Thang named William with [[ThangType]] of [Soldier](http://codecombat.com/editor/thang/soldier]). William has these Components by default:
+Let's do a series of examples. We'll start with a Thang named William with [[ThangType]] of [Soldier](http://codecombat.com/editor/thang/soldier]). William has these Components by default:
 
 * `action.Acts`
 * `ai.ChasesAndAttacks`
