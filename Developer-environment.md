@@ -28,6 +28,8 @@ sudo python ./coco/scripts/devSetup/setup.py
 1. Do the [MongoDB database import](https://github.com/codecombat/codecombat/wiki/Developer-environment#setup) *(we're working to making this optional)*
 1. Go to [http://localhost:3000](http://localhost:3000) to see your local CodeCombat in action.
 
+NOTE: The repository will be in the coco subdirectory.  You should not run a separate git clone, as that is taken care of.
+
 This should work on Mac and Linux, but it's brand new, so please let us know of any problems you run into. On Mac, you'll need [Xcode Developer Tools](http://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12). On Linux, you'll need ruby, curl, and git installed. 
 
 To get a sandbox copy of the CodeCombat database for your local Mongo, see [Restoring a backup](https://github.com/codecombat/codecombat/wiki/Developer-environment#restoring-a-backup).
