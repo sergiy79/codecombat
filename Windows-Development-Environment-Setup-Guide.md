@@ -39,17 +39,30 @@ Git for Windows
 
 [Download link for all versions](https://msysgit.googlecode.com/files/Git-1.8.5.2-preview20131230.exe)
 
+Python for Windows
+
+Python download links
+
+| Windows Version | 32 bit | 64 bit |
+| :-------------: | :----: | :-----: |
+| All versions | [Ruby](http://www.python.org/ftp/python/2.7.6/python-2.7.6.msi) | [Ruby](http://www.python.org/ftp/python/2.7.6/python-2.7.6.amd64.msi) | 
+
 Node-gyp prerequisites
 
-  * On Windows:
-    * [Python][windows-python] ([`v2.7.3`][windows-python-v2.7.3] recommended, `v3.x.x` is __*not*__ supported)
-    * Windows XP/Vista/7:
-      * Microsoft Visual Studio C++ 2010 ([Express][msvc2010] version works well)
-      * For 64-bit builds of node and native modules you will _**also**_ need the [Windows 7 64-bit SDK][win7sdk]
-        * If the install fails, try uninstalling any C++ 2010 x64&x86 Redistributable that you have installed first.
-      * If you get errors that the 64-bit compilers are not installed you may also need the [compiler update for the Windows SDK 7.1]
-    * Windows 7/8:
-      * Microsoft Visual Studio C++ 2012 for Windows Desktop ([Express][msvc2012] version works well)
+###Windows XP/Vista/7
+
+####Both 32 and 64 bit systems
+* Microsoft Visual Studio C++ 2010 ([Express][msvc2010] version works well)
+* If the install fails, try uninstalling any C++ 2010 x64&x86 Redistributable that you have installed first.
+* If you get errors that the 64-bit compilers are not installed you may also need the [compiler update for the Windows SDK 7.1]
+
+####64 bit systems
+[Windows 7 64-bit SDK][win7sdk]
+
+###Windows 7/8
+* Microsoft Visual Studio C++ 2012 for Windows Desktop ([Express][msvc2012] version works well)
+
+
 
 Steps from @deepak1556
 
