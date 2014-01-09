@@ -1,3 +1,23 @@
+To get started, first you'll need to know a little bit about your computer: whether your computer is 32 or 64 bit, and what version of Windows you're running. 
+
+* If you don't know if your computer is 32 or 64 bit, use [this link](http://windows.microsoft.com/en-us/windows7/find-out-32-or-64-bit) to find out. 
+
+* If you're not sure what version of Windows you have, [this link](http://windows.microsoft.com/en-us/windows/which-operating-system) will tell you.
+
+Once you have gotten those pieces of information, go through the sections below to download and install each dependency. 
+
+Node Download Links
+
+To install Node, first download the correct version of the installer from the table below. Then, run the installer. Make sure that the Node installer adds Node to your path(illustrate with screenshot.)
+
+| Windows Version| 32 bit | 64 bit |
+| :-------------: | :----: | :-----: |
+| All versions | [node.js](http://nodejs.org/dist/v0.10.24/node-v0.10.24-x86.msi) | [node.js](http://nodejs.org/dist/v0.10.24/x64/node-v0.10.24-x64.msi) | 
+
+##MongoDB
+
+MongoDB is the database used for CodeCombat. To install, unzip to any location that you want, and make a note of the path to that location. (Explain how to put that location in the PATH)
+
 Mongo Download Links
 
 | Windows Version | 32 bit      | 64 bit  |
@@ -14,11 +34,6 @@ Ruby Download Links
 
 Note for later: make sure Ruby sets path when it installs
 
-Node Download Links
-
-| Windows Version| 32 bit | 64 bit |
-| :-------------: | :----: | :-----: |
-| All versions | [node.js](http://nodejs.org/dist/v0.10.24/node-v0.10.24-x86.msi) | [node.js](http://nodejs.org/dist/v0.10.24/x64/node-v0.10.24-x64.msi) | 
 
 Git for Windows
 
