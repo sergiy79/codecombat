@@ -50,6 +50,8 @@ Note for later: make sure Ruby sets path when it installs
 | :-------------: | :----: | :-----: |
 | All versions | [Ruby](http://www.python.org/ftp/python/2.7.6/python-2.7.6.msi) | [Ruby](http://www.python.org/ftp/python/2.7.6/python-2.7.6.amd64.msi) | 
 
+Make sure you add Python to your path.
+
 ##Other prerequisites 
 
 ###Windows XP/Vista/7
@@ -71,6 +73,8 @@ A big thanks to @deepak1556 for these steps.
 
 ###Opening up Git Bash
 
+Detail here how to open up Git Bash. 
+
 ###Cloning the repository
 In your git bash, navigate to where you want to clone your repository (explain how to do this).
 ```git clone https://github.com/codecombat/codecombat```
@@ -88,8 +92,8 @@ Then, run the commands
 ###Fixing brunch
 
 - sass-brunch currently doesnt have the windows socket close error [fix](https://github.com/brunch/sass-brunch/issues/33) on npm , so delete sass-brunch from node_modules dir and do the following inside codecombat/node_modules :
-     - git clone https://github.com/vanto/sass-brunch
-     - git checkout windows-spawn-fix
+     - `git clone https://github.com/vanto/sass-brunch`
+     - `git checkout windows-spawn-fix`
      - `npm install`
 - rename brunch.coffee to config.coffee 
 
