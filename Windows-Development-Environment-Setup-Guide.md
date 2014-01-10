@@ -55,15 +55,15 @@ Note for later: make sure Ruby sets path when it installs
 ###Windows XP/Vista/7
 
 ####Both 32 and 64 bit systems
-* Microsoft Visual Studio C++ 2010 ([Express][msvc2010] version works well)
+* [Microsoft Visual Studio C++ 2010](http://go.microsoft.com/?linkid=9709949) (Express)
 * If the install fails, try uninstalling any C++ 2010 x64&x86 Redistributable that you have installed first.
-* If you get errors that the 64-bit compilers are not installed you may also need the [compiler update for the Windows SDK 7.1]
+* If you get errors that the 64-bit compilers are not installed you may also need the [compiler update for the Windows SDK 7.1](http://www.microsoft.com/en-us/download/details.aspx?id=4422)
 
 ####64 bit systems
-[Windows 7 64-bit SDK][win7sdk]
+[Windows 7 64-bit SDK](http://www.microsoft.com/en-us/download/details.aspx?id=8279)
 
 ###Windows 7/8
-* Microsoft Visual Studio C++ 2012 for Windows Desktop ([Express][msvc2012] version works well)
+* [Microsoft Visual Studio C++ 2012 for Windows Desktop](http://go.microsoft.com/?linkid=9816758http://go.microsoft.com/?linkid=9816758)
 
 ##Repository Setup
 
