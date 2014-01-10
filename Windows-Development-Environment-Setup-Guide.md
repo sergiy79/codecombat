@@ -105,7 +105,6 @@ Then, run the commands
      - `git clone https://github.com/vanto/sass-brunch`
      - `git checkout windows-spawn-fix`
      - `npm install`
-- rename brunch.coffee to config.coffee 
 
 - `brunch w` //if any compilation error throws up on sass files just update your sass gem and that should do
 
