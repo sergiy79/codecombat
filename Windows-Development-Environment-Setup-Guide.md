@@ -1,3 +1,5 @@
+**NOTE**: This guide is a work in progress. If you have any questions in the meantime, just ask in the CodeCombat chatroom.
+
 To get started, first you'll need to know a little bit about your computer: whether your computer is 32 or 64 bit, and what version of Windows you're running. 
 
 * If you don't know if your computer is 32 or 64 bit, use [this link](http://windows.microsoft.com/en-us/windows7/find-out-32-or-64-bit) to find out. 
