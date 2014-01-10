@@ -21,7 +21,15 @@ To install Node, first download the correct version of the installer from the ta
 
 ##MongoDB
 
-MongoDB is the database used for CodeCombat. To install, unzip to any location that you want, and make a note of the path to that location. (Explain how to put that location in the PATH)
+MongoDB is the database used for CodeCombat. To install, execute the following steps:
+1. Unzip the mongodb directory to any location that you want (e.g. C:/mongodb-2.5.4)
+2. Save the location of the directory in your PATH variable:
+  a. Press the start button;
+  b. Type "advanced system settings" and press enter;
+  c. Press the "Environment Variables..." button;
+  d. Under "User variables for..." you'll find the PATH variable, select it and press the "Edit..." button;
+  e. Enter ';%PATH_TO_MONGODB' (e.g.: ;C:\mongodb-2.5.4) at the end of the "Variable value" and press "OK".
+
 
 ####Mongo Download Links
 
