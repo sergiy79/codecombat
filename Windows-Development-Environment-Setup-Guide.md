@@ -58,7 +58,7 @@ Note for later: make sure Ruby sets path when it installs
 
 | Windows Version | 32 bit | 64 bit |
 | :-------------: | :----: | :-----: |
-| All versions | [Ruby](http://www.python.org/ftp/python/2.7.6/python-2.7.6.msi) | [Ruby](http://www.python.org/ftp/python/2.7.6/python-2.7.6.amd64.msi) | 
+| All versions | [Python](http://www.python.org/ftp/python/2.7.6/python-2.7.6.msi) | [Python](http://www.python.org/ftp/python/2.7.6/python-2.7.6.amd64.msi) | 
 
 Make sure you add Python to your path.
 
