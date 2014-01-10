@@ -38,8 +38,8 @@ Setup bower:
 Download and (manually) install mongodb 2.5.4 for Linux:
 - cd $MONGO_DL
 - wget http://fastdl.mongodb.org/linux/mongodb-linux-x86_64-2.5.4.tgz
-- tar xfz mongodb-linux-x86_64-2.5.4.tgz)
-- sudo cp bin/* /usr/local/bin
+- tar xfz mongodb-linux-x86_64-2.5.4.tgz
+- sudo cp mongodb-linux-x86_64-2.5.4/bin/* /usr/local/bin
 - sudo mkdir -p /data/db
 - sudo chown -R <username>:<username> /data/db
    where <username> = your username (e.g., whoami)
