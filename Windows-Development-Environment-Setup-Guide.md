@@ -6,10 +6,13 @@ To get started, first you'll need to know a little bit about your computer: whet
 
 Once you have gotten those pieces of information, go through the sections below to download and install each dependency. 
 
-Node Download Links
+##Node.js
+
 
 To install Node, first download the correct version of the installer from the table below. Then, run the installer. Make sure that the Node installer adds Node to your path(illustrate with screenshot.)
 
+
+####Node Download Links
 | Windows Version| 32 bit | 64 bit |
 | :-------------: | :----: | :-----: |
 | All versions | [node.js](http://nodejs.org/dist/v0.10.24/node-v0.10.24-x86.msi) | [node.js](http://nodejs.org/dist/v0.10.24/x64/node-v0.10.24-x64.msi) | 
@@ -18,7 +21,7 @@ To install Node, first download the correct version of the installer from the ta
 
 MongoDB is the database used for CodeCombat. To install, unzip to any location that you want, and make a note of the path to that location. (Explain how to put that location in the PATH)
 
-Mongo Download Links
+####Mongo Download Links
 
 | Windows Version | 32 bit      | 64 bit  |
 | --------------- |:-------------:| :-----:|
@@ -26,28 +29,28 @@ Mongo Download Links
 | Vista |  [Not recommended](http://fastdl.mongodb.org/win32/mongodb-win32-i386-2.5.4.zip)  | [MongoDB](http://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2.5.4.zip) |
 | XP              | Not supported |  Not Supported |
 
-Ruby Download Links
+##Ruby 
 
+####Ruby Download Links
 | Windows Version | 32 bit | 64 bit |
 | :-------------: | :----: | :-----: |
 | All versions | [Ruby](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p353.exe?direct) | [Ruby](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p353-x64.exe?direct) | 
 
 Note for later: make sure Ruby sets path when it installs
 
-
-Git for Windows
+##Git
 
 [Download link for all versions](https://msysgit.googlecode.com/files/Git-1.8.5.2-preview20131230.exe)
 
-Python for Windows
+##Python
 
-Python download links
+####Python download links
 
 | Windows Version | 32 bit | 64 bit |
 | :-------------: | :----: | :-----: |
 | All versions | [Ruby](http://www.python.org/ftp/python/2.7.6/python-2.7.6.msi) | [Ruby](http://www.python.org/ftp/python/2.7.6/python-2.7.6.amd64.msi) | 
 
-Node-gyp prerequisites
+##Other prerequisites 
 
 ###Windows XP/Vista/7
 
@@ -62,22 +65,34 @@ Node-gyp prerequisites
 ###Windows 7/8
 * Microsoft Visual Studio C++ 2012 for Windows Desktop ([Express][msvc2012] version works well)
 
+##Repository Setup
 
+A big thanks to @deepak1556 for these steps.
 
-Steps from @deepak1556
+###Opening up Git Bash
 
-Steps : 
+###Cloning the repository
+In your git bash, navigate to where you want to clone your repository (explain how to do this).
+```git clone https://github.com/codecombat/codecombat```
 
-- git clone https://github.com/codecombat/codecombat
-- `npm install -g bower brunch nodemon`
-- cd `codecombat/`
-- `npm install`
-- `bower install`
+###Installing repository dependencies
+First, change directory into the cloned CodeCombat repository with the command
+
+`cd codecombat`
+
+Then, run the commands
+* `npm install`
+* `bower install`
+* `gem install sass`
+
+###Fixing brunch
+
 - sass-brunch currently doesnt have the windows socket close error [fix](https://github.com/brunch/sass-brunch/issues/33) on npm , so delete sass-brunch from node_modules dir and do the following inside codecombat/node_modules :
      - git clone https://github.com/vanto/sass-brunch
      - git checkout windows-spawn-fix
      - `npm install`
 - rename brunch.coffee to config.coffee 
+
 - `brunch w` //if any compilation error throws up on sass files just update your sass gem and that should do
 
 Setting up mongodb:
