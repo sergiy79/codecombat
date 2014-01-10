@@ -30,7 +30,7 @@ Install brunch and bower:
 
 Install ruby and sass:
 - sudo apt-get install ruby1.9.1
-- sudo install sass
+- sudo gem install sass
 
 Setup bower:
 - cd $COCO_TREE && bower install
