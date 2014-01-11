@@ -96,6 +96,7 @@ First, change directory into the cloned CodeCombat repository with the command
 
 Then, run the commands
 * `npm install`
+* `npm install -g bower`
 * `bower install`
 * `gem install sass`
 
