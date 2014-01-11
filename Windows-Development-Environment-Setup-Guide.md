@@ -98,6 +98,7 @@ Then, run the commands
 * `npm install`
 * `npm install -g bower`
 * `bower install`
+* `npm install -g brunch`
 * `gem install sass`
 
 ###Fixing brunch
