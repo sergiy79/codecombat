@@ -15,7 +15,7 @@ We're teaching people [JavaScript](http://en.wikipedia.org/wiki/JavaScript). The
 4. [Conditional Expressions and Equality](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#conditional-expressions-and-equality)
 5. [Code Style](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#code-style)
 6. [Function and variable naming](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#function-and-variable-naming)
-7. [Accessors](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#Accessors)
+7. [Accessors](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#accessors)
 8. [Type Casting and Coercion](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#type-casting-and-coercion)
 9. [JavaScript features](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#javascript-features)
 
