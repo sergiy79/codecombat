@@ -1,6 +1,6 @@
 We're teaching people [JavaScript](http://en.wikipedia.org/wiki/JavaScript). Therefore it is important that we have a consistent and clear coding style that is as close to standard JavaScript as possible. Every [Artisan](http://www.codecombat.com/contribute/artisan) should apply this coding standard in his levels to keep the code through all the levels consistent. This will lead to nice code, that can easily be read and prevents any form of confusion for players.
 
-**Note:** This code style is heavily based on [this original JavaScript Coding Style](http://neil.rashbrook.org/Js.htm)
+**Note:** This code style is heavily based on [this original JavaScript Coding Style](http://neil.rashbrook.org/Js.htm) and is influenced by the [Mozilla Coding Style](https://developer.mozilla.org/en-US/docs/Developer_Guide/Coding_Style).
 
 # JavaScript Style Guide
 
@@ -72,6 +72,7 @@ var offlineObserver = {
 
 ## Function and variable naming
 * Use _interCaps_ for names and enumeration values; other constants should be in _UPPER_CASE_.
+* Use an underscore (“_”) as the private prefix for properties and methods.
 * Enumeration values should be prefixed with the letter k, e.g. const kDisplayModeNormal = 0;.
 * Global variables should be prefixed with the letter g, e.g. var gFormatToolbar;.
 * Arguments (parameter names) should be prefixed with the letter a.
@@ -79,6 +80,7 @@ var offlineObserver = {
   * in particular try to use the names _onLoad, onDialogAccept, onDialogCancel_ etc. where this is unambiguous.
 * Function names, local variables and object members have no prefix.
 * Try to declare local variables as near to their use as possible; try to initialize every variable.
+* Use inline comments liberally
 
 ## JavaScript features
 * Make sure that your code doesn't generate any strict JavaScript warnings, such as:
@@ -113,7 +115,7 @@ SupportsString.prototype = {
   * only use aString.search if you need to know the position of the result, or aString.match if you need to collect matching substrings (delimited by parentheses in the regular expression).
 * Regular expressions are less useful if the match is unknown in advance, or to extract substrings in known positions in the string.
   * For instance, aString.slice(-1) returns the last letter in aString, or the empty string if aString is empty.
-* Don't compare booleans to true or false. For example, write if (ioService.offline).
+* Do not compare x == true or x == false. Use (x) or (!x) instead. x == true, in fact, is different from if (x)!
 * Compare objects to null, numbers to 0 or strings to "" if there is chance for confusion.
 * It's always worth reading the [JavaScript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference).
   * For instance, don't forget that you can index a string as if it was an array.
