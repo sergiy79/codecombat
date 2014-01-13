@@ -9,12 +9,14 @@ We're teaching people [JavaScript](http://en.wikipedia.org/wiki/JavaScript). The
 ## Table of Contents
 1. [Whitespace](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#whitespace)
 2. [Symbols](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#symbols)
+3. [Properties](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#properties)
+4. [Conditional Expressions & Equality](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#conditional-expressions--equality)
 3. [Code Style](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#code-style)
 4. [Function and variable naming](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#function-and-variable-naming)
 5. [JavaScript features](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#javascript-features)
 
 ## Whitespace
-* The basic indentaion is two spaces. Tabs are not to be used at all.
+* The basic indention is **two** spaces. Tabs are not to be used at all.
 * Try to keep lines to 80 characters or less.
 * When wrapping lines, try to indent to line up with a related item on the previous line. Example:
 ```
@@ -28,7 +30,7 @@ var result =
 * Lines should not contain trailing spaces, even after binary operators, commas or semicolons.
 * Separate binary operators with spaces.
 * One space after commas and semicolons, but not before.
-* No space after keywords, e.g. _if(x > 0)_.
+* No space after keywords, e.g. `if(x > 0)`.
 * One blank line between block definitions.
 * Consider breaking up large code blocks with a blank line.
 
@@ -57,6 +59,82 @@ else
 }
 ```
 
+## Properties
+* Use dot notation when accessing properties.
+```
+var luke =
+{
+  jedi: true,
+  age: 28
+};
+
+// bad
+var isJedi = luke['jedi'];
+
+// good
+var isJedi = luke.jedi;
+```
+* Use subscript notation `[]` when accessing properties with a variable.
+```
+var luke =
+{
+  jedi: true,
+  age: 28
+};
+
+function getProp(prop)
+{
+  return luke[prop];
+}
+
+var isJedi = getProp('jedi');
+```
+
+## Conditional Expressions & Equality
+* Use `===` and `!==` over `==` and `!=`.
+* Conditional expressions are evaluated using coercion with the `ToBoolean` method and always follow these simple rules:
+  * **Objects** evaluate to **true**
+  * **Undefined** evaluates to **false**
+  * **Null** evaluates to **false**
+  * **Booleans** evaluate to **the value of the boolean**
+  * **Numbers** evaluate to **false if +0, -0, or NaN**, otherwise **true**
+  * **Strings** evaluate to **false** if an empty string `''`, otherwise **true**
+```
+if ([0])
+{
+  // true
+  // An array is an object, objects evaluate to true
+}
+```
+* Use shortcuts.
+```
+// bad
+if (name !== '')
+{
+  // ...stuff...
+}
+
+// good
+if (name)
+{
+  // ...stuff...
+}
+
+// bad
+if (collection.length > 0)
+{
+  // ...stuff...
+}
+
+// good
+if (collection.length)
+{
+  // ...stuff...
+}
+```
+* Do not compare `x == true` or `x == false`. Use `(x)` or `(!x)` instead. `x == true`, in fact, is different from `if (x)!`
+* Compare objects to `null`, numbers to `0` or strings to `""` if there is chance for confusion.
+
 ## Code style
 * Always put else on its own line, as shown above.
 * Don't use else after return, i.e.
@@ -67,7 +145,7 @@ if (x > y)
   return 1;
 return 0;
 ```
-* Both i++ and ++i are acceptable.
+* Both `i++` and `++i` are acceptable.
 * Name inline functions, this makes it easier to debug them. Just assigning a function to a property doesn't name the function, you should to do this:
 ```
 var offlineObserver = {
@@ -80,13 +158,13 @@ var offlineObserver = {
 ```
 
 ## Function and variable naming
-* Use __interCaps__ for names and enumeration values; other constants should be in __UPPER_CASE__.
+* Use `interCaps` for names and enumeration values; other constants should be in `UPPER_CASE`.
 * Use an underscore (“_”) as the private prefix for properties and methods.
-* Enumeration values should be prefixed with the letter k, e.g. _const kDisplayModeNormal = 0;_.
-* Global variables should be prefixed with the letter g, e.g. _var gFormatToolbar;_.
+* Enumeration values should be prefixed with the letter k, e.g. `const kDisplayModeNormal = 0;`.
+* Global variables should be prefixed with the letter g, e.g. `var gFormatToolbar;`.
 * Arguments (parameter names) should be prefixed with the letter a.
 * Event handler functions should be prefixed with the word on,
-  * in particular try to use the names __onLoad_, _onDialogAccept_, _onDialogCancel__ etc. where this is unambiguous.
+  * in particular try to use the names `onLoad`, `onDialogAccept`, `onDialogCancel` etc. where this is unambiguous.
 * Function names, local variables and object members have no prefix.
 * Try to declare local variables as near to their use as possible; try to initialize every variable.
 * Use inline comments liberally
@@ -98,13 +176,13 @@ var offlineObserver = {
   * Trailing comma in JavaScript object declarations
   * Undeclared variables or members.
 * If you are unsure if an array value exists, compare the index to the array's length.
-* If you are unsure if an object member exists, use _"name"_ in _aObject_, or if you are expecting a particular type you may use _typeof aObject.name == "function"_ (or whichever type you are expecting).
-* Use _[value, ...]_ to create a JavaScript array in preference to using _new Array(value, ...)_ which can be confusing;
-  * _new Array(length)_ will actually create a physically empty array with the given logical length.
-  * _[value]_ will always create a 1-element array.
+* If you are unsure if an object member exists, use `"name"` in `aObject`, or if you are expecting a particular type you may use `typeof aObject.name == "function"` (or whichever type you are expecting).
+* Use `[value, ...]` to create a JavaScript array in preference to using `new Array(value, ...)` which can be confusing;
+  * `new Array(length)` will actually create a physically empty array with the given logical length.
+  * `[value]` will always create a 1-element array.
   * You cannot actually guarantee to be able to preallocate memory for an array.
-* Use _{ member: value, ... }_ to create a JavaScript object;
-  * a useful advantage over _new Object()_ is the ability to create initial properties
+* Use `{ member: value, ... }` to create a JavaScript object;
+  * a useful advantage over `new Object()` is the ability to create initial properties
 * Use extended JavaScript syntax to define getters and setters.
 * If having defined a constructor you need to assign default properties it is preferred to assign an object literal to the prototype property. For example:
 ```
@@ -120,11 +198,9 @@ SupportsString.prototype = {
 };
 ```
 * Use regular expressions, but use them wisely.
-  * For instance, to check that _aString_ is not completely whitespace use _/\S/.test(aString);_
-  * only use _aString.search_ if you need to know the position of the result, or _aString.match_ if you need to collect matching substrings (delimited by parentheses in the regular expression).
+  * For instance, to check that `aString` is not completely whitespace use `/\S/.test(aString);`
+  * only use `aString.search` if you need to know the position of the result, or `aString.match` if you need to collect matching substrings (delimited by parentheses in the regular expression).
 * Regular expressions are less useful if the match is unknown in advance, or to extract substrings in known positions in the string.
-  * For instance, _aString.slice(-1)_ returns the last letter in _aString_, or the empty string if _aString_ is empty.
-* Do not compare _x == true_ or _x == false_. Use _(x)_ or _(!x)_ instead. _x == true_, in fact, is different from _if (x)!_
-* Compare objects to null, numbers to 0 or strings to "" if there is chance for confusion.
+  * For instance, `aString.slice(-1)` returns the last letter in `aString`, or the empty string if `aString` is empty.
 * It's always worth reading the [JavaScript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference).
   * For instance, don't forget that you can index a string as if it was an array.
