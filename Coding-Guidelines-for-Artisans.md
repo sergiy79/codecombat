@@ -33,6 +33,36 @@ var result =
 * No space after keywords, e.g. `if(x > 0)`.
 * One blank line between block definitions.
 * Consider breaking up large code blocks with a blank line.
+* Leading commas: **Nope**.
+```
+// bad
+var once
+  , upon
+  , aTime;
+
+// good
+var once,
+    upon,
+    aTime;
+
+// bad
+var hero =
+{
+    firstName: 'Bob'
+  , lastName: 'Parr'
+  , heroName: 'Mr. Incredible'
+  , superPower: 'strength'
+};
+
+// good
+var hero =
+{
+  firstName: 'Bob',
+  lastName: 'Parr',
+  heroName: 'Mr. Incredible',
+  superPower: 'strength'
+};
+```
 
 ## Symbols
 * Spaces around braces used for in-line functions or objects, except before commas or semicolons, e.g. 
@@ -172,7 +202,7 @@ var offlineObserver = {
 ## JavaScript features
 * Make sure that your code doesn't generate any strict JavaScript warnings, such as:
   * Duplicate variable declaration
-  * Mixing return; with return value;
+  * Mixing `return;` with `return value;`
   * Trailing comma in JavaScript object declarations
   * Undeclared variables or members.
 * If you are unsure if an array value exists, compare the index to the array's length.
