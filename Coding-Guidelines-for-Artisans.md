@@ -7,11 +7,11 @@ We're teaching people [JavaScript](http://en.wikipedia.org/wiki/JavaScript). The
 # JavaScript Style Guide
 
 ## Table of Contents
-1. [Whitespace](#whitespace)
-2. [Symbols](#symbols)
-3. [Code Style](#code-style)
-4. [Function and variable naming](#function-and-variable-naming)
-5. [JavaScript features](#javascript-features)
+1. [Whitespace](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#whitespace)
+2. [Symbols](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#symbols)
+3. [Code Style](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#code-style)
+4. [Function and variable naming](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#function-and-variable-naming)
+5. [JavaScript features](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#javascript-features)
 
 ## Whitespace
 * The basic indentaion is two spaces. Tabs are not to be used at all.
