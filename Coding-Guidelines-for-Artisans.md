@@ -1,8 +1,17 @@
 We're teaching people [JavaScript](http://en.wikipedia.org/wiki/JavaScript). Therefore it is important that we have a consistent and clear coding style that is as close to standard JavaScript as possible. Every [Artisan](http://www.codecombat.com/contribute/artisan) should apply this coding standard in his levels to keep the code through all the levels consistent. This will lead to nice code, that can easily be read and prevents any form of confusion for players.
 
-**Note:** This code style is heavily based on [this original JavaScript Coding Style](http://neil.rashbrook.org/Js.htm) and is influenced by the [Mozilla Coding Style](https://developer.mozilla.org/en-US/docs/Developer_Guide/Coding_Style) and materials found on it.
+**Note:** This code style is heavily based on [this original JavaScript Coding Style](http://neil.rashbrook.org/Js.htm) , [the airbnb JavaScript guide](https://github.com/airbnb/javascript#guide-guide) and is influenced by the [Mozilla Coding Style](https://developer.mozilla.org/en-US/docs/Developer_Guide/Coding_Style) and materials found on it.
+
+**Remark:** It might be a good idea to let this guide be translated by the [Diplomats](http://www.codecombat.com/contribute/diplomat), to keep it available to as many people as possible. Links to the different language pages can be listed here, once they become available.
 
 # JavaScript Style Guide
+
+## Table of Contents
+1. Whitespace
+2. Symbols
+3. Code Style
+4. Function and variable naming
+5. JavaScript features
 
 ## Whitespace
 * The basic indentaion is two spaces. Tabs are not to be used at all.
