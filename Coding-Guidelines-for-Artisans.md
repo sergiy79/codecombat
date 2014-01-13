@@ -1,3 +1,5 @@
+# Coding Guidelines for Artisans
+
 We're teaching people [JavaScript](http://en.wikipedia.org/wiki/JavaScript). Therefore it is important that we have a consistent and clear coding style that is as close to standard JavaScript as possible. Every [Artisan](http://www.codecombat.com/contribute/artisan) should apply this coding standard in his levels to keep the code through all the levels consistent. This will lead to nice code, that can easily be read and prevents any form of confusion for players.
 
 **Note:** This code style is heavily based on [this original JavaScript Coding Style](http://neil.rashbrook.org/Js.htm) , [the airbnb JavaScript guide](https://github.com/airbnb/javascript#guide-guide) and is influenced by the [Mozilla Coding Style](https://developer.mozilla.org/en-US/docs/Developer_Guide/Coding_Style) and materials found on it.
@@ -13,8 +15,9 @@ We're teaching people [JavaScript](http://en.wikipedia.org/wiki/JavaScript). The
 4. [Conditional Expressions and Equality](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#conditional-expressions-and-equality)
 5. [Code Style](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#code-style)
 6. [Function and variable naming](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#function-and-variable-naming)
-7. [Type Casting and Coercion](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#type-casting-and-coercion)
-8. [JavaScript features](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#javascript-features)
+7. [Accessors](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#Accessors)
+8. [Type Casting and Coercion](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#type-casting-and-coercion)
+9. [JavaScript features](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#javascript-features)
 
 ## Whitespace
 * The basic indention is **two** spaces. Tabs are not to be used at all.
@@ -34,6 +37,8 @@ var result =
 * No space after keywords, e.g. `if(x > 0)`.
 * One blank line between block definitions.
 * Consider breaking up large code blocks with a blank line.
+
+[Go back to the top of this page.](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#coding-guidelines-for-artisans)
 
 ## Symbols
 * Spaces around braces used for in-line functions or objects, except before commas or semicolons, e.g. 
@@ -59,6 +64,8 @@ else
   x = 0;
 }
 ```
+
+[Go back to the top of this page.](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#coding-guidelines-for-artisans)
 
 ## Properties
 * Use dot notation when accessing properties.
@@ -90,6 +97,8 @@ function getProp(prop)
 
 var isJedi = getProp('jedi');
 ```
+
+[Go back to the top of this page.](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#coding-guidelines-for-artisans)
 
 ## Conditional Expressions and Equality
 * Use `===` and `!==` over `==` and `!=`.
@@ -135,6 +144,8 @@ if (collection.length)
 ```
 * Do not compare `x == true` or `x == false`. Use `(x)` or `(!x)` instead. `x == true`, in fact, is different from `if (x)!`
 * Compare objects to `null`, numbers to `0` or strings to `""` if there is chance for confusion.
+
+[Go back to the top of this page.](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#coding-guidelines-for-artisans)
 
 ## Code style
 * Always put else on its own line, as shown above.
@@ -189,6 +200,8 @@ var hero =
 };
 ```
 
+[Go back to the top of this page.](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#coding-guidelines-for-artisans)
+
 ## Function and variable naming
 * Use `interCaps` for names and enumeration values; other constants should be in `UPPER_CASE`.
 * Use an underscore (“_”) as the private prefix for properties and methods.
@@ -200,6 +213,8 @@ var hero =
 * Function names, local variables and object members have no prefix.
 * Try to declare local variables as near to their use as possible; try to initialize every variable.
 * Use inline comments liberally
+
+[Go back to the top of this page.](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#coding-guidelines-for-artisans)
 
 ## Type Casting and Coercion
 * Perform type coercion at the beginning of the statement.
@@ -266,6 +281,8 @@ var hasAge = Boolean(age);
 var hasAge = !!age;
 ```
 
+[Go back to the top of this page.](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#coding-guidelines-for-artisans)
+
 ## JavaScript features
 * Make sure that your code doesn't generate any strict JavaScript warnings, such as:
   * Duplicate variable declaration
@@ -287,7 +304,8 @@ function SupportsString(data)
 {
   this.data = data;
 }
-SupportsString.prototype = {
+SupportsString.prototype =
+{
   toString: function toString()
   {
     return data;
@@ -301,3 +319,5 @@ SupportsString.prototype = {
   * For instance, `aString.slice(-1)` returns the last letter in `aString`, or the empty string if `aString` is empty.
 * It's always worth reading the [JavaScript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference).
   * For instance, don't forget that you can index a string as if it was an array.
+
+[Go back to the top of this page.](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#coding-guidelines-for-artisans)
