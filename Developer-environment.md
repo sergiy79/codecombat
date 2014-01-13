@@ -79,7 +79,7 @@ Usually, restarting it by hitting Ctrl-C once in the Brunch terminal window will
 When building in the dev environment, you have a filtered copy of the live database with just the publicly available data. It may look like what you'll find on the site, but changes you make won't show up on the site. Currently, there's no easy way to transfer data you make on your dev environment back to production, so be sure to build levels you want to share on the site, not on the dev server.
 
 #### Setup
-Download [the public CodeCombat MongoDB sandbox copy backup](https://s3.amazonaws.com/uploads.hipchat.com/60497/416620/DyI9sxIrTmiR6ms/coco_backup_public.tar.gz) and import it into your locally running database with the following steps.
+Download [the public CodeCombat MongoDB sandbox copy backup](http://54.204.18.206/public_dump.tar.gz)(updated every 10 minutes) and import it into your locally running database with the following steps.
 
 1. Make sure the database is running on your computer (./bin/coco-mongodb).
 2. If the backup file is compressed, uncompress it (for instance, if it is a .tar.gz file, run `tar xzvf [filename]`) 
