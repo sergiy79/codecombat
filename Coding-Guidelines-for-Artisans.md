@@ -212,7 +212,40 @@ var hero =
   * in particular try to use the names `onLoad`, `onDialogAccept`, `onDialogCancel` etc. where this is unambiguous.
 * Function names, local variables and object members have no prefix.
 * Try to declare local variables as near to their use as possible; try to initialize every variable.
-* Use inline comments liberally
+* Use inline comments liberally.
+
+[Go back to the top of this page.](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#coding-guidelines-for-artisans)
+
+## Accessors
+
+* Accessor functions for properties are not required.
+* If you do make Accessor functions use `getVal()` and `setVal('hello')`.
+```
+// bad
+dragon.age();
+
+// good
+dragon.getAge();
+
+// bad
+dragon.age(25);
+
+// good
+dragon.setAge(25);
+```
+* If the property is a _boolean_, use `isVal()` or `hasVal()`.
+```
+// bad
+if (!dragon.age()) {
+  return false;
+}
+
+// good
+if (!dragon.hasAge()) {
+  return false;
+}
+```
+* It's okay to create `get()` and `set()` functions, but be consistent.
 
 [Go back to the top of this page.](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#coding-guidelines-for-artisans)
 
