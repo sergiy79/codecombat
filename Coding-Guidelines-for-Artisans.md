@@ -10,10 +10,11 @@ We're teaching people [JavaScript](http://en.wikipedia.org/wiki/JavaScript). The
 1. [Whitespace](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#whitespace)
 2. [Symbols](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#symbols)
 3. [Properties](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#properties)
-4. [Conditional Expressions & Equality](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#conditional-expressions--equality)
-3. [Code Style](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#code-style)
-4. [Function and variable naming](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#function-and-variable-naming)
-5. [JavaScript features](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#javascript-features)
+4. [Conditional Expressions and Equality](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#conditional-expressions-and-equality)
+5. [Code Style](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#code-style)
+6. [Function and variable naming](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#function-and-variable-naming)
+7. [Type Casting and Coercion](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#type-casting-and-coercion)
+8. [JavaScript features](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#javascript-features)
 
 ## Whitespace
 * The basic indention is **two** spaces. Tabs are not to be used at all.
@@ -33,36 +34,6 @@ var result =
 * No space after keywords, e.g. `if(x > 0)`.
 * One blank line between block definitions.
 * Consider breaking up large code blocks with a blank line.
-* Leading commas: **Nope**.
-```
-// bad
-var once
-  , upon
-  , aTime;
-
-// good
-var once,
-    upon,
-    aTime;
-
-// bad
-var hero =
-{
-    firstName: 'Bob'
-  , lastName: 'Parr'
-  , heroName: 'Mr. Incredible'
-  , superPower: 'strength'
-};
-
-// good
-var hero =
-{
-  firstName: 'Bob',
-  lastName: 'Parr',
-  heroName: 'Mr. Incredible',
-  superPower: 'strength'
-};
-```
 
 ## Symbols
 * Spaces around braces used for in-line functions or objects, except before commas or semicolons, e.g. 
@@ -120,7 +91,7 @@ function getProp(prop)
 var isJedi = getProp('jedi');
 ```
 
-## Conditional Expressions & Equality
+## Conditional Expressions and Equality
 * Use `===` and `!==` over `==` and `!=`.
 * Conditional expressions are evaluated using coercion with the `ToBoolean` method and always follow these simple rules:
   * **Objects** evaluate to **true**
@@ -186,6 +157,37 @@ var offlineObserver = {
   }
 }
 ```
+* Avoid single letter names. Be descriptive with your naming.
+* Leading commas: **Nope**.
+```
+// bad
+var once
+  , upon
+  , aTime;
+
+// good
+var once,
+    upon,
+    aTime;
+
+// bad
+var hero =
+{
+    firstName: 'Bob'
+  , lastName: 'Parr'
+  , heroName: 'Mr. Incredible'
+  , superPower: 'strength'
+};
+
+// good
+var hero =
+{
+  firstName: 'Bob',
+  lastName: 'Parr',
+  heroName: 'Mr. Incredible',
+  superPower: 'strength'
+};
+```
 
 ## Function and variable naming
 * Use `interCaps` for names and enumeration values; other constants should be in `UPPER_CASE`.
@@ -198,6 +200,71 @@ var offlineObserver = {
 * Function names, local variables and object members have no prefix.
 * Try to declare local variables as near to their use as possible; try to initialize every variable.
 * Use inline comments liberally
+
+## Type Casting and Coercion
+* Perform type coercion at the beginning of the statement.
+* Strings:
+```
+this.reviewScore = 9;
+
+// bad
+var totalScore = this.reviewScore + '';
+
+// good
+var totalScore = '' + this.reviewScore;
+
+// bad
+var totalScore = '' + this.reviewScore + ' total score';
+
+// good
+var totalScore = this.reviewScore + ' total score';
+```
+* Use `parseInt` for Numbers and always with a radix for type casting.
+```
+var inputValue = '4';
+
+// bad
+var val = new Number(inputValue);
+
+// bad
+var val = +inputValue;
+
+// bad
+var val = inputValue >> 0;
+
+// bad
+var val = parseInt(inputValue);
+
+// good
+var val = Number(inputValue);
+
+// good
+var val = parseInt(inputValue, 10);
+```
+* If for whatever reason you are doing something wild and `parseInt` is your bottleneck and need to use Bitshift for [performance reasons](http://jsperf.com/coercion-vs-casting/3), leave a comment explaining why and what you're doing.
+* **Note:** Be careful when using bitshift operations. Numbers are represented as [64-bit values](http://es5.github.io/#x4.3.19), but Bitshift operations always return a 32-bit integer ([source](http://es5.github.io/#x11.7)). Bitshift can lead to unexpected behavior for integer values larger than 32 bits. [Discussion](https://github.com/airbnb/javascript/issues/109)
+```
+// good
+/**
+ * parseInt was the reason my code was slow.
+ * Bitshifting the String to coerce it to a
+ * Number made it a lot faster.
+ */
+var val = inputValue >> 0;
+```
+* Booleans:
+```
+var age = 0;
+
+// bad
+var hasAge = new Boolean(age);
+
+// good
+var hasAge = Boolean(age);
+
+// good
+var hasAge = !!age;
+```
 
 ## JavaScript features
 * Make sure that your code doesn't generate any strict JavaScript warnings, such as:
