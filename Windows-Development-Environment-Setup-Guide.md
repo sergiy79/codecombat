@@ -1,4 +1,4 @@
-**NOTE**: This guide is a work in progress. If you have any questions in the meantime, just ask in the CodeCombat chatroom.
+**NOTE**: Following the guide can be complicated. If you have any questions, just ask in the [CodeCombat chatroom](http://www.hipchat.com/g3plnOKqa).
 
 To get started, first you'll need to know a little bit about your computer: whether your computer is 32 or 64 bit, and what version of Windows you're running. 
 
