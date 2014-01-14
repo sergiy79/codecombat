@@ -43,11 +43,14 @@ MongoDB is the database used for CodeCombat. To install, execute the following s
 ##Ruby 
 
 ####Ruby Download Links
+
+**When Ruby asks if you want to add Ruby to your path, you must say yes.**
+
 | Windows Version | 32 bit | 64 bit |
 | :-------------: | :----: | :-----: |
 | All versions | [Ruby](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p353.exe?direct) | [Ruby](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p353-x64.exe?direct) | 
 
-Note for later: make sure Ruby sets path when it installs
+
 
 ##Git
 
