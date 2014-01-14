@@ -67,7 +67,7 @@ Make sure you add Python to your path.
 ###Windows XP/Vista/7
 
 ####Both 32 and 64 bit systems
-* [Microsoft Visual Studio C++ 2010](http://go.microsoft.com/?linkid=9709949) (Express)
+* [Microsoft Visual Studio C++ 2010](http://go.microsoft.com/?linkid=9709949) (Express). You don't need to run Visual Studio–the download is just to get the underlying SDKs.
 * If the install fails, try uninstalling any C++ 2010 x64&x86 Redistributable that you have installed first.
 * If you get errors that the 64-bit compilers are not installed you may also need the [compiler update for the Windows SDK 7.1](http://www.microsoft.com/en-us/download/details.aspx?id=4422)
 
