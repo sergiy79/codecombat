@@ -11,13 +11,14 @@ Once you have gotten those pieces of information, go through the sections below 
 ##Node.js
 
 
-To install Node, first download the correct version of the installer from the table below. Then, run the installer. Make sure that the Node installer adds Node to your path(illustrate with screenshot.)
-
+To install Node, first download the correct version of the installer from the table below. Then, run the installer. Make sure that the Node installer adds Node to your path(don't change the option in the installer circled below from its default value.)
 
 ####Node Download Links
 | Windows Version| 32 bit | 64 bit |
 | :-------------: | :----: | :-----: |
 | All versions | [node.js](http://nodejs.org/dist/v0.10.24/node-v0.10.24-x86.msi) | [node.js](http://nodejs.org/dist/v0.10.24/x64/node-v0.10.24-x64.msi) | 
+
+<img src="http://i.imgur.com/tEKA0UAl.jpg" alt="Make sure Node is added to your PATH" style="width: 200px;" />
 
 ##MongoDB
 
@@ -105,7 +106,9 @@ Then, run the commands
 
 - sass-brunch currently doesnt have the windows socket close error [fix](https://github.com/brunch/sass-brunch/issues/33) on npm , so delete sass-brunch from node_modules dir and do the following inside codecombat/node_modules :
      - `git clone https://github.com/vanto/sass-brunch`
+     - `cd sass-brunch`
      - `git checkout windows-spawn-fix`
+     - `cd ../../`
      - `npm install`
 
 - `brunch w` //if any compilation error throws up on sass files just update your sass gem and that should do
