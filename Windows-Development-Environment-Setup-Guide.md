@@ -79,7 +79,7 @@ Make sure you add Python to your path.
 [Windows 7 64-bit SDK](http://www.microsoft.com/en-us/download/details.aspx?id=8279)
 
 ###Windows 7/8
-* [Microsoft Visual Studio C++ 2012 for Windows Desktop](http://go.microsoft.com/?linkid=9816758http://go.microsoft.com/?linkid=9816758)
+* [Microsoft Visual Studio C++ 2012 for Windows Desktop](http://go.microsoft.com/?linkid=9816758)
 
 ##Repository Setup
 
