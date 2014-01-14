@@ -130,3 +130,6 @@ If there are any problems with the last command, you may need to update your ver
 ###Running the server
 
 Navigate to the root folder of the repository and run the command  `nodemon -w server -w server_config.js` then visit `http://localhost:3000`.
+
+###Automation
+@GlenDC has also added a script to start the stack automatically located in `codecombat/scripts/windows/SCOCODE.bat`. To use this script, edit the line that says `set "mongo_db_location=MONGO_DB_PATH_HERE"` with the path to your Mongo DB Path, and copy it into the root `codecombat/` directory. Then, all you have to do is click it(or otherwise start it) and the stack will run.
