@@ -84,10 +84,10 @@ A big thanks to @deepak1556 for these steps.
 
 ###Opening up Git Bash
 
-Detail here how to open up Git Bash. 
+You can use whatever shell you'd like to do the install, however Git Bash is recommended. To open up Git Bash, use the Start Menu to either search for Git Bash or open it in the programs menu.
 
 ###Cloning the repository
-In your git bash, navigate to where you want to clone your repository (explain how to do this).
+In your git bash, navigate to where you want to clone your repository( you can use the `cd` command to change directories, and `ls` to list the contents of the current directory). When you are in the folder that you'd like to clone the repository, run the command
 ```git clone https://github.com/codecombat/codecombat```
 
 ###Installing repository dependencies
@@ -111,18 +111,19 @@ Then, run the commands
      - `cd ../../`
      - `npm install`
 
-- `brunch w` //if any compilation error throws up on sass files just update your sass gem and that should do
+Then run the command
+- `brunch w` 
 
-Setting up mongodb:
+If there are any problems with the last command, you may need to update your version of the sass gem.
 
-- extract mongodb into a folder and add the path to bin folder inside mongodb folder to your system path
-- create a `db` folder anywhere ex: `C:/db`
-- `mongod --setParameter textSearchEnabled=true --dbpath path/to/db` folder we created in earlier step
-- download database dump from https://s3.amazonaws.com/uploads.hipchat.com/60497/416620/DyI9sxIrTmiR6ms/coco_backup_public.tar.gz and extract it to `db/` folder inside `codecombat/` folder
-- cd `codecombat/db`
-- `mongorestore dump`
+###Setting up MongoDB
 
-Finally :
+- Create a `db` folder anywhere, for example `C:/db`
+- Run the command `mongod --setParameter textSearchEnabled=true --dbpath [PATH TO DB FOLDER]` 
+- Download the up-to-date database dump from [here](http://54.204.18.206/public_dump.tar.gz) anywhere, and extract it.
+- Navigate to the folder in which you extracted the dump (there should be a folder called `dump` in there)
+- Run the command `mongorestore dump`
 
-- `nodemon -w server -w server_config.js`
-- visit `http://localhost:3000`
+###Running the server
+
+Navigate to the root folder of the repository and run the command  `nodemon -w server -w server_config.js` then visit `http://localhost:3000`.
