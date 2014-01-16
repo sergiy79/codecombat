@@ -9,6 +9,7 @@ We're teaching people [JavaScript](http://en.wikipedia.org/wiki/JavaScript). The
 # JavaScript Style Guide
 
 ## Table of Contents
+0. [TLDR](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#tldr)
 1. [Whitespace](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#whitespace)
 2. [Symbols](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#symbols)
 3. [Properties](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#properties)
@@ -19,18 +20,32 @@ We're teaching people [JavaScript](http://en.wikipedia.org/wiki/JavaScript). The
 8. [Type Casting and Coercion](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#type-casting-and-coercion)
 9. [JavaScript features](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#javascript-features)
 
+## TLDR
+We understand that you're very busy. Here is a big example that summarizes most of the things that you should now. Note that we recommend that you read through the entire wiki page for a complete and definitive overview of our ** Coding Guidelines for Artisans**.
+```
+// Hello World
+```
+
 ## Whitespace
 * The basic indention is **two** spaces. Tabs are not to be used at all.
 * Try to keep lines to 80 characters or less.
 * When wrapping lines, try to indent to line up with a related item on the previous line. Example:
 ```
+// Note: this is how we recommend it.
 var result =
   prompt(
     aMessage,
     aInitialValue,
     aCaption
     );
+
+// This is also acceptable:
+var result = prompt(
+  aMessage, aInitialValue, aCaption
+  );
 ```
+  * The important thing to remember is that you're writing code for humans
+    * Keep the code **clear** and **consistent**!
 * Lines should not contain trailing spaces, even after binary operators, commas or semicolons.
 * Separate binary operators with spaces.
 * One space after commas and semicolons, but not before.
