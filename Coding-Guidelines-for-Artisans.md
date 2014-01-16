@@ -231,13 +231,35 @@ var hero =
 ## Function and variable naming
 * Use `interCaps` for names and enumeration values; other constants should be in `UPPER_CASE`.
 * Use an underscore (“_”) as the private prefix for properties and methods.
-* Enumeration values should be prefixed with the letter k, e.g. `const kDisplayModeNormal = 0;`.
-* Global variables should be prefixed with the letter g, e.g. `var gFormatToolbar;`.
-* Arguments (parameter names) should be prefixed with the letter a.
 * Event handler functions should be prefixed with the word on,
   * in particular try to use the names `onLoad`, `onDialogueAccept`, `onDialogueCancel` etc. where this is unambiguous.
 * Function names, local variables and object members have no prefix.
 * Try to declare local variables as near to their use as possible; try to initialize every variable.
+```
+// Bad
+function foo(x)
+{
+  var a = 5;
+  if(x < 5)
+  {
+    return x * x;
+  }
+
+  return x + a;
+}
+
+// Good
+function foo(x)
+{
+  if(x < 5)
+  {
+    return x * x;
+  }
+
+  var a = 5;
+  return x + a;
+}
+```
 * Use inline comments liberally.
 
 [Go back to the top of this page.](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#coding-guidelines-for-artisans)
