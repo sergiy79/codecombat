@@ -34,7 +34,6 @@ var result =
 * Lines should not contain trailing spaces, even after binary operators, commas or semicolons.
 * Separate binary operators with spaces.
 * One space after commas and semicolons, but not before.
-* No space after keywords, e.g. `if(x > 0)`.
 * One blank line between block definitions.
 * Consider breaking up large code blocks with a blank line.
 
@@ -236,7 +235,7 @@ var hero =
 * Global variables should be prefixed with the letter g, e.g. `var gFormatToolbar;`.
 * Arguments (parameter names) should be prefixed with the letter a.
 * Event handler functions should be prefixed with the word on,
-  * in particular try to use the names `onLoad`, `onDialogAccept`, `onDialogCancel` etc. where this is unambiguous.
+  * in particular try to use the names `onLoad`, `onDialogueAccept`, `onDialogueCancel` etc. where this is unambiguous.
 * Function names, local variables and object members have no prefix.
 * Try to declare local variables as near to their use as possible; try to initialize every variable.
 * Use inline comments liberally.
