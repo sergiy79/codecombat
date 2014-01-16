@@ -45,25 +45,52 @@ var result =
 ```
 function valueObject(aValue) { return { value: aValue }; };
 ```
-* Otherwise function braces must always be on their own line, i.e.
+* Braces for functions and logical statements are acceptable in the following 4 styles:
 ```
-function multiply(a, b)
+// Style #0
+function foo(a, b)
 {
-  return a * b;
+  if(a < b)
+  {
+    a += b;
+  }
+  else
+  {
+    a -= b;
+  }
+
+  return a * 100;
 }
-```
-* Prefer double quotes, except in in-line event handlers or when quoting double quotes.
-* Braces are not indented relative to their parent statement. Stick to the coding style in all situations. e.g.
-```
-if (x < y)
-{
-  x += 1;
+
+// Style #1
+function foo(a, b) {
+  if(a < b) {
+    a -= b;
+  }
+  else {
+    a += b;
+  }
+
+  return a * 100;
 }
+
+// Style #2 (Extra for logical statements only)
+if(a < b) {
+  a -= b;
+} else {
+  a += b;
+}
+
+// Style #3 (Extra for logical statements only)
+if(a < b)
+  a -= b;
 else
-{
-  x = 0;
-}
+  a += b;
 ```
+  * You can choose either style, but don't mix multiple styles in one file.
+  * We recommend Style #0 and will use it in our levels.
+* Prefer double quotes, except in in-line event handlers or when quoting double quotes.
+* Braces are not indented relative to their parent statement.
 
 [Go back to the top of this page.](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#coding-guidelines-for-artisans)
 
