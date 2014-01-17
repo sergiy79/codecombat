@@ -122,10 +122,10 @@ If there are any problems with the last command, you may need to update your ver
 ###Setting up MongoDB
 
 - Create a `db` folder anywhere, for example `C:/db`
-- Run the command `mongod --setParameter textSearchEnabled=true --dbpath [PATH TO DB FOLDER]` 
+- Run the command `mongod --setParameter textSearchEnabled=true --dbpath [PATH TO DB FOLDER]` and leave it running.
 - Download the up-to-date database dump from [here](http://54.204.18.206/public_dump.tar.gz) anywhere, and extract it.
 - Navigate to the folder in which you extracted the dump (there should be a folder called `dump` in there)
-- Run the command `mongorestore dump`
+- In a new shell (with the mongod still running), run the command `mongorestore dump`
 
 ###Running the server
 
