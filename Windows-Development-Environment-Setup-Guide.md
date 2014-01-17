@@ -111,8 +111,8 @@ Then, run the commands
      - `git clone https://github.com/vanto/sass-brunch`
      - `cd sass-brunch`
      - `git checkout windows-spawn-fix`
-     - `cd ../../`
      - `npm install`
+     - `cd ../../`
 
 Then run the command
 - `brunch w` 
