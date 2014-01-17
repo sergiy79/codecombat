@@ -105,15 +105,6 @@ Then, run the commands
 * `npm install -g brunch`
 * `gem install sass`
 
-###Fixing brunch
-
-- sass-brunch currently doesnt have the windows socket close error [fix](https://github.com/brunch/sass-brunch/issues/33) on npm , so delete sass-brunch from node_modules dir and do the following inside codecombat/node_modules :
-     - `git clone https://github.com/vanto/sass-brunch`
-     - `cd sass-brunch`
-     - `git checkout windows-spawn-fix`
-     - `npm install`
-     - `cd ../../`
-
 Then run the command
 - `brunch w` 
 
