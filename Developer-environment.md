@@ -52,7 +52,8 @@ If you're on Ubuntu, check out [Steve Malmskog's instructions.](https://github.c
 1. `git clone` it to your computer.
 1. Install software
   1. sudo npm install
-  1. bower install
+  1. sudo npm install -g bower
+  1. bower install ( bower install each dependency from bower.json )
   1. sudo npm install -g brunch
   1. Download [MongoDB 2.5.4](http://www.mongodb.org/downloads) and put the mongo folder in bin
 1. Run bin/coco-mongodb, bin/coco-brunch and bin/coco-dev-server.
