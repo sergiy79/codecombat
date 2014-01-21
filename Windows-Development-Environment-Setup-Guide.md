@@ -6,9 +6,15 @@ To get started, first you'll need to know a little bit about your computer: whet
 
 * If you're not sure what version of Windows you have, [this link](http://windows.microsoft.com/en-us/windows/which-operating-system) will tell you.
 
-Once you have gotten those pieces of information, go through the sections below to download and install each dependency. 
+Once you have gotten those pieces of information, go through the sections below to download and install each dependency, which are
+* Node.js
+* MongoDB
+* Ruby
+* Python
+* Git
 
-##Node.js
+## Required Packages
+### Node.js
 
 
 To install Node, first download the correct version of the installer from the table below. Then, run the installer. Make sure that the Node installer adds Node to your path(don't change the option in the installer circled below from its default value.)
@@ -20,10 +26,10 @@ To install Node, first download the correct version of the installer from the ta
 
 <img src="http://i.imgur.com/tEKA0UAl.jpg" alt="Make sure Node is added to your PATH" style="width: 200px;" />
 
-##MongoDB
+###MongoDB
 
 MongoDB is the database used for CodeCombat. To install, execute the following steps:
-* 1. Unzip the mongodb directory to any location that you want (e.g. C:/mongodb-2.5.4)
+* 1. Unzip the mongodb directory to any location that you want (e.g. C:\mongodb-2.5.4)
 * 2. Save the location of the directory in your PATH variable:
   * a. Press the start button;
   * b. Type "advanced system settings" and press enter;
@@ -40,11 +46,11 @@ MongoDB is the database used for CodeCombat. To install, execute the following s
 | Vista |  [Not recommended](http://fastdl.mongodb.org/win32/mongodb-win32-i386-2.5.4.zip)  | [MongoDB](http://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2.5.4.zip) |
 | XP              | Not supported |  Not Supported |
 
-##Ruby 
+###Ruby 
 
 ####Ruby Download Links
 
-**When Ruby asks if you want to add Ruby to your path, you must say yes.**
+When Ruby asks if you want to **add Ruby to your path**, you must **say yes**.
 
 | Windows Version | 32 bit | 64 bit |
 | :-------------: | :----: | :-----: |
@@ -52,11 +58,11 @@ MongoDB is the database used for CodeCombat. To install, execute the following s
 
 
 
-##Git
+###Git
 
 [Download link for all versions](https://msysgit.googlecode.com/files/Git-1.8.5.2-preview20131230.exe)
 
-##Python
+###Python
 
 ####Python download links
 
@@ -92,6 +98,9 @@ You can use whatever shell you'd like to do the install, however Git Bash is rec
 ###Cloning the repository
 In your git bash, navigate to where you want to clone your repository( you can use the `cd` command to change directories, and `ls` to list the contents of the current directory). When you are in the folder that you'd like to clone the repository, run the command
 ```git clone https://github.com/codecombat/codecombat```
+
+When you forked the repository do
+```git clone https://github.com/[your GitHub username]/codecombat```
 
 ###Installing repository dependencies
 First, change directory into the cloned CodeCombat repository with the command
