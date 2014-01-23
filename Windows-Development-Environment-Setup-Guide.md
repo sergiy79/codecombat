@@ -89,47 +89,47 @@ Make sure you add Python to your path.
 
 ##Repository Setup
 
-A big thanks to @deepak1556 for these steps.
+A big thanks to @deepak1556 for these steps. (see [the original instructions](https://gist.github.com/deepak1556/8319345))
 
 ###Opening up Git Bash
 
 You can use whatever shell you'd like to do the install, however Git Bash is recommended. To open up Git Bash, use the Start Menu to either search for Git Bash or open it in the programs menu.
 
 ###Cloning the repository
-In your git bash, navigate to where you want to clone your repository( you can use the `cd` command to change directories, and `ls` to list the contents of the current directory). When you are in the folder that you'd like to clone the repository, run the command
+In your git bash, navigate to where you want to clone your repository (you can use the `cd` command to change directories, and `ls` to list the contents of the current directory). When you are in the folder that you'd like to clone the repository, run the command
 ```git clone https://github.com/codecombat/codecombat```
 
 When you forked the repository do
 ```git clone https://github.com/[your GitHub username]/codecombat```
 
 ###Installing repository dependencies
+For the following steps keep using git bash since some installation steps will require access to git.
+
 First, change directory into the cloned CodeCombat repository with the command
 
 `cd codecombat`
 
 Then, run the commands
-* `npm install`
-* `npm install -g bower`
+* `npm install -g bower brunch nodemon sendwithus`
 * `bower install`
-* `npm install -g brunch`
 * `gem install sass`
+* `npm install`
 
-Then run the command
-- `brunch w` 
+Finally run the command
+* `brunch w` 
 
-If there are any problems with the last command, you may need to update your version of the sass gem.
+If there are any problems, you may need to update your version of the sass gem. Running `npm install` again may help too.
 
 ###Setting up MongoDB
 
-- Create a `db` folder anywhere, for example `C:/db`
-- Run the command `mongod --setParameter textSearchEnabled=true --dbpath [PATH TO DB FOLDER]` and leave it running.
-- Download the up-to-date database dump from [here](http://54.204.18.206/public_dump.tar.gz) anywhere, and extract it.
+- Create a `db` folder anywhere, for example `/c/db`. This is where MongoDB is going to keep the db data.
+- Run the command `mongod --setParameter textSearchEnabled=true --dbpath [PATH TO DB FOLDER]` where `[PATH TO DB FOLDER]` would be `/c/db/` in the example and leave it running.
+- Download the up-to-date database dump from [here](http://54.204.18.206/public_dump.tar.gz) somewhere else, and extract it.
 - Navigate to the folder in which you extracted the dump (there should be a folder called `dump` in there)
-- In a new shell (with the mongod still running), run the command `mongorestore dump`
+- In a new shell (with the mongod still running), run the command `mongorestore dump`.
 
 ###Running the server
 
-Navigate to the root folder of the repository and run the command  `nodemon -w server -w server_config.js` then visit `http://localhost:3000`.
+Copy the start script (courtesy to @GlenDC) from `codecombat/scripts/windows/SCOCODE.bat` to the root folder of the repository `codecombat`. Before using it, edit the line that says `set "mongo_db_location=MONGO_DB_PATH_HERE"` with the path to your Mongo DB Path, e.g. `C:\db` (Git will ignore it). Then, all you have to do is click it (or otherwise start it) and the CodeCombat development environment will start.
 
-###Automation
-@GlenDC has also added a script to start the stack automatically located in `codecombat/scripts/windows/SCOCODE.bat`. To use this script, edit the line that says `set "mongo_db_location=MONGO_DB_PATH_HERE"` with the path to your Mongo DB Path, and copy it into the root `codecombat/` directory. Then, all you have to do is click it(or otherwise start it) and the CodeCombat development environment will start.
+Visit `http://localhost:3000` :).
