@@ -3,11 +3,11 @@ Welcome Artisans! This wiki is the main documentation on how to use the CodeComb
 ## Stuff Everyone Should Know
 
 * [[Important Artisan Concepts]]
-* [[Level Building Gameplan]]
+* [[Building A Level]]
 
 ## Level Editor
 
-* [[Level Editor Step By Step]]
+* [[Level Editor Nav Bar]]
 * [[Thangs Tab]]
     * [[Editing Thang Components]]
 * [[Scripts Tab]]
