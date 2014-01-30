@@ -12,3 +12,8 @@ Welcome Artisans! This wiki is the main documentation on how to use the CodeComb
 * [[Scripts Tab]]
 * [[Settings Tab]]
 * [[Components And Systems Tabs]]
+
+## More Resources
+
+* [Public HipChat Room](http://www.hipchat.com/g3plnOKqa) - Talk with us devs!
+* [Artisan Forum](http://discourse.codecombat.com/category/artisan)
