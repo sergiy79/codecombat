@@ -1,4 +1,4 @@
-## Campaign
+### Campaign
 
 A collection of Levels. Its exact structure has not yet been formed, but we’ll work on this. Think about how Levels can be related to one another (linear? a mario-style world map with offshoots and bonus stages?) and help us figure out how to shape these things.
 
