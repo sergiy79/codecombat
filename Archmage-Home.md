@@ -38,12 +38,6 @@ Hello [Archmages](http://codecombat.com/contribute#archmage)! Welcome to the dev
 * The [[Tome]] is our spell editor.
 * [[Multiplayer]]
 
-## Level Editor
-* **TODO**: organize an outline here
-
-## Thang Editor
-* **TODO**: document this if anyone cares to gaze upon it
-
 ## Side Projects
 
 * [[Treema]], our general interface for editing JSON data with schemas
