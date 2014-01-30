@@ -7,10 +7,8 @@ Welcome Artisans! This wiki is the main documentation on how to use the CodeComb
 
 ## Level Editor
 
-* [[Level Editor Nav Bar]]
 * [[Thangs Tab]]
     * [[Editing Thang Components]]
 * [[Scripts Tab]]
 * [[Settings Tab]]
-* [[Components Tab]]
-* [[Systems Tab]]
+* [[Components And Systems Tabs]]
