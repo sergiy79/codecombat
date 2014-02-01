@@ -10,17 +10,18 @@ These directions apply to Linux and Mac OS X. For Windows, [see the paragraph ne
 1. (Optional) If you'd like your changes able to be integrated into the official CodeCombat repository, click the *Fork* button in the upper right hand corner of the page.
 1. Open a terminal. 
     * If you've forked the repository, paste in the following command *with your forked repository URL*
-```bash
-curl https://raw.github.com/codecombat/codecombat/master/scripts/devSetup/bootstrap.sh | bash -s your_repository_url
-```
+    ```bash
+    curl https://raw.github.com/codecombat/codecombat/master/scripts/devSetup/bootstrap.sh | bash -s your_repository_url
+    ```
     * If you haven't forked the repository, copy and paste in the following command
-```bash
-curl https://raw.github.com/codecombat/codecombat/master/scripts/devSetup/bootstrap.sh | bash
-```
+    ```bash
+    curl https://raw.github.com/codecombat/codecombat/master/scripts/devSetup/bootstrap.sh | bash
+    ```
 1. Follow the prompts. This should download and install all the necessary dependencies. If you've used the script above, it will prompt you to run the command below. If you cloned the repository yourself, you can also run the script below (you may need to edit it based on your current working directory.)
-```
-sudo python ./coco/scripts/devSetup/setup.py
-```
+
+    ```
+    sudo python ./coco/scripts/devSetup/setup.py
+    ```
 1. Run each of these scripts in their own separate terminal window:
     * `coco/bin/coco-mongodb` (starts MongoDB, which stays running and awaits connections)
     * `coco/bin/coco-brunch` (starts brunch, which stays running and watches for file changes, may need to be run as sudo to increase the ulimit if brunch fails)
