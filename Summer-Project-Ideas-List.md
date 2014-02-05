@@ -54,21 +54,63 @@ Want to make a CodeCombat campaign for elementary school students? For girls? Fo
 
 ### Optimize for Offline / Low-Bandwidth Play
 
+Wouldn't it be great if you could play CodeCombat and learn to code in low-internet environments like remote schools? CodeCombat currently requires ~10MB of download data to start playing, and then once you're downloaded, it should mostly be able to play offline–but we haven't set it up to function as an offline, cached HTML 5 app. If you did that, and perhaps optimized the download size some more, then this could get into many more of the countries that we currently have translations for but which often don't have enough internet to reliably play. This would also be a big step towards making it great on mobile.
+
+*Expected results:* CodeCombat should be playable offline after the initial download.
+
+*Knowledge prerequisite:* Basic web development knowledge. We use CoffeeScript, Jade, and Sass, but those are easy to pick up if you know JavaScript, HTML, and CSS.
+
+*Difficulty:* Medium. It may take quite a bit of tinkering to cache things smartly in various environments such that the necessary offline cache info is all present.
 
 ### Improve Game Physics
 
+CodeCombat uses a 2D physics engine with Box2D for collision detection, and we've written some basic position / velocity / acceleration stuff and locomotion dynamics, but there's so much more physics that could be done, enabling more physics-based gameplay and levels. Imagine coding the laser targeting system to solve reflection-based puzzle levels in CodeCombat, or levels where you adjust your thrust to guide your rocket. You could make that happen.
+
+*Expected results:* CodeCombat should be have a general physics system that enables lots of emergent physics-based gameplay while still being performant.
+
+*Knowledge prerequisite:* Physics (mechanics) and proficiency with algorithms. Knowledge of CoffeeScript or JavaScript helpful.
+
+*Difficulty:* Medium. The basics of the physics system are all there, so it's more about handling more mechanics and improving performance.
 
 ### Upgrade the Level Editor
 
+The level editor is really cool: drag-and-drop, completely configurable, and even live-programmable from within the editor itself. It's a powerful tool, but the user interface is always a challenge; the learning curve is far too steep right now. You could do usability testing, improve the design, polish the rough edges, add missing features, and generally make it easier to use such that anyone can figure it out and make their own levels and campaigns.
+
+*Expected results:* CodeCombat's level editor should be much easier to use than it is now.
+
+*Knowledge prerequisite:* Basic web development knowledge. We use CoffeeScript, Jade, and Sass, but those are easy to pick up if you know JavaScript, HTML, and CSS.
+
+*Difficulty:* Easy. You just watch people try to make levels, see where they get stuck, and tweak the design until they stop getting stuck there.
 
 ### Add Responsive Sound / Music
 
+We have some great music and sound effects, but they don't do enough to add to the immersion, since the sound and music that plays is often not adapting to what's going on in the game. Doing some smart music switches and possibly audio processing in the browser could go a long way toward adding to the fun. There's some really audio APIs that would be great to put through their paces.
+
+*Expected results:* CodeCombat's music and sound would adapt to the game environment for an immersive game experience.
+
+*Knowledge prerequisite:* Basic programming knowledge and an interest in game design. Knowledge of CoffeeScript or JavaScript helpful.
+
+*Difficulty:* Medium. In addition to figuring out the audio processing stuff, it's going to require a good design sense to figure out what music and sounds should play when and how they should be processed.
 
 ### Optimize World Simulation Performance
 
+When a player's code changes, CodeCombat resimulates the entire level from beginning to end in a web worker within a split second and sends the results back to the main thread for a live-coding experience. The simulation performance of our game engine limits how fast that is and how big and long our levels can be. We need a lot of smart algorithms and optimization work on the engine to unlock the truly large-scale epic levels that we want to simulate. You could dig deep into the profiler, learn all about making JavaScript run quickly, and enable massive scale in CodeCombat levels.
 
-### Improve Treema (JSON editor)
+*Expected results:* CodeCombat's world simulation performance could be at least four times as fast as it is now.
 
+*Knowledge prerequisite:* Good programming and algorithms fundamentals and a solid knowledge of CoffeeScript or JavaScript.
+
+*Difficulty:* Hard. We've already done a lot of the low-hanging optimizations in Chrome, so some of the remaining optimizations will require smarter algorithms or recoding things to stream the simulation results instead of waiting until they're done.
+
+### Improve [Treema (JSON editor)](http://codecombat.github.io/treema/)
+
+Treema is a jQuery plugin that builds interfaces for editing large, complex, well-defined JSON data. It runs on tv4, which implements JSON-Schema validation. We use it for our Level, Article, and Thang editors, and it's generally useful in any project which wants to generate UIs for JSON data. It works pretty well, but there are a bunch of refactorings and improvements and upgrades that'll make it really shine, not just in CodeCombat, but in many other projects which need to deal with JSON.
+
+*Expected results:* Treema will be polished to a gleaming shine and take over all online JSON editors.
+
+*Knowledge prerequisite:* Basic web development knowledge and CoffeeScript or JavaScript.
+
+*Difficulty:* Medium. Treema's code is small, but very meta, so you'll need to be able to understand some complicated schema-schemas.
 
 ### Upgrade Testing Infrastructure
 
