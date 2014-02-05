@@ -20,4 +20,4 @@ Now when you make changes to server code or tests, the server-test-runner will r
 * Run coco-brunch
 * Run coco-client-test-runner
 
-A Chrome browser should show appear. You can minimize it; it's karma running the tests. Whenever client side code changes or tests change, karma should run the tests from /test/app in that extra browser window and show results in the terminal.
+A Chrome browser should appear. You can minimize it; it's karma running the tests. Whenever client side code changes or tests change, karma should run the tests from /test/app in that extra browser window and show results in the terminal.
