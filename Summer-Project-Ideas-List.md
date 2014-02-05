@@ -1,4 +1,4 @@
-Here are some ideas that would make good summer projects for student developers. They run from beginner-level up to crazy compiler stuff and everything in between. This is a very friendly project to work on–although CodeCombat's GitHub has only been open a month at the time of writing, it already has 49 contributors from around the world, both novices and pros. CodeCombat is written in CoffeeScript (it's basically just JavaScript), so pretty much any project will use that as a base language.
+Here are some ideas that would make good summer projects for student developers. They run from beginner-level up to crazy compiler stuff and everything in between. This is a very friendly project to work on–although CodeCombat's GitHub has only been open a month at the time of writing, it already has 49 contributors from around the world, from novices to pros. CodeCombat is written in CoffeeScript (it's basically just JavaScript), so pretty much any project will use that as a base language.
 
 1. [Add More Programming Languages](#wiki-languages)
 1. [Devise Mobile-Friendly Programming Interface](#wiki-mobile)
