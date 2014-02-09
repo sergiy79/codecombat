@@ -146,9 +146,9 @@ This could be used to:
 1) Edify an Archmage on what is going on with a given view. See what files are involved and how they're involved and how they communicate with one another.
 2) Debug issues involving tearing down objects and views and investigating memory leaks.
 
-This could be created as its own open source project for all other Backbone-powered sites to use as well.
+This could be created as its own open source project for all other Backbone-powered sites to use as well. We may want to build off of Backbone debugger extensions for [Chrome](https://github.com/Maluen/Backbone-Debugger) and [Firefox](https://github.com/dhruvaray/spa-eye).
 
-*Expected results:* Treema will be polished to a gleaming shine and take over all online JSON editors.
+*Expected results:* It'll be easy for developers to find the code that's active in the app.
 
 *Knowledge prerequisite:* Basic web development knowledge. We use CoffeeScript, Jade, and Sass, but those are easy to pick up if you know JavaScript, HTML, and CSS. Familiarity with Backbone helpful.
 
