@@ -118,7 +118,7 @@ Then, run the commands
 Finally run the command
 * `brunch w` 
 
-Note that once brunch has said that it has compiled and copied the files you can end the program.  Brunch will continue to run forever, as it looks for modifications to the CodeCombat code.
+Note that once brunch has said that it has compiled and copied the files you can end the program.  Brunch will continue to run until you terminate it, as it looks for modifications to the CodeCombat code.
 
 If there are any problems, you may need to update your version of the sass gem. Running `npm install` again may help too.
 
