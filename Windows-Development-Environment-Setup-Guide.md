@@ -35,7 +35,7 @@ MongoDB is the database used for CodeCombat. To install, execute the following s
   * b. Type "advanced system settings" and press enter;
   * c. Press the "Environment Variables..." button;
   * d. Under "User variables for..." you'll find the PATH variable, select it and press the "Edit..." button;
-  * e. Enter ';%PATH_TO_MONGODB' (e.g.: ;C:\mongodb-2.5.4) at the end of the "Variable value" and press "OK".
+  * e. Enter ';%PATH_TO_MONGODB' (e.g.: ;C:\mongodb-2.5.4\bin) at the end of the "Variable value" and press "OK".
 
 
 ####Mongo Download Links
