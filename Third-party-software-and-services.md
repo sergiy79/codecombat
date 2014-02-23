@@ -34,7 +34,7 @@ If you add a project or tool to CodeCombat, please list it here and on the open-
 * [jQuery](http://api.jquery.com/): Used largely for manipulating DOM elements. When it comes to utilities, Lodash tends to be used instead.
 * [jQueryUI](http://api.jqueryui.com/): autocomplete and others.
 * [Keymaster](https://github.com/madrobby/keymaster): Keyboard bound events.
-* [Bootstrap](http://getbootstrap.com/2.3.2/): Used mainly for styling and its JavaScript components. Scaffolding isn't really used.
+* [Bootstrap](http://getbootstrap.com/): Used mainly for styling and its JavaScript components. Scaffolding isn't really used.
 * [Moment](http://momentjs.com/): Formats times and dates.
 * [Treema](https://github.com/codecombat/treema): Custom built library for editing schema-defined JSON data. Used for all editors. Scott is mainly in charge of working on this.
 * Lodash, Underscore.String, and TV4 are also available in the browser.
