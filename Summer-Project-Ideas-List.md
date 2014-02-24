@@ -1,6 +1,15 @@
 Here are some ideas that would make good summer projects for student developers. They run from beginner-level up to crazy compiler stuff and everything in between. This is a very friendly project to work on–although CodeCombat's GitHub has only been open a month at the time of writing, it already has 49 contributors from around the world, from novices to pros. CodeCombat is written in CoffeeScript (it's basically just JavaScript), so pretty much any project will use that as a base language.
 
-Students wanting to submit a proposal should first jump in our [HipChat room](https://www.hipchat.com/g3plnOKqa) and start talking to us about what they're passionate about doing and find the perfect project idea. It'd also be helpful to [get your development environment set up](https://github.com/codecombat/codecombat/wiki/Developer-environment) and make a [small pull request or two](https://github.com/codecombat/codecombat/issues?labels=good-for-newbies&page=1&state=open) to get a great feel for the project. You can submit any idea, not just the ones on this list. You should also [sign up as an Archmage](http://codecombat.com/contribute/archmage) and [follow our forum](http://discourse.codecombat.com/).
+Students wanting to submit a proposal should start with the following:
+
+1. Jump in our [HipChat room](https://www.hipchat.com/g3plnOKqa) and start talking to us about what they're passionate about doing and find the perfect project idea. You can submit any idea, not just the ones on this list.
+1. It'd also be helpful to [get your development environment set up](https://github.com/codecombat/codecombat/wiki/Developer-environment).
+1. To get a great feel for the project, make a [small pull request or two](https://github.com/codecombat/codecombat/issues?labels=good-for-newbies&page=1&state=open).
+1. You should also [sign up as an Archmage](http://codecombat.com/contribute/archmage), [follow our forum](http://discourse.codecombat.com/), and watch this GitHub repository.
+1. Play through [some of our existing levels](http://codecombat.com/play) to get a feel for the game.
+1. Read through some of the [articles on our Archmage wiki](https://github.com/codecombat/codecombat/wiki/Archmage-Home) to better understand the code.
+
+Because GSoC applications are very competitive, we'll heavily favor students who have started contributing to CodeCombat already before submitting a proposal, because then we know you're really into the project, and we'll already be familiar from working with you.
 
 # Projects
 
