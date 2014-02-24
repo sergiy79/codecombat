@@ -13,4 +13,4 @@ Artisans build levels!
 
 ***
 
-More to come.
+Looking for the **Google Summer of Code** application info? It's over here: [[Summer Project Ideas List]]
