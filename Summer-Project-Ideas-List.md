@@ -11,6 +11,8 @@ Students wanting to submit a proposal should start with the following:
 
 Because GSoC applications are very competitive, we'll heavily favor students who have started contributing to CodeCombat already before submitting a proposal, because then we know you're really into the project, and we'll already be familiar from working with you.
 
+To learn more about the Google Summer of Code application process, see [the GSoC website](http://www.google-melange.com/gsoc/org2/google/gsoc2014/codecombat).
+
 # Projects
 
 1. [Add More Programming Languages](#wiki-languages)
