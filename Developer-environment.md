@@ -26,7 +26,7 @@ These directions apply to Linux and Mac OS X. For Windows, [see the paragraph ne
     * `coco/bin/coco-mongodb` (starts MongoDB, which stays running and awaits connections)
     * `coco/bin/coco-brunch` (starts brunch, which stays running and watches for file changes, may need to be run as sudo to increase the ulimit if brunch fails)
     * `coco/bin/coco-dev-server` (starts your local webserver, which stays running and watches for file changes)
-1. Do the [MongoDB database import](https://github.com/codecombat/codecombat/wiki/Developer-environment#setup) *(we're working to making this optional)*
+1. Do the [MongoDB database import](https://github.com/codecombat/codecombat/wiki/Developer-environment#wiki-setup) *(we're working to making this optional)*
 1. Go to [http://localhost:3000](http://localhost:3000) to see your local CodeCombat in action.
 
 NOTE: The repository will be in the coco subdirectory.  You should not run a separate git clone, as that is taken care of.
