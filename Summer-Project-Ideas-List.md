@@ -2,14 +2,14 @@ Here are some ideas that would make good summer projects for student developers.
 
 Students wanting to submit a proposal should start with the following:
 
-1. Jump in our [HipChat room](https://www.hipchat.com/g3plnOKqa) and start talking to us about what they're passionate about doing and find the perfect project idea. You can submit any idea, not just the ones on this list.
-1. It'd also be helpful to [get your development environment set up](https://github.com/codecombat/codecombat/wiki/Developer-environment).
+1. Get your development environment set up](https://github.com/codecombat/codecombat/wiki/Developer-environment).
 1. To get a great feel for the project, make a [small pull request or two](https://github.com/codecombat/codecombat/issues?labels=good-for-newbies&page=1&state=open).
 1. You should also [sign up as an Archmage](http://codecombat.com/contribute/archmage), [follow our forum](http://discourse.codecombat.com/), and watch this GitHub repository.
 1. Play through [some of our existing levels](http://codecombat.com/play) to get a feel for the game.
 1. Read through some of the [articles on our Archmage wiki](https://github.com/codecombat/codecombat/wiki/Archmage-Home) to better understand the code.
+1. If you need help getting oriented or experience difficulties with the dev setup you can join our [HipChat room](https://www.hipchat.com/g3plnOKqa) and start talking to us about what they're passionate about doing and finding the perfect project idea.
 
-Because GSoC applications are very competitive, we'll heavily favor students who have started contributing to CodeCombat already before submitting a proposal, because then we know you're really into the project, and we'll already be familiar from working with you.
+Because GSoC applications are very competitive, **we'll heavily favor students who have started contributing to CodeCombat already** before submitting a proposal, because then we know you're really into the project, and we'll already be familiar from working with you.
 
 To learn more about the Google Summer of Code application process, see [the GSoC website](http://www.google-melange.com/gsoc/org2/google/gsoc2014/codecombat).
 
