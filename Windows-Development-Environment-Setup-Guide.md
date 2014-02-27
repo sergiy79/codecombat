@@ -120,7 +120,7 @@ Finally run the command
 
 Note that once brunch has said that it has compiled and copied the files you can end the program.  Brunch will continue to run until you terminate it, as it looks for modifications to the CodeCombat code.
 
-If there are any problems, you may need to update your version of the sass gem. Running `npm install` again may help too.
+If there are any problems, you may need to update your version of the sass gem. Running `npm install` again may help too. Deleting the folder `codecombat/node_modules` before `npm install` rerun may help as well.
 
 ###Setting up MongoDB
 
