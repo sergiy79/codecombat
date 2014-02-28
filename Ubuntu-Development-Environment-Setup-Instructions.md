@@ -22,7 +22,8 @@ Download and install nodejs for Ubuntu 12.04:
 - sudo apt-get install nodejs
 
 Install node packages:
-- cd $COCO_TREE && npm install
+- cd $COCO_TREE (based on codecombat directory with packages)
+- npm install 
 
 Install brunch and bower:
 - sudo npm install -g brunch
