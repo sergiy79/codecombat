@@ -2,7 +2,7 @@ We're building a lot of interconnected data here at CodeCombat. Levels, Componen
 
 Non-versioned documents, when modified, simply overwrite the database entry with the new data. Not so with versioned documents. You can only post new versions of a given document--you can't edit old ones.
 
-Bear in mind, the versioning system is not meant to be super reliable or feature rich like Git or SVN. It's purpose is to make it possible to allow old content to continue to work without preventing new content from changing the rules. Also, since code is housed in documents like Components and Systems, it provides some of the freedom from fear of changing and breaking things by allowing you to have earlier versions to revert to.
+Bear in mind, the versioning system is not meant to be super reliable or feature rich like Git or SVN. Its purpose is to make it possible to allow old content to continue to work without preventing new content from changing the rules. Also, since code is housed in documents like Components and Systems, it provides some of the freedom from fear of changing and breaking things by allowing you to have earlier versions to revert to.
 
 ## Example
 
