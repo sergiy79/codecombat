@@ -30,7 +30,7 @@ Install brunch and bower:
 - sudo npm install -g bower
 
 Install ruby and sass:
-- sudo apt-get install ruby1.9.1
+- sudo apt-get install ruby1.9.1 ruby1.9.1-dev
 - sudo gem install sass
 
 Setup bower:
