@@ -42,7 +42,7 @@ State for a single play of a given Level, usually for a given player. Includes:
 * Playback state
 
 ### Article
-Documentation for general programming knowledge. CodeCombat needs in addition to gameplay a reference corpus for players to check if they want a good general explanation of any given programming concept. These are what Scribes work on.
+Documentation for general programming knowledge. In addition to gameplay, CodeCombat needs a reference corpus for players to check if they want a good general explanation of any given programming concept. These are what Scribes work on.
 
 ## Other kinds of data:
 
