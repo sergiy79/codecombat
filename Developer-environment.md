@@ -33,6 +33,8 @@ NOTE: The repository will be in the coco subdirectory.  You should not run a sep
 
 This should work on Mac and Linux, but it's brand new, so please let us know of any problems you run into. On Mac, you'll need [Xcode Developer Tools](http://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12). On Linux, you'll need ruby, curl, and git installed. 
 
+If you face issues with bower not being able to clone git repositories, you could try - [Clone over https](http://stackoverflow.com/questions/1722807/git-convert-git-urls-to-http-urls/11383587#11383587).
+
 To get a sandbox copy of the CodeCombat database for your local Mongo, see [Restoring a backup](https://github.com/codecombat/codecombat/wiki/Developer-environment#wiki-database).
 
 <a name="windows_details"></a>
