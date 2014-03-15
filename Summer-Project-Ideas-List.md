@@ -11,7 +11,7 @@ Students wanting to submit a proposal should start with the following:
 
 **Because GSoC applications are very competitive, we'll heavily favor students who have started contributing to CodeCombat already** before submitting a proposal, because then we know you're really into the project, and we'll already be familiar from working with you.
 
-To learn more about the Google Summer of Code application process, see [the GSoC website](http://www.google-melange.com/gsoc/org2/google/gsoc2014/codecombat). It has an application template you can use. Share applications you're working on for review with us as Google Docs shared with nick, george, scott, and michael@codecombat.com, but make sure to submit something to the GSoC website before the application deadline so you can be in their system, too.
+To learn more about the Google Summer of Code application process, see [the GSoC website](http://www.google-melange.com/gsoc/org2/google/gsoc2014/codecombat). It has an application template you can use. Share applications you're working on for review with us as Google Docs shared with nick@codecombat.com, george@codecombat.com, scott@codecombat.com, and michael@codecombat.com, but make sure to submit something to the GSoC website before the application deadline so you can be in their system, too.
 
 # Projects
 
