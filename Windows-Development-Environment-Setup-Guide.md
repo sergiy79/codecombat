@@ -126,7 +126,7 @@ If there are any problems, you may need to update your version of the sass gem. 
 
 - Create a `db` folder anywhere, for example `/c/db`. This is where MongoDB is going to keep the db data.
 - Run the command `mongod --setParameter textSearchEnabled=true --dbpath [PATH TO DB FOLDER]` where `[PATH TO DB FOLDER]` would be `/c/db/` in the example and leave it running.
-- Download the up-to-date database dump from [here](http://54.204.18.206/public_dump.tar.gz) somewhere else, and extract it.
+- Download the up-to-date database dump from [here](http://23.21.59.137/dump.tar.gz) somewhere else, and extract it.
 - Navigate to the folder in which you extracted the dump (there should be a folder called `dump` in there)
 - In a new shell (with the mongod still running), run the command `mongorestore dump`.
 
