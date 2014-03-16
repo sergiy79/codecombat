@@ -42,7 +42,19 @@ Our transpiler, [[Aether]], does things like handle, prettify, and standardize e
 
 Whereas most of the Thang state is consumed by the Surface, the Aether runtime information is consumed by the spell editor within the [[Tome]].
 
-The way that player code interacts with the world is through the `programming.Programmable` [[Component]]. It gets very crazy when we are running the `programming.Plans`-provided `plan()` method in a level, so also see that Component to check out how we do piecemeal execution and yielding of control flow.
+The way that player code interacts with the world is through the `programming.Programmable` [[Component]]. It gets very crazy when we are running the `programming.Plans`-provided `plan()` method in a level, so also see that Component to check out how we do piecemeal execution and yielding of control flow. Here's a brief summary.
+
+The `programming.Plans` Component replaces `chooseAction()` with one that calls the player's `plan()` code once at the beginning. `plan()` returns a generator, and the generator partially executes the player's code, going until some action is set, and then it returns the method that set the action and its arguments.
+
+Meanwhile, `chooseAction()` keeps running once per frame, and it repeatedly calls the method for that action until the action's goal is achieved, which is indicated by the action method returning the string `'done'` instead of some other action string (like `'move'`). When that happens, `chooseAction()` calls the plan generator again to get the next plan. If there aren't any more plans, it stops doing anything and potentially ends the level.
+
+Now, the complicated parts are two:
+
+1. There are no generators in JavaScript (the ES5 version), so our transpiler fakes them by making the user code into a giant switch statement that works as if you could yield inside a generator function.
+
+2. Every action method that can be used with `plan()` (which are listed in the `plannableMethods` array in the `programming.Plans` Component) has to be set up to either return an action string or `'done'` when being called with `plan()`, to indicate whether that action is still being performed. So that's why if you look at `movement.Moves`, it has this complicated stuff around `setMove()` that returns these strings, and all the other Components which provide action methods that have been coded to work with `plan()` have similar logic for determining whether the action is the same action and should be continued, or whether it has been achieved
+
+This is the only way to have user code actually take any real world simulation time in the middle of execution, because otherwise the user code runs all the way to the end and then the simulation resumes. Most of the levels should use `chooseAction()` directly, which is already essentially wrapped in a loop deciding what the Thang should do each frame. It's way faster and doesn't suffer from any of the complexities of `plan()`. The downside is that if the player does something like `this.move({x: 5, y: 5}); this.attack(enemy);`, then the move action and target are overwritten immediately by the attack action and target, because none of these actions take time and yield control back to the rest of the world simulation. So we try to reserve `plan()` for beginner levels.
 
 ## Goals
 
