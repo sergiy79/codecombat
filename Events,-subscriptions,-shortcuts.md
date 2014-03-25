@@ -16,7 +16,7 @@ Subscriptions are built on [Backbone-Mediator](https://github.com/chalbert/Backb
 * Relationships between objects are distant, varied or subject to change
 * Scripts in levels need to be able to use them, either to trigger the script or to cause an effect of the script.
 
-All `Coco*` subclasses support subscriptions. Objects subscribe on construction by default and tear them down when destroy is called.
+All `CocoView` subclasses support subscriptions. Objects subscribe on construction by default and tear them down when destroy is called.
 
 See the [Backbone-Mediator repository](https://github.com/chalbert/Backbone-Mediator) for more details.
 
