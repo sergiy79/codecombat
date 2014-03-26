@@ -38,7 +38,7 @@ If you face issues with bower not being able to clone git repositories, you coul
 To get a sandbox copy of the CodeCombat database for your local Mongo, see [Restoring a backup](https://github.com/codecombat/codecombat/wiki/Developer-environment#wiki-database).
 
 <a name="windows_details"></a>
-####Windows 
+###Windows 
 ##### The-fully-automatic-easy-way:
 Follow the instructions from [this step-by-step guide](https://github.com/codecombat/codecombat/wiki/Setup-on-Windows:-a-step-by-step-guide). The complete process is fully automated for all Windows versions.
 
