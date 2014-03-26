@@ -111,6 +111,7 @@ First, change directory into the cloned CodeCombat repository with the command
 
 Then, run the commands
 * `npm install -g bower brunch nodemon sendwithus`
+that mean install bower, brunch, nodemon and sendwithus. -g mean global
 * `bower install`
 * `gem install sass`
 * `npm install`
