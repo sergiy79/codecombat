@@ -39,16 +39,19 @@ To get a sandbox copy of the CodeCombat database for your local Mongo, see [Rest
 
 <a name="windows_details"></a>
 ####Windows 
+##### The-fully-automatic-easy-way:
 Follow the instructions from [this step-by-step guide](https://github.com/codecombat/codecombat/wiki/Setup-on-Windows:-a-step-by-step-guide). The complete process is fully automated for all Windows versions.
 
-**We support the following versions:**
+We support the following versions:
 * Windows Vista
 * Windows 7
 * Windows 8.0
 * Windows 8.1
 
+##### The-do-it-manual-way:
 To install on Windows, follow the [[Windows Development Environment Setup Guide]], or run the VM as detailed below. Unless you have Visual Studio C++, running the VM may be more convenient.
 
+##### The-do-it-via-a-vm-way:
 If you want to run the VM, you'll have to [download VirtualBox](http://download.virtualbox.org/virtualbox/4.3.6/VirtualBox-4.3.6-91406-Win.exe), install it, then [download](https://s3.amazonaws.com/CodeCombatLargeFiles/CoCoLinux.ova) ([torrent](https://s3.amazonaws.com/CodeCombatLargeFiles/CoCoLinux.ova?torrent)) and import the CodeCombat Linux appliance by going to File:Import Appliance (note that occasionally the large download may be corrupted, so it's often easier to use the torrent.) The "CodeCombat" user account password is "coco". Once you have the Linux virtual machine running, the follow the directions above. To ease development, you can set up a shared folder so that you can edit files in Windows and have them accessible to the Ubuntu VM. See directions for setting up shared folders [here.](http://mikesmithers.wordpress.com/2011/03/23/installing-ubuntu-in-virtualbox-on-a-windows-7-host/#attachment_898) You can also [set up bridged networking](http://askubuntu.com/questions/196118/how-to-access-localhost-on-virtualbox-host-machine) so that your server is accessible from Windows.
 
 
