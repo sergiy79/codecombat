@@ -52,3 +52,5 @@ If you add a project or tool to CodeCombat, please list it here and on the open-
 * [Jasmine](http://jasmine.github.io/2.0/introduction.html): Used for testing.
 * [Karma](https://github.com/karma-runner/karma): Test runner.
 * [Brunch](https://github.com/brunch/brunch): Assembles the project, and is pretty much central to everything development.
+* [Discourse](http://www.discourse.org/): Actually good forum software. CodeCombat is blessed by Jeff Atwood and Discourse.
+* [SETT](http://sett.com): High-engagement blogging software. [Good for startup blogging.](http://blog.nickwinter.net/startup-blogging)
