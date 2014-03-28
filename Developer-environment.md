@@ -42,11 +42,13 @@ To get a sandbox copy of the CodeCombat database for your local Mongo, see [Rest
 ##### The-fully-automatic-easy-way:
 Follow the instructions from [this step-by-step guide](https://github.com/codecombat/codecombat/wiki/Setup-on-Windows:-a-step-by-step-guide). The complete process is fully automated for all Windows versions.
 
-We support the following versions:
-* Windows Vista
-* Windows 7
-* Windows 8.0
-* Windows 8.1
+We support the following, and only the following versions:
+* Windows Vista _(not yet confirmed)_
+* Windows 7 _(tests in progress)_
+* Windows 8.0 _(not yet confirmed)_
+* Windows 8.1 _(not yet confirmed)_
+
+Other versions, newer then _Windows XP_, and not listed above, might work, but we don't guarantee that they will.
 
 ##### The-do-it-manual-way:
 To install on Windows, follow the [[Windows Development Environment Setup Guide]], or run the VM as detailed below. Unless you have Visual Studio C++, running the VM may be more convenient.
