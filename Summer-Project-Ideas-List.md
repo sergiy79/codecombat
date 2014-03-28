@@ -52,7 +52,7 @@ CodeCombat, a web app written with cross-platform HTML5 in mind from the start, 
 
 *Knowledge prerequisite:* Basic web development knowledge. We use CoffeeScript, Jade, and Sass, but those are easy to pick up if you know JavaScript, HTML, and CSS.
 
-*Difficulty:* Medium. The implementation shouldn't be too hard, but the design itself will be critical. Simply adding [a code-focused keyboard](https://itunes.apple.com/app/id599976903?mt=8&&referrer=click%3Dd351443d-765b-4f58-a4e7-83d4e9e87fbf) or [Blockly](https://code.google.com/p/blockly/) isn't going to be enough.
+*Difficulty:* Medium. The implementation shouldn't be too hard, but the design itself will be critical. Simply adding [a code-focused keyboard](https://itunes.apple.com/app/id599976903?mt=8&&referrer=click%3Dd351443d-765b-4f58-a4e7-83d4e9e87fbf) or [Blockly](https://code.google.com/p/blockly/) isn't going to be enough. Something like [FASL](https://mad.cs.fau.de/fasl/en/screenshots.html) might be getting closer.
 
 ### <a name="webgl"/> Integrate WebGL Renderer
 
