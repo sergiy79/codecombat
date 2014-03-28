@@ -40,7 +40,7 @@ To get a sandbox copy of the CodeCombat database for your local Mongo, see [Rest
 <a name="windows_details"></a>
 ###Windows 
 ##### The-fully-automatic-easy-way:
-Follow the instructions from [this step-by-step guide](https://github.com/codecombat/codecombat/wiki/Setup-on-Windows:-a-step-by-step-guide). The complete process is fully automated for all Windows versions.
+Follow the instructions from [this step-by-step guide](https://github.com/codecombat/codecombat/wiki/Setup-on-Windows:-a-step-by-step-guide). The complete process is fully automated for all supported Windows versions.
 
 We support the following, and only the following versions:
 * Windows Vista _(not yet confirmed)_
