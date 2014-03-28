@@ -1,2 +1,2 @@
 ### WARNING
-_The automatic setup for windows is still in development. The first beta released is planned really soon. If you want the latest development news on this setup, you can ask __Glen De Cauwsemaecker__ for more information._
+_The automatic setup for windows is still in development. The first beta released is planned really soon. If you want the latest development news on this setup, you can ask **Glen De Cauwsemaecker** for more information._
