@@ -1,5 +1,5 @@
 #### WARNING
-_The automatic setup for windows is still in development. The first beta released is planned really soon. If you want the latest development news on this setup, ask **Glen D.C.** on the [CodeCombat chatroom](http://www.hipchat.com/g3plnOKqa).for more information. **Don't try to follow this guide yet!**_
+_The automatic setup for windows is still in development. The first beta released is planned really soon. If you want the latest development news on this setup, ask **Glen DC** on the [CodeCombat chatroom](http://www.hipchat.com/g3plnOKqa).for more information. **Don't try to follow this guide yet!**_
 
 _For now it's best to use [the manual installation guide](https://github.com/codecombat/codecombat/wiki/Windows-Development-Environment-Setup-Guide) if you want to develop on CodeCombat on the Windows platform._
 
@@ -13,22 +13,10 @@ _For now it's best to use [the manual installation guide](https://github.com/cod
 7. **[Final Note](#final-note)**
 
 #### Introduction
-<insert awesome text here>
-.
 
-.
+The manual installation of the CodeCombat development environment on Windows was tricky, and a lot of users had troubles of this. Therefore we decided to develop a fully automatic setup for Windows, to avoid users getting frustrated, and possibly give up, before they ever started on the real development. That's in a nullshet the short background of why this setup exists in the first place.
 
-.
-
-.
-
-.
-
-.
-
-.
-
-.
+Please note that this setup is development and maintained by only one person. This means that there is a high risk of potential bugs. These can and should be reported like any other issue on [the official CodeCombat issue list](https://github.com/codecombat/codecombat/issues?labels=enhancement&state=open). Because of this solo development process there is probably quite some room for optimisations and improvements possible, to make it work faster, safer and better. Feel free to discuss proposels to improve it, with **Glen DC** on the [CodeCombat chatroom](http://www.hipchat.com/g3plnOKqa).
 
 **[Go back to the top.](#index)**
 
