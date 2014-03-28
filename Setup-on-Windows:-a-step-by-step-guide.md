@@ -99,14 +99,16 @@ The entire setup is designed to be as user friendly and automatic as possible. I
 **[Go back to the top.](#index)**
 
 ####NPM, Brunch and MongoDB
-This part still has to be implemented in the setup, and for now you'll have to do this step manually. You can start reading the manual setup for windows at this point, to know how to do the final parts of the installation yourself. This should normally go without any problems. Let me sumarize it for you in short:
+This part still has to be implemented in the setup, and for now you'll have to do this step manually. You can start reading the manual setup for windows at this point, to know how to do the final parts of the installation yourself. This should normally go without any problems.
+
+Here is how you can do this last step in short:
 
 1. Go to your coco directory (with the cd command, or by opening a command prompt in that directory)
 2. Run `npm install -g bower brunch nodemon sendwithus`
 3. Run `bower install`
 4. Run `gem install sass`
 5. Run `npm install`
-6. Create a directory _<DIR>_ for your mongodb database.
+6. Create a directory _DIR_ for your mongodb database. (coco_repository/../cocodb is a good candidate for this)
 7. Run `mongod --setParameter textSearchEnabled=true --dbpath <DIR>`
 8. Download the up-to-date database dump from [here](http://23.21.59.137/dump.tar.gz) somewhere else, and extract it.
 9. Open a new command line prompt.
@@ -114,7 +116,8 @@ This part still has to be implemented in the setup, and for now you'll have to d
 11. Copy the start script fromt `coco/scripts/windows/SCOCODE.bat` to `coco/SCOCODE.bat` (the root directory of your coco git repository).
 
 Now you can simply start the development environment by:
-1. Doubleclicking the `coco/SCOCODE.bat` file to start your dev. environment.
+
+1. Doubleclicking the `coco/SCOCODE.bat` file to start your development environment.
 2. Wait untill the environment has started up.
 3. Visit `localhost:3000` in your browser.
 
