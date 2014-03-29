@@ -12,6 +12,7 @@ Welcome Artisans! This wiki is the main documentation on how to use the CodeComb
 * [[Scripts Tab]]
 * [[Settings Tab]]
 * [[Components And Systems Tabs]]
+* [[Coding Guidelines for Artisans]]
 
 ## More Resources
 
