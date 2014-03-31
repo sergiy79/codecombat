@@ -102,4 +102,5 @@ That's it, still quite easy, no? In case of any problems with this last step, pl
 
 ####Final Note
 That's it. If there are any question, just ask them on the [CodeCombat chatroom](http://www.hipchat.com/g3plnOKqa). 
+
 **[Go back to the top.](#index)**
