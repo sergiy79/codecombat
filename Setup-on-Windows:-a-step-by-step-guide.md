@@ -17,7 +17,7 @@ Download, unarchive, open and follow the instructions within the installer. That
 7. **[Final Note](#final-note)**
 
 #### Download
-You can download the latest version [here](https://www.google.com/#q=Sorry+the+setup+is+not+available+yet.) (1.0) (beta).
+You can [download](#download) the latest version [here](https://www.google.com/#q=Sorry+the+setup+is+not+available+yet.) (1.0) (beta).
 
 #### Introduction
 The manual installation of the CodeCombat development environment on Windows was tricky, and a lot of users had troubles of this. Therefore we decided to develop a fully automatic setup for Windows, to avoid users getting frustrated, and possibly give up, before they ever started on the real development. That's in a nullshet the short background of why this setup exists in the first place.
@@ -42,62 +42,34 @@ The entire setup is designed to be as user friendly and automatic as possible. I
 **[Go back to the top.](#index)**
 
 ####The first steps
-<insert awesome text here>
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
+1. You have downloaded, unarchived and opened the installar, Congratulations! ![Install Text](https://dl.dropboxusercontent.com/u/80071057/codecombat/1_title.png)
+2. Enter 'Y' to accept our license. You can't install if you don't accept. ![Accept the license.](https://dl.dropboxusercontent.com/u/80071057/codecombat/1_license.png)
+3. Enter the ID (number) of your language of choice and press enter. (e.g. _1_ for English) ![Choose your language.](https://dl.dropboxusercontent.com/u/80071057/codecombat/1_language.png)
 
 **[Go back to the top.](#index)**
 
 ####Software guide
-<insert awesome text here>
-.
+1. Installing the software needed for the CodeCombat is an easy process that can be skipped by entering _Y_ ![Software Installation Title](https://dl.dropboxusercontent.com/u/80071057/codecombat/2_title.png)
+2. There is several software you'll need, in order to use CodeCombat. But the process is the same for all of them.
+  1. Enter _N_ if you want to install the software. You can skip it with _Y_, in case you already have it.
+  2. After it is downloaded it will open the installation window, follow the instructions, to complete the installation of the application.
+  3. Go back to the CodeCombat installation windows, after the installation of the application is complete.
 
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
+####Remarks
+1. When installing GitBash, make sure to select the option that adds this tool to your Windows PATH.
+![Git Bash Remark](https://dl.dropboxusercontent.com/u/80071057/codecombat/gitbash_path.png)
+   1. Not changing the default path of your bash installation, will safe you work later on, in the installation!
+2. When installing NodeJS, make sure to select the option to add this tool to your Windows PATH. ![NodeJS Windows Path](https://dl.dropboxusercontent.com/u/80071057/codecombat/nodejs_path.png)
+3. When installing Ruby, make sure to select the option to addd this tool to your Windows PATH. ![Ruby Windows Path](https://dl.dropboxusercontent.com/u/80071057/codecombat/ruby_path.png)
 
 **[Go back to the top.](#index)**
 
 ####Git Initialisation
-<insert awesome text here>
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
+1. We are opensource, and so you'll checkout a forked version of our repository to start working online. ![](https://dl.dropboxusercontent.com/u/80071057/codecombat/3_title.png)
+  1. If you are an experienced user you might want to do this step manually. (e.g. to be able to checkout via ssh)
+  2. For the easy solution, go for the automated version provided by us, by entering _N_ on the first question.
+   1. First you'll have to give the path to your root directory of where you installed Git Bash in a previous step.
+   2. After that is done you can enter the full path of where we can put the CodeCombat repository for you.
 
 **[Go back to the top.](#index)**
 
@@ -129,47 +101,5 @@ That's it, still quite easy, no? In case of any problems with this last step, pl
 **[Go back to the top.](#index)**
 
 ####Final Note
-<insert awesome text here>
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
+That's it. If there are any question, just ask them on the [CodeCombat chatroom](http://www.hipchat.com/g3plnOKqa). 
 **[Go back to the top.](#index)**
