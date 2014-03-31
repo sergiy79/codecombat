@@ -3,6 +3,8 @@ _The automatic setup for Windows is still in development. This first version doe
 
 _For now it's best to use [the manual installation guide](https://github.com/codecombat/codecombat/wiki/Windows-Development-Environment-Setup-Guide) if you want to develop on CodeCombat on the Windows platform._
 
+If you get a DLL error, it's because for now we still rely on the Microsoft Visual C++ 2010 Redistributable Package. We're working on a solution to remove this dependency and this will be available in a next release. For now just download it @ http://www.microsoft.com/en-us/download/details.aspx?id=5555 in case you need it. 
+
 #### TLDR
 [Download](#download), unarchive, open and follow the instructions within the installer. That's how simple this installation is. Still facing a problem? No worries, your answer is probably to be found in this guide.
 
