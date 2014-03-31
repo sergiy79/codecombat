@@ -3,6 +3,9 @@ _The automatic setup for windows is still in development. The first beta release
 
 _For now it's best to use [the manual installation guide](https://github.com/codecombat/codecombat/wiki/Windows-Development-Environment-Setup-Guide) if you want to develop on CodeCombat on the Windows platform._
 
+#### TLDR
+Download, unarchive, open and follow the instructions within the installer. That's how simple this installation is. Still facing a problem? No worries, your answer is probably to be found in this guide.
+
 #### Index
 0. **[Download](#download)**
 1. **[Introduction](#introduction)**
