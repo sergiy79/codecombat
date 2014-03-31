@@ -17,7 +17,7 @@ _For now it's best to use [the manual installation guide](https://github.com/cod
 7. **[Final Note](#final-note)**
 
 #### Download
-You can [download](#download) the latest version [here](https://s3.amazonaws.com/CodeCombatLargeFiles/coco-dev-win-setup-1.0.zip) (1.0) (beta).
+You can download the latest version [here](https://s3.amazonaws.com/CodeCombatLargeFiles/coco-dev-win-setup-1.0.zip) (1.0) (beta).
 
 #### Introduction
 The manual installation of the CodeCombat development environment on Windows was tricky, and a lot of users had troubles of this. Therefore we decided to develop a fully automatic setup for Windows, to avoid users getting frustrated, and possibly give up, before they ever started on the real development. That's in a nullshet the short background of why this setup exists in the first place.
