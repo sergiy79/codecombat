@@ -68,8 +68,8 @@ The entire setup is designed to be as user friendly and automatic as possible. I
 1. We are opensource, and so you'll checkout a forked version of our repository to start working online. ![](https://dl.dropboxusercontent.com/u/80071057/codecombat/3_title.png)
   1. If you are an experienced user you might want to do this step manually. (e.g. to be able to checkout via ssh)
   2. For the easy solution, go for the automated version provided by us, by entering _N_ on the first question.
-   1. First you'll have to give the path to your root directory of where you installed Git Bash in a previous step.
-   2. After that is done you can enter the full path of where we can put the CodeCombat repository for you.
+     1. First you'll have to give the path to your root directory of where you installed Git Bash in a previous step.
+     2. After that is done you can enter the full path of where we can put the CodeCombat repository for you.
 
 **[Go back to the top.](#index)**
 
