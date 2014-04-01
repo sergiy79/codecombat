@@ -90,7 +90,7 @@ Here is how you can do this last step in short:
 8. Download the up-to-date database dump from [here](http://23.21.59.137/dump.tar.gz) somewhere else, and extract it.
 9. Open a new command line prompt.
 10. Go to the parent directory of the unarchived dump directory.
-11. Copy the start script fromt `coco/scripts/windows/SCOCODE.bat` to `coco/SCOCODE.bat` (the root directory of your coco git repository).
+11. Copy the start script from `coco/scripts/windows/SCOCODE.bat` to `coco/SCOCODE.bat` (the root directory of your coco git repository).
 
 Now you can simply start the development environment by:
 
