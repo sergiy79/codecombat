@@ -1,9 +1,7 @@
 #### WARNING
 _The automatic setup for Windows is still in development. This first version doesn't install the npm depandancies yet. it also doesn't setup your mongodb yet. For more information on release of newer versions, ask **Glen DC** on the [CodeCombat chatroom](http://www.hipchat.com/g3plnOKqa)._
 
-_For now it's best to use [the manual installation guide](https://github.com/codecombat/codecombat/wiki/Windows-Development-Environment-Setup-Guide) if you want to develop on CodeCombat on the Windows platform._
-
-If you get a DLL error, it's because for now we still rely on the Microsoft Visual C++ 2010 Redistributable Package. We're working on a solution to remove this dependency and this will be available in a next release. For now just download it @ http://www.microsoft.com/en-us/download/details.aspx?id=5555 in case you need it. 
+_For now it's best to use [the manual installation guide](https://github.com/codecombat/codecombat/wiki/Windows-Development-Environment-Setup-Guide) if you want to develop on CodeCombat on the Windows platform._ 
 
 #### TLDR
 [Download](#download), unarchive, open and follow the instructions within the installer. That's how simple this installation is. Still facing a problem? No worries, your answer is probably to be found in this guide.
@@ -19,7 +17,7 @@ If you get a DLL error, it's because for now we still rely on the Microsoft Visu
 7. **[Final Note](#final-note)**
 
 #### Download
-You can download the latest version [here](https://s3.amazonaws.com/CodeCombatLargeFiles/coco-dev-win-setup-1.0.zip) (1.0) (beta).
+You can download the latest version [here](https://s3.amazonaws.com/CodeCombatLargeFiles/coco-dev-win-setup-1.1.zip) (1.1) (beta).
 
 #### Introduction
 The manual installation of the CodeCombat development environment on Windows was tricky, and a lot of users had troubles of this. Therefore we decided to develop a fully automatic setup for Windows, to avoid users getting frustrated, and possibly give up, before they ever started on the real development. That's in a nullshet the short background of why this setup exists in the first place.
