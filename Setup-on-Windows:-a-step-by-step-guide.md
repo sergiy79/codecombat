@@ -63,6 +63,7 @@ The entire setup is designed to be as user friendly and automatic as possible. I
 1. When installing GitBash, make sure to select the option that adds this tool to your Windows PATH.
 ![Git Bash Remark](https://dl.dropboxusercontent.com/u/80071057/codecombat/gitbash_path.png)
    1. Not changing the default path of your bash installation, will safe you work later on, in the installation!
+   2. Not selecting the option to add git to your path, will give you errors related to not finding git later on in this installation.
 2. When installing NodeJS, make sure to select the option to add this tool to your Windows PATH. ![NodeJS Windows Path](https://dl.dropboxusercontent.com/u/80071057/codecombat/nodejs_path.png)
    1. When you fail this step, you'll get errors related to npm in a later phase of this installation.
 3. When installing Ruby, make sure to select the option to addd this tool to your Windows PATH. ![Ruby Windows Path](https://dl.dropboxusercontent.com/u/80071057/codecombat/ruby_path.png)
