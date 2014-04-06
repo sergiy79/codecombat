@@ -21,7 +21,7 @@ We're teaching people [JavaScript](http://en.wikipedia.org/wiki/JavaScript). The
 9. [JavaScript features](https://github.com/codecombat/codecombat/wiki/Coding-Guidelines-for-Artisans#javascript-features)
 
 ## TLDR
-We understand that you're very busy. Here is a big example that summarizes most of the things that you should now. Note that we recommend that you read through the entire wiki page for a complete and definitive overview of our **Coding Guidelines for Artisans**.
+We understand that you're very busy. Here is a big example that summarizes most of the things that you should know. Note that we recommend that you read through the entire wiki page for a complete and definitive overview of our **Coding Guidelines for Artisans**.
 ```
 // Hello World
 ```
