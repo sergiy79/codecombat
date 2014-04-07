@@ -81,7 +81,7 @@ The entire setup is designed to be as user friendly and automatic as possible. I
 **[Go back to the top.](#index)**
 
 ####NPM, Brunch and MongoDB
-This part is fully automatic and reacts no user interaction. This step can take several minutes to complete, so please have patient.
+This part is fully automatic and requires no user interaction. This step can take several minutes to complete, so please have patient.
 
 **[Go back to the top.](#index)**
 
