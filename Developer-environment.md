@@ -40,6 +40,7 @@ To get a sandbox copy of the CodeCombat database for your local Mongo, see [Rest
 <a name="windows_details"></a>
 ###Windows 
 ##### The-fully-automatic-easy-way:
+DISCLAIMER DOWNLOAD LINKS DO NOT WORK TEMPORARILY!! (We'll be fixing them shortly)
 Download the latest version [here](https://s3.amazonaws.com/CodeCombatLargeFiles/coco-dev-win-setup-2.1.zip) and/or follow the instructions from [this step-by-step guide](https://github.com/codecombat/codecombat/wiki/Setup-on-Windows:-a-step-by-step-guide). The complete process is fully automated for all supported Windows versions.
 
 We support the following, and only the following versions:
@@ -53,7 +54,7 @@ Other versions, newer then _Windows XP_, and not listed above, might work, but w
 ##### The-do-it-manual-way:
 To install on Windows, follow the [[Windows Development Environment Setup Guide]], or run the VM as detailed below. Unless you have Visual Studio C++, running the VM may be more convenient.
 
-##### The-do-it-via-a-vm-way:
+##### The-do-it-via-a-vm-way (THIS METHOD IS UNAVAILABLE FOR NOW, DOWNLOAD LINKS DO NOT WORK)
 If you want to run the VM, you'll have to [download VirtualBox](http://download.virtualbox.org/virtualbox/4.3.6/VirtualBox-4.3.6-91406-Win.exe), install it, then [download](https://s3.amazonaws.com/CodeCombatLargeFiles/CoCoLinux.ova) ([torrent](https://s3.amazonaws.com/CodeCombatLargeFiles/CoCoLinux.ova?torrent)) and import the CodeCombat Linux appliance by going to File:Import Appliance (note that occasionally the large download may be corrupted, so it's often easier to use the torrent.) The "CodeCombat" user account password is "coco". Once you have the Linux virtual machine running, the follow the directions above. To ease development, you can set up a shared folder so that you can edit files in Windows and have them accessible to the Ubuntu VM. See directions for setting up shared folders [here.](http://mikesmithers.wordpress.com/2011/03/23/installing-ubuntu-in-virtualbox-on-a-windows-7-host/#attachment_898) You can also [set up bridged networking](http://askubuntu.com/questions/196118/how-to-access-localhost-on-virtualbox-host-machine) so that your server is accessible from Windows.
 
 
@@ -96,7 +97,7 @@ Usually, restarting it by hitting Ctrl-C once in the Brunch terminal window will
 When building in the dev environment, you have a filtered copy of the live database with just the publicly available data. It may look like what you'll find on the site, but changes you make won't show up on the site. Currently, there's no easy way to transfer data you make on your dev environment back to production, so be sure to build levels you want to share on the site, not on the dev server.
 
 #### Setup
-Download [the public CodeCombat MongoDB sandbox copy backup](http://23.21.59.137/dump.tar.gz)(updated every 10 minutes) and import it into your locally running database with the following steps. (NOTE: If you experience corruption of the download, there is a not up-to-date version [here.](https://s3.amazonaws.com/CodeCombatLargeFiles/public_dump.tar.gz) If you go on the chatroom, we will update it if you are having problems downloading the other version.)
+Download [the public CodeCombat MongoDB sandbox copy backup](http://23.21.59.137/dump.tar.gz)(updated every 10 minutes) and import it into your locally running database with the following steps. 
 
 1. Make sure the database is running on your computer (./bin/coco-mongodb).
 2. If the backup file is compressed, uncompress it (for instance, if it is a .tar.gz file, run `tar xzvf [filename]`) 
