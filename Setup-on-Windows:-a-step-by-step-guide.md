@@ -17,9 +17,10 @@ _For now it's best to use [the manual installation guide](https://github.com/cod
 7. **[Final Note](#final-note)**
 
 #### Download
-Download the latest version: [v2.0 (beta)](https://s3.amazonaws.com/CodeCombatLargeFiles/coco-dev-win-setup-2.0.zip)
+Download the latest version: [v2.1 (beta)](https://s3.amazonaws.com/CodeCombatLargeFiles/coco-dev-win-setup-2.1.zip)
 
 Here is a list of older versions, available to download:
+* [v2.0 (beta)](https://s3.amazonaws.com/CodeCombatLargeFiles/coco-dev-win-setup-2.0.zip)
 * [v1.2 (beta)](https://s3.amazonaws.com/CodeCombatLargeFiles/coco-dev-win-setup-1.2.zip)
 * [v1.1 (beta)](https://s3.amazonaws.com/CodeCombatLargeFiles/coco-dev-win-setup-1.1.zip)
 * [v1.0 (beta)](https://s3.amazonaws.com/CodeCombatLargeFiles/coco-dev-win-setup-1.1.zip)
