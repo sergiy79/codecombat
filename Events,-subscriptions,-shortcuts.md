@@ -11,7 +11,7 @@ module.exports = class TomeView extends View
     'surface:sprite-selected': 'onSpriteSelected'
 ```
 
-Subscriptions are built on [Backbone-Mediator](https://github.com/chalbert/Backbone-Mediator). These are for inter-object communication that needs to be very generalized. This happens for example when:
+Subscriptions are built on [Validated-Backbone-Mediator](https://github.com/rubenvereecken/Validated-Backbone-Mediator). These are for inter-object communication that needs to be very generalized. This happens for example when:
 
 * Relationships between objects are distant, varied or subject to change
 * Scripts in levels need to be able to use them, either to trigger the script or to cause an effect of the script.
@@ -19,6 +19,41 @@ Subscriptions are built on [Backbone-Mediator](https://github.com/chalbert/Backb
 All `CocoView` subclasses support subscriptions. Objects subscribe on construction by default and tear them down when destroy is called.
 
 See the [Backbone-Mediator repository](https://github.com/chalbert/Backbone-Mediator) for more details.
+
+## Subscription Validation
+To regulate what objects get passed around (or _published_), all such objects are subject to [JSON Schema](http://json-schema.org/) validation. This allows for all of these objects to be defined and documented in a central location, namely `app/schemas`. The validation itself is done by [tv4](https://github.com/geraintluff/tv4); all we need to do is write down the schemas.
+
+Schemas go into two categories: object definitions and channel descriptions. The latter is the most important as it defines what the objects look like that a certain channel will accept. The former allows for describing other objects (anything, really) that other schemas may refer to for completeness. 
+An example of this is the `level:view-switched` channel, which simply accepts `jQueryEvent` objects. 
+
+Here's a short `jQueryEvent` definition:
+
+```coffee
+jQueryEvent:
+  title: "jQuery Event"
+  id: "jQueryEvent"
+  $schema: "http://json-schema.org/draft-04/schema#"
+  description: "A standard jQuery Event"
+  type: "object"
+  properties:
+    altKey:
+      type: "boolean"
+  required: []
+  additionalProperties: true
+```
+
+... and here follows the `level:view-switched` definition, which is actually just a `jQueryEvent` with a
+different name.
+
+```coffee
+"level:view-switched":
+  title: "Level View Switched"
+  $schema: "http://json-schema.org/draft-04/schema#"
+  description: "Published whenever the view switches"
+  $ref: "jQueryEvent"
+```
+
+See how the `level:view-switched` schema uses `$ref` to refer to the `id` of `jQueryEvent`? It's that simple really.
 
 ## Events
 
