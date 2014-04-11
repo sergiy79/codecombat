@@ -6,9 +6,9 @@ _For now it's best to use [the manual installation guide](https://github.com/cod
 #### TLDR
 1. [download](#download);
 2. unarchive;
-3. open setup.exe and follow instructions;
-4. open configuration.exe and follow instructions;
-5. start SCOCODE.bat and enjoy your fresh Code Combat environment;
+3. open setup.exe and follow the instructions;
+4. open configuration.exe and follow the instructions;
+5. start .\SCOCODE.bat and enjoy your fresh Code Combat environment;
 6. in case of an error in one of the opened windows of step 5, redo the step;
 
 #### Index
