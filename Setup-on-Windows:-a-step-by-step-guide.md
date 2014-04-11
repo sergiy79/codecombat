@@ -97,13 +97,17 @@ Here is a template cache file you can base yourself on:
 
 ``
 <?xml version="1.0" encoding="ISO-8859-1" ?>
+
 <variables>
+
     <language_id>LANGUAGE_CODE</language_id>
+
     <repository_path>THE_FULL_PATH_TO_YOUR_LOCAL_COCO_REPOSITORY</repository_path>
+
 </variables>
 ``
 
-* An example for the ``LANGUAGE_CODE`` is en (which is the code for English). You can find all the language codes inside .\localisation\languages.coco. Every language code is also represented by a file named .\localisation\LANGUAGE_CODE.coco.
+* An example for the ``LANGUAGE_CODE`` is ``en`` (which is the code for _English_). You can find all the language codes inside ``.\localisation\languages.coco``. Every language code is also represented by a file named ``.\localisation\LANGUAGE_CODE.coco``.
 * An example for ``THE_FULL_PATH_TO_YOUR_LOCAL_COCO_REPOSITORY`` is ``C:\coco``.
 
 **[Go back to the top.](#index)**
