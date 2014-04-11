@@ -44,10 +44,10 @@ To get a sandbox copy of the CodeCombat database for your local Mongo, see [Rest
 Download the latest version [here (v3.3)](https://s3.amazonaws.com/CodeCombatLargeFiles/coco-dev-win-setup-3.3.zip) and/or follow the instructions from [this step-by-step guide](https://github.com/codecombat/codecombat/wiki/Setup-on-Windows:-a-step-by-step-guide). The complete process is fully automated for all supported Windows versions.
 
 We support the following, and only the following versions:
-* Windows Vista _(not yet confirmed)_
-* Windows 7 _(confirmed)_
-* Windows 8.0 _(not yet confirmed)_
-* Windows 8.1 _(not yet confirmed)_
+* Windows Vista
+* Windows 7
+* Windows 8.0
+* Windows 8.1
 
 Other versions, newer then _Windows XP_, and not listed above, might work, but we don't guarantee that they will.
 
