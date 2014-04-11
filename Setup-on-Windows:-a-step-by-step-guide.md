@@ -1,9 +1,9 @@
 #### TLDR
 1. [download](#download);
 2. unarchive;
-3. open setup.exe and follow the instructions;
-4. open configuration.exe and follow the instructions;
-5. start .\SCOCODE.bat and enjoy your fresh Code Combat environment;
+3. open ``setup.exe`` and follow the instructions;
+4. open ``configuration.exe`` and follow the instructions;
+5. start ``.\SCOCODE.bat`` and enjoy your fresh Code Combat environment;
 6. in case of an error in one of the opened windows of step 5, redo the step;
 
 #### Index
@@ -82,11 +82,11 @@ In case you are working on a public computer or if you want a more secure soluti
 **[Go back to the top.](#index)**
 
 ####NPM, Brunch and MongoDB
-This part is fully automatic and requires no user interaction. This step can take several minutes to complete, so please have patient. Note however, that this step is to be manually started by opening the configuration.exe file AFTER the setup.exe file has succesfully finished.
+This part is fully automatic and requires no user interaction. This step can take several minutes to complete, so please have patient. Note however, that this step is to be manually started by opening the ``configuration.exe`` file AFTER the ``setup.exe`` file has succesfully finished.
 
 #####Note
 
-Although this seperate configuration.exe setup file isn't designed to be used as a stand-alone installer, with a little effort on your side, you could use it as a stand-alone installer to configure a fresh local CodeCombat repository on a computer that has all the software, CodeCombat depends on, installed. This configuration.exe file also requires that all your environment variables have been set correctly. In order to use this step as a stand-alone installer, you'll have to create an xml-structured file named ``cache.coco`` inside ``.\config\``, where the root is the installer root (the directory you downloaded).
+Although this seperate ``configuration.exe`` setup file isn't designed to be used as a stand-alone installer, with a little effort on your side, you could use it as a stand-alone installer to configure a fresh local CodeCombat repository on a computer that has all the software, CodeCombat depends on, installed. This configuration.exe file also requires that all your environment variables have been set correctly. In order to use this step as a stand-alone installer, you'll have to create an xml-structured file named ``cache.coco`` inside ``.\config\``, where the root is the installer root (the directory you downloaded).
 
 Here is a template cache file you can base yourself on:
 
