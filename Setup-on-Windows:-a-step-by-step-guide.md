@@ -91,7 +91,7 @@ This part is fully automatic and requires no user interaction. This step can tak
 
 #####Note
 
-Although this seperate configuration.exe setup file isn't designed to be used as a stand-alone installer, with a little effort on your side, you could use it as a stand-alone installer to configure a fresh local CodeCombat repository on a computer that has all the software, CodeCombat depends on, installed. For this you'll have to create an xml-structured file named ``cache.coco`` inside ``.\config\``, where the root is the installer root (the directory you downloaded).
+Although this seperate configuration.exe setup file isn't designed to be used as a stand-alone installer, with a little effort on your side, you could use it as a stand-alone installer to configure a fresh local CodeCombat repository on a computer that has all the software, CodeCombat depends on, installed. This configuration.exe file also requires that all your environment variables have been set correctly. In order to use this step as a stand-alone installer, you'll have to create an xml-structured file named ``cache.coco`` inside ``.\config\``, where the root is the installer root (the directory you downloaded).
 
 Here is a template cache file you can base yourself on:
 
