@@ -87,7 +87,24 @@ In case you are working on a public computer or if you want a more secure soluti
 **[Go back to the top.](#index)**
 
 ####NPM, Brunch and MongoDB
-This part is fully automatic and requires no user interaction. This step can take several minutes to complete, so please have patient.
+This part is fully automatic and requires no user interaction. This step can take several minutes to complete, so please have patient. Note however, that this step is to be manually started by opening the configuration.exe file AFTER the setup.exe file has succesfully finished.
+
+#####Note
+
+Although this seperate configuration.exe setup file isn't designed to be used as a stand-alone installer, with a little effort on your side, you could use it as a stand-alone installer to configure a fresh local CodeCombat repository on a computer that has all the software, CodeCombat depends on, installed. For this you'll have to create an xml-structured file named ``cache.coco`` inside ``.\config\``, where the root is the installer root (the directory you downloaded).
+
+Here is a template cache file you can base yourself on:
+
+``
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<variables>
+    <language_id>LANGUAGE_CODE</language_id>
+    <repository_path>THE_FULL_PATH_TO_YOUR_LOCAL_COCO_REPOSITORY</repository_path>
+</variables>
+``
+
+* An example for the ``LANGUAGE_CODE`` is en (which is the code for English). You can find all the language codes inside .\localisation\languages.coco. Every language code is also represented by a file named .\localisation\LANGUAGE_CODE.coco.
+* An example for ``THE_FULL_PATH_TO_YOUR_LOCAL_COCO_REPOSITORY`` is ``C:\coco``.
 
 **[Go back to the top.](#index)**
 
