@@ -78,6 +78,12 @@ The entire setup is designed to be as user friendly and automatic as possible. I
      1. First you'll have to give the path to your root directory of where you installed Git Bash in a previous step.
      2. After that is done you can enter the full path of where we can put the CodeCombat repository for you.
 
+#####Note
+
+The automatic option for this phase will ask at the end for your git username and password. It will use this to modify the _origin_ remote of your local repository so that you can push easily to your forked repository of CodeCombat without any extra auth steps necacary. Note that this is not recommended in case you are developing on a public computer, as your git login information will be safed as plain text inside the .git directory of your local repository.
+
+In case you are working on a public computer or if you want a more secure solution you can switch to an ssh connection for your origin remote. You can edit your remote after the automated setup is done, or you can choose the manual git setup option when this question is promped. Before you can use an ssh connection you'll have to generate an sshkey and add it to your GitHub account. You can read and learn how to do this via [this official ssh key guide](https://help.github.com/articles/generating-ssh-keys) by GitHub. After that you'll need the ssh url of your forked repository which will look like this: ``git@github.com:YOUR_USER_NAME/codecombat.git``
+
 **[Go back to the top.](#index)**
 
 ####NPM, Brunch and MongoDB
