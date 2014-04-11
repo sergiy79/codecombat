@@ -41,18 +41,15 @@ To get a sandbox copy of the CodeCombat database for your local Mongo, see [Rest
 ###Windows 
 ##### The-fully-automatic-easy-way:
 
-Download the latest version [here](https://s3.amazonaws.com/CodeCombatLargeFiles/coco-dev-win-setup-2.1.zip) and/or follow the instructions from [this step-by-step guide](https://github.com/codecombat/codecombat/wiki/Setup-on-Windows:-a-step-by-step-guide). The complete process is fully automated for all supported Windows versions.
+Download the latest version [here (v3.3)](https://s3.amazonaws.com/CodeCombatLargeFiles/coco-dev-win-setup-3.3.zip) and/or follow the instructions from [this step-by-step guide](https://github.com/codecombat/codecombat/wiki/Setup-on-Windows:-a-step-by-step-guide). The complete process is fully automated for all supported Windows versions.
 
 We support the following, and only the following versions:
 * Windows Vista _(not yet confirmed)_
-* Windows 7 _(tests in progress)_
+* Windows 7 _(confirmed)_
 * Windows 8.0 _(not yet confirmed)_
 * Windows 8.1 _(not yet confirmed)_
 
 Other versions, newer then _Windows XP_, and not listed above, might work, but we don't guarantee that they will.
-
-##### The-do-it-manual-way:
-To install on Windows, follow the [[Windows Development Environment Setup Guide]], or run the VM as detailed below. Unless you have Visual Studio C++, running the VM may be more convenient.
 
 ##### The-do-it-via-a-vm-way (THIS METHOD IS UNAVAILABLE FOR NOW, DOWNLOAD LINKS DO NOT WORK)
 If you want to run the VM, you'll have to [download VirtualBox](http://download.virtualbox.org/virtualbox/4.3.6/VirtualBox-4.3.6-91406-Win.exe), install it, then [download](https://s3.amazonaws.com/CodeCombatLargeFiles/CoCoLinux.ova) ([torrent](https://s3.amazonaws.com/CodeCombatLargeFiles/CoCoLinux.ova?torrent)) and import the CodeCombat Linux appliance by going to File:Import Appliance (note that occasionally the large download may be corrupted, so it's often easier to use the torrent.) The "CodeCombat" user account password is "coco". Once you have the Linux virtual machine running, the follow the directions above. To ease development, you can set up a shared folder so that you can edit files in Windows and have them accessible to the Ubuntu VM. See directions for setting up shared folders [here.](http://mikesmithers.wordpress.com/2011/03/23/installing-ubuntu-in-virtualbox-on-a-windows-7-host/#attachment_898) You can also [set up bridged networking](http://askubuntu.com/questions/196118/how-to-access-localhost-on-virtualbox-host-machine) so that your server is accessible from Windows.
