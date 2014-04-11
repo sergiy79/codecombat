@@ -1,8 +1,3 @@
-#### WARNING
-_The automatic setup for Windows is still in development. This first version doesn't install the npm dependencies yet. it also doesn't setup your mongodb yet. For more information on release of newer versions, ask **Glen DC** on the [CodeCombat chatroom](http://www.hipchat.com/g3plnOKqa)._
-
-_For now it's best to use [the manual installation guide](https://github.com/codecombat/codecombat/wiki/Windows-Development-Environment-Setup-Guide) if you want to develop on CodeCombat on the Windows platform._ 
-
 #### TLDR
 1. [download](#download);
 2. unarchive;
