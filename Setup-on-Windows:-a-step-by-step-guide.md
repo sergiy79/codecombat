@@ -8,16 +8,24 @@
 
 #### Index
 0. **[Download](#download)**
-1. **[Introduction](#introduction)**
-2. **[How to use this installation](#how-to-use-this-installation)**
-3. **[The first steps](#the-first-steps)**
-4. **[Software guide](#software-guide)**
-5. **[Git Initialization](#git-initialization)**
-6. **[NPM, Brunch and MongoDB](#npm-brunch-and-mongodb)**
-7. **[Final Note](#final-note)**
+1. **[Archmage instructions](#archmage-instructions)**
+2. **[Introduction](#introduction)**
+3. **[How to use this installation](#how-to-use-this-installation)**
+4. **[The first steps](#the-first-steps)**
+5. **[Software guide](#software-guide)**
+6. **[Git Initialization](#git-initialization)**
+7. **[NPM, Brunch and MongoDB](#npm-brunch-and-mongodb)**
+8. **[Final Note](#final-note)**
 
 #### Download
-Download the latest version: [v3.4 (beta)](https://s3.amazonaws.com/CodeCombatLargeFiles/coco-dev-win-setup-3.4.zip)
+Download the latest version: [v3.5 (beta)](https://s3.amazonaws.com/CodeCombatLargeFiles/coco-dev-win-setup-3.5.zip)
+
+#### Archmage instructions
+This paragraph is only for people who want to help on the development of the installation system, if you're a user of this system, you can and should skip this paragraph and go to [the next one](#introduction).
+
+[The scripts for the installer](https://github.com/codecombat/codecombat/tree/master/scripts/windows/coco-dev-setup/batch/scripts) are all scripts used for the installer. They are packed [with this script](https://github.com/codecombat/codecombat/blob/master/scripts/windows/coco-dev-setup/dev-setup-packer.bat) into an installation package by us, when releasing a new version. You should know that the installation package also contains a ``utilities`` directory. This contains curl and 7zip command-line executables. The install system depends on this. So in case you want to open the setup from your develop environment, for testing, you should download and unarchive the utilities directory in [./scripts/windows/coco-dev-setup/batch/](https://github.com/codecombat/codecombat/tree/master/scripts/windows/coco-dev-setup/batch).
+
+**[Go back to the top.](#index)**
 
 #### Introduction
 The manual installation of the CodeCombat development environment on Windows was tricky, and a lot of users had troubles with this. Therefore we decided to develop a fully automatic setup for Windows, to avoid users getting frustrated and giving up before they ever started on real development. That's in a nutshell the short background of why this setup exists in the first place.
