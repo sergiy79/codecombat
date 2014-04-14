@@ -15,7 +15,8 @@
 5. **[Software guide](#software-guide)**
 6. **[Git Initialization](#git-initialization)**
 7. **[NPM, Brunch and MongoDB](#npm-brunch-and-mongodb)**
-8. **[Final Note](#final-note)**
+8. **[Known Nodemon Issue](#known-nodemon-issue)**
+9. **[Final Note](#final-note)**
 
 #### Download
 Download the latest version: [v3.5 (beta)](https://s3.amazonaws.com/CodeCombatLargeFiles/coco-dev-win-setup-3.5.zip)
@@ -108,6 +109,19 @@ Here is a template cache file you can base yourself on:
 
 * An example for the ``LANGUAGE_CODE`` is ``en`` (which is the code for _English_). You can find all the language codes inside ``.\localisation\languages.coco``. Every language code is also represented by a file named ``.\localisation\LANGUAGE_CODE.coco``.
 * An example for ``THE_FULL_PATH_TO_YOUR_LOCAL_COCO_REPOSITORY`` is ``C:\coco``.
+
+**[Go back to the top.](#index)**
+
+#### Known Nodemon Issue
+
+Starting up SOCODE.bat for the first time and seeing the following error?
+![NodeMon Issue](http://scdn-discourse.r.worldssl.net/uploads/codecombat/_optimized/8e3/53d/9bd7a0f086_674x500.png)
+
+Don't worry, we know about this issue, and are working on a solution. Here is how are you can solve it, untill we fix the problem for good:
+
+1.  Let MongoDB make a succesfull local connection and let Brunch finnish a full compilation
+2.  Close all windows
+3.  Start SOCODE.bat again and enjoy your local CodeCombat Development Environment!
 
 **[Go back to the top.](#index)**
 
