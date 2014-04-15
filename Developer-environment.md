@@ -8,7 +8,7 @@ These directions apply to Linux and Mac OS X. For Windows, [see the paragraph ne
 
 1. [Set up a GitHub account](https://help.github.com/articles/set-up-git) if you don't already have one.
 1. (Optional) If you'd like your changes able to be integrated into the official CodeCombat repository, click the *Fork* button in the upper right hand corner of the page.
-1. Open a terminal. 
+1. Open a terminal and browse to the folder you wish to install codecombat under. 
     * If you've forked the repository, paste in the following command *with your forked repository URL*
     ```bash
     curl https://raw.github.com/codecombat/codecombat/master/scripts/devSetup/bootstrap.sh | bash -s your_repository_url
