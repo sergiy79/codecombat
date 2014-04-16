@@ -69,7 +69,8 @@ If you're on Ubuntu, check out [Steve Malmskog's instructions.](https://github.c
   1. sudo npm install -g bower
   1. bower install ( bower install each dependency from bower.json )
   1. sudo npm install -g brunch
-  1. Download [MongoDB 2.6.0](http://www.mongodb.org/downloads) and put the mongo folder in bin
+  1. Download [MongoDB 2.6.0](http://www.mongodb.org/downloads)
+  1. Start up Mongodb and define the bin folder of coco as your --dbpath variable
 1. Run bin/coco-mongodb, bin/coco-brunch and bin/coco-dev-server.
 1. Go to [http://localhost:3000](http://localhost:3000) to see your local CodeCombat in action.
 
