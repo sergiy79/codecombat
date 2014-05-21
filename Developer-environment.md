@@ -50,7 +50,8 @@ We support the following, and only the following versions:
 * Windows 8.1
 
 Other versions, newer then _Windows XP_, and not listed above, might work, but we don't guarantee that they will.
-
+##### The-do-it-via-vagrant-vm-way (unofficial)
+If you have [vagrant](http://www.vagrantup.com/) and virtualbox installed, you can clone [https://github.com/dpen2000/Codecombat-Vagrant](https://github.com/dpen2000/Codecombat-Vagrant) and then run ```vagrant up``` to have a VM auto-provisioned for you, with folder mappings, the website available at http://localhost:3000/ and the latest mongo data auto restored into your Mongo instance. More details in the [https://github.com/dpen2000/Codecombat-Vagrant/blob/master/README.md](Readme).  
 ##### The-do-it-via-a-vm-way (THIS METHOD IS UNAVAILABLE FOR NOW, DOWNLOAD LINKS DO NOT WORK)
 If you want to run the VM, you'll have to [download VirtualBox](http://download.virtualbox.org/virtualbox/4.3.6/VirtualBox-4.3.6-91406-Win.exe), install it, then [download](https://s3.amazonaws.com/CodeCombatLargeFiles/CoCoLinux.ova) ([torrent](https://s3.amazonaws.com/CodeCombatLargeFiles/CoCoLinux.ova?torrent)) and import the CodeCombat Linux appliance by going to File:Import Appliance (note that occasionally the large download may be corrupted, so it's often easier to use the torrent.) The "CodeCombat" user account password is "coco". Once you have the Linux virtual machine running, the follow the directions above. To ease development, you can set up a shared folder so that you can edit files in Windows and have them accessible to the Ubuntu VM. See directions for setting up shared folders [here.](http://mikesmithers.wordpress.com/2011/03/23/installing-ubuntu-in-virtualbox-on-a-windows-7-host/#attachment_898) You can also [set up bridged networking](http://askubuntu.com/questions/196118/how-to-access-localhost-on-virtualbox-host-machine) so that your server is accessible from Windows.
 
