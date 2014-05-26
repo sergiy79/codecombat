@@ -37,6 +37,13 @@ If you face issues with bower not being able to clone git repositories, you coul
 
 To get a sandbox copy of the CodeCombat database for your local Mongo, see [Restoring a backup](https://github.com/codecombat/codecombat/wiki/Developer-environment#wiki-database).
 
+If sass complains about file encodings being wrong, try adding this to your .bash_profile:
+
+```bash
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+```
+
 <a name="windows_details"></a>
 ###Windows 
 ##### The-fully-automatic-easy-way:
