@@ -8,7 +8,7 @@ Testing is a very valuable process. Like version control, it absolves programmer
 
 Now when you make changes to server code or tests, the server-test-runner will run the tests in /test/server and show results in the terminal.
 
-## Running client tests
+## Running client tests in the terminal
 
 * Run coco-mongodb
 * Run coco-brunch
