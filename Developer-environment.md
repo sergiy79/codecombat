@@ -44,6 +44,9 @@ export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 ```
 
+If you see a white screen only, check to see if the first line of app.css is `ERROR: Cannot load compass.`. If so, try either uninstalling compass (`gem uninstall compass`) or re-installing it if you actually need it (`gem install compass --pre`).
+
+
 <a name="windows_details"></a>
 ###Windows 
 ##### The-fully-automatic-easy-way:
