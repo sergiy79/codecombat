@@ -6,7 +6,7 @@ When players type code into your website, you can do one of three things:
 
 CodeCombat chose option three, and thus [Aether](https://github.com/codecombat/aether) was spawned. When a player casts their code spell, we go crazy on it--we lint it, we parse it, we sandbox it, we rewrite it, we transpile it, we parse it again, we rewrite it more, we instrument it, we transform it into continuation-passing style so we can execute it piecemeal, we transpile it again, we send it over to a Web Worker, we jam it into our [[World]] simulation, we run it, and then we serialize the results, the control flow, the execution metrics, and any errors back to the main thread. (Yes, we're still talking about JavaScript here.)
 
-Why? It turns out you have to be crazy like this if you want to provide live-coding performance, friendly error messages, multiplayer security, offline play, and time-travel debugging, [Brett-Victor-style](http://worrydream.com/LearnableProgramming/).
+Why? It turns out you have to be crazy like this if you want to provide live-coding performance, friendly error messages, multiplayer security, offline play, and time-travel debugging, [Bret-Victor-style](http://worrydream.com/LearnableProgramming/).
 
 Aether is a separate GitHub project, since we could imagine it being useful to others who want to do similarly crazy things with JavaScript and learnable programming. See more details on [its project page](https://github.com/codecombat/aether). It needs a lot of work to be both the novice's friend and hacker's superweapon that it can be, but the basics are all there, if not yet organized into a good open source project.
 
