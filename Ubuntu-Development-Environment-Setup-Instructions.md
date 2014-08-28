@@ -36,11 +36,11 @@ Install ruby and sass:
 Setup bower:
 - cd $COCO_TREE && bower install
 
-Download and (manually) install mongodb 2.5.4 for Linux:
+Download and (manually) install mongodb 2.6 for Linux:
 - cd $MONGO_DL
-- wget http://fastdl.mongodb.org/linux/mongodb-linux-x86_64-2.5.4.tgz (wget http://downloads.mongodb.org/linux/mongodb-linux-i686-2.5.4.tgz for 32-bit)
-- tar xfz mongodb-linux-x86_64-2.5.4.tgz
-- sudo cp mongodb-linux-x86_64-2.5.4/bin/* /usr/local/bin
+- wget https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-2.6.4.tgz (wget https://fastdl.mongodb.org/linux/mongodb-linux-i686-2.6.4.tgz for 32-bit)
+- tar xfz mongodb-linux-x86_64-2.6.4.tgz
+- sudo cp mongodb-linux-x86_64-2.6.4/bin/* /usr/local/bin
 - sudo mkdir -p /data/db
 - sudo chown -R \<username\>:\<username\> /data/db
    where \<username\> = your username (e.g., whoami)
@@ -67,7 +67,7 @@ Start up brunch:
    Note: you may get a ulimit warning; you can safely ignore.
    This should say something like:
 
-   info: compiled 411 files into 7 files, copied 102 in 47797ms
+   info: compiled 696 files into 6 files, copied 286 in 34766ms
 
    It will continue to run in the foreground.
 
