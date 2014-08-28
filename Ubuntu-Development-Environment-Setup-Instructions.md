@@ -54,7 +54,7 @@ Install database snapshot:
 - In first terminal:
    - cd $COCO_TREE && bin/coco-mongodb
 - In another terminal:
-   - cd $COCO_DB && mongorestore dump
+   - cd $COCO_DB && mongorestore --drop dump
 
 ###Running
 
