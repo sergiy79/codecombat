@@ -47,8 +47,8 @@ Download and (manually) install mongodb 2.5.4 for Linux:
 
 Download and unpack database snapshot:
 - mkdir -p $COCO_DB && cd $COCO_DB
-- wget https://s3.amazonaws.com/uploads.hipchat.com/60497/416620/DyI9sxIrTmiR6ms/coco_backup_public.tar.gz
-- tar xfz coco_backup_public.tar.gz
+- wget http://54.91.159.37/dump.tar.gz
+- tar xfz dump.tar.gz
 
 Install database snapshot:
 - In first terminal:
