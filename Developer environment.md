@@ -17,6 +17,7 @@ These directions apply to Linux and Mac OS X. For Windows, [see the paragraph ne
     ```bash
     curl https://raw.githubusercontent.com/codecombat/codecombat/master/scripts/devSetup/bootstrap.sh | bash
     ```
+   It should work with Python 2 or 3.1, but possibly not 3.2+ (yet).
 1. Follow the prompts. This should download and install all the necessary dependencies. If you've used the script above, it will prompt you to run the command below. If you cloned the repository yourself, you can also run the script below (you may need to edit it based on your current working directory.)
 
     ```
@@ -31,7 +32,7 @@ These directions apply to Linux and Mac OS X. For Windows, [see the paragraph ne
 
 NOTE: The repository will be in the coco subdirectory.  You should not run a separate git clone, as that is taken care of.
 
-This should work on Mac and Linux, but it's brand new, so please let us know of any problems you run into. On Mac, you'll need [Xcode Developer Tools](http://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12). On Linux, you'll need make, build-essential, ruby, curl, and git installed. 
+This should work on Mac and Linux. Please let us know of any problems you run into. On Mac, you'll need [Xcode Developer Tools](http://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12). On Linux, you'll need make, build-essential, ruby, curl, and git installed. 
 
 If you face issues with bower not being able to clone git repositories, you could try - [Clone over https](http://stackoverflow.com/questions/1722807/git-convert-git-urls-to-http-urls/11383587#11383587).
 
