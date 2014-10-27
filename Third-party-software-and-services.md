@@ -14,7 +14,7 @@ If you add a project or tool to CodeCombat, please list it here and on the open-
 ## Server-side
 
 * [Node.js](http://nodejs.org/api/): The web server.
-* [Express](http://expressjs.com/guide.html): The web framework.
+* [Express](http://expressjs.com): The web framework.
 * [MongoDB](http://docs.mongodb.org/manual/): The database. Beyond standard collections, we also use the MongoDB search indexing and GridFS.
 
 ### Libraries available on the server
