@@ -52,6 +52,10 @@ If you see a white screen only, check to see if the first line of app.css is `ER
 ###Windows 
 ##### The-fully-automatic-easy-way:
 
+**Note**: this installer hasn't been updated in a while, so it may give you some old versions of things. If you'd care to help update it, that'd be so awesome. Otherwise, you might want to make sure you manually install the latest version of node, npm, MongoDB, and the sass gem.
+
+**Other note**: if your brunch isn't compiling sass properly, try removing the bless-brunch entry from package.json and deleting the bless-brunch folder from node_modules, then getting sass-brunch 1.7.0 with `npm install --save-dev sass-brunch@1.7.0`
+
 Download the latest version [here (v3.5)](https://s3.amazonaws.com/CodeCombatLargeFiles/coco-dev-win-setup-3.5.zip) and/or follow the instructions from [this step-by-step guide](https://github.com/codecombat/codecombat/wiki/Setup-on-Windows:-a-step-by-step-guide). The complete process is fully automated for all supported Windows versions.
 
 We support the following, and only the following versions:
