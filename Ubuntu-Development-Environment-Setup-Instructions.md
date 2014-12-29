@@ -37,7 +37,7 @@ Setup bower:
 - cd $COCO_TREE && bower install
 
 Download and (manually) install mongodb 2.6 for Linux:
-- cd $MONGO_DL
+- mkdir -p $MONGO_DL && cd $MONGO_DL
 - wget https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-2.6.4.tgz (wget https://fastdl.mongodb.org/linux/mongodb-linux-i686-2.6.4.tgz for 32-bit)
 - tar xfz mongodb-linux-x86_64-2.6.4.tgz
 - sudo cp mongodb-linux-x86_64-2.6.4/bin/* /usr/local/bin
