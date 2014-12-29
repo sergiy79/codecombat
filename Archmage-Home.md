@@ -1,4 +1,28 @@
 Hello [Archmages](http://codecombat.com/contribute/archmage)! Welcome to the developer wiki for CodeCombat. These documents are designed to give you everything you need to know, technical and non-technical, to dive into the project. If you see an opportunity to improve the docs, go ahead!
+## Beginners
+####1. Contact
+
+CodeCombat has a public HipChat room at [http://www.hipchat.com/g3plnOKqa](http://www.hipchat.com/g3plnOKqa), where we hang out when we're awake. Stop by, say hi, and ask a question any time. Although the core devs are asleep during the night (US Pacific time), there are usually a few other players awake.
+
+There's also an off-topic room at [http://www.hipchat.com/gaXOD7lQ8](http://www.hipchat.com/gaXOD7lQ8).
+
+You can also come to the [Discourse Forum](http://discourse.codecombat.com/) or check the [Main HipChat Room page](https://github.com/codecombat/codecombat/wiki/HipChat-Room)
+
+
+####2. Starting
+If you are new to coding, have a question, or something, you can go to the end of this file and check the FAQ.
+
+* You should get the  [[Developer Environment]]. 
+
+* You should check the [good-for-newbies issues](https://github.com/codecombat/codecombat/labels/good-for-newbies). You should easily do your first commit by [creating new Thang names](https://github.com/codecombat/codecombat/issues/53), [adding new tips for the loading screen](https://github.com/codecombat/codecombat/issues/710) or [adding documentation](https://github.com/codecombat/codecombat/issues/1237).
+
+* You should check all this wiki and understand how is CodeCombat organized. 
+
+* You can also [fix different bugs](https://github.com/codecombat/codecombat/labels/bug) or give new ideas in the HipChat.
+
+
+
+
 
 ## Stuff Everyone Should Know
 
@@ -42,3 +66,16 @@ Hello [Archmages](http://codecombat.com/contribute/archmage)! Welcome to the dev
 
 * [[Treema]], our general interface for editing JSON data with schemas
 * [[Aether]], our transpiler
+
+## FAQ
+**I don't understand git!!**
+
+Doing [this](https://www.codeschool.com/courses/try-git) super duper fast course should make yourself confortable
+
+**Can you help me [set up my dev environment](https://github.com/codecombat/codecombat/wiki/Developer-environment)?**
+
+We'll try! It should be a cinch on Linux or Mac, but it's pretty hard to get right on Windows right now. If you can't find us for help on Windows, you might try installing it on a Linux VM. (We'll be happy when someone can take the time and help us update our Windows installer.)
+
+**What can I do to get into Google Summer of Code in 2015?**
+
+We can't guarantee whether CodeCombat will participate or how many slots we'll get (last year there were four), but two things are certain: 1) competition will be high, and 2) preference will have to go to those who have already been contributing to our GitHub so that we know you can be effective working with our stack. So if you'd like to get paid to hack on CodeCombat for the summer for GSoC, let's start hacking on stuff together now. (And you might want to pick a backup organization, too, in case there aren't enough slots.)
