@@ -24,7 +24,7 @@ To install Node, first download the correct version of the installer from the ta
 ####Node Download Links
 | Windows Version| 32 bit | 64 bit |
 | :-------------: | :----: | :-----: |
-| All versions | [node.js](http://nodejs.org/dist/v0.10.24/node-v0.10.24-x86.msi) | [node.js](http://nodejs.org/dist/v0.10.24/x64/node-v0.10.24-x64.msi) | 
+| All versions | [node.js](http://nodejs.org/dist/v0.10.35/node-v0.10.35-x86.msi) | [node.js](http://nodejs.org/dist/v0.10.35/x64/node-v0.10.35-x64.msi) | 
 
 <img src="http://i.imgur.com/tEKA0UAl.jpg" alt="Make sure Node is added to your PATH" style="width: 200px;" />
 
@@ -44,8 +44,9 @@ MongoDB is the database used for CodeCombat. To install, execute the following s
 
 | Windows Version | 32 bit      | 64 bit  |
 | --------------- |:-------------:| :-----:|
-| 7/8/Server 2008R2 | [Not recommended](http://fastdl.mongodb.org/win32/mongodb-win32-i386-2.6.4.zip) | [MongoDB](http://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-2.6.4.zip) |
-| Vista |  [Not recommended](http://fastdl.mongodb.org/win32/mongodb-win32-i386-2.6.4.zip)  | [MongoDB](http://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2.6.4.zip) |
+| 7/8 | [MongoDB](https://fastdl.mongodb.org/win32/mongodb-win32-i386-2.8.0-rc4.zip) | [MongoDB](https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-2.8.0-rc4.zip) |
+| Vista |  [MongoDB](https://fastdl.mongodb.org/win32/mongodb-win32-i386-2.8.0-rc4.zip)  | [MongoDB](https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-2.8.0-rc4.zip) |
+| Server 2008 | [MongoDB](https://fastdl.mongodb.org/win32/mongodb-win32-i386-2.8.0-rc4.zip) | [MongoDB](https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2.6.6.zip) |
 | XP              | Not supported |  Not Supported |
 
 ###Ruby 
