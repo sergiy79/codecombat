@@ -6,22 +6,19 @@ CodeCombat has a public HipChat room at [http://www.hipchat.com/g3plnOKqa](http:
 
 There's also an off-topic room at [http://www.hipchat.com/gaXOD7lQ8](http://www.hipchat.com/gaXOD7lQ8).
 
-You can also come to the [Discourse Forum](http://discourse.codecombat.com/) or check the [Main HipChat Room page](https://github.com/codecombat/codecombat/wiki/HipChat-Room)
+You can also come to the [Discourse Forum](http://discourse.codecombat.com/) or check the [main HipChat Room page](https://github.com/codecombat/codecombat/wiki/HipChat-Room).
 
 
 ####2. Starting
-If you are new to coding, have a question, or something, you can go to the end of this file and check the FAQ.
+If you are new to coding or have a question, check the FAQ at the bottom of this page.
 
-* You should get the  [[Developer Environment]]. 
+* You should set up the [[Developer Environment]].
 
 * You should check the [good-for-newbies issues](https://github.com/codecombat/codecombat/labels/good-for-newbies). You should easily do your first commit by [creating new Thang names](https://github.com/codecombat/codecombat/issues/53), [adding new tips for the loading screen](https://github.com/codecombat/codecombat/issues/710) or [adding documentation](https://github.com/codecombat/codecombat/issues/1237).
 
 * You should check all this wiki and understand how is CodeCombat organized. 
 
-* You can also [fix different bugs](https://github.com/codecombat/codecombat/labels/bug) or give new ideas in the HipChat.
-
-
-
+* You can also [fix different bugs](https://github.com/codecombat/codecombat/labels/bug) or bring up new ideas in the HipChat.
 
 
 ## Stuff Everyone Should Know
@@ -70,7 +67,7 @@ If you are new to coding, have a question, or something, you can go to the end o
 ## FAQ
 **I don't understand git!!**
 
-Doing [this](https://www.codeschool.com/courses/try-git) super duper fast course should make yourself confortable
+Doing [this](https://www.codeschool.com/courses/try-git) super duper fast course should help get you comfortable.
 
 **Can you help me [set up my dev environment](https://github.com/codecombat/codecombat/wiki/Developer-environment)?**
 
