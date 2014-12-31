@@ -1,5 +1,7 @@
 Welcome Artisans! This wiki is the main documentation on how to use the CodeCombat editors to build the levels of your dreams.
 
+If you don't want to read stuff, you can watch a screencast instead: https://vimeo.com/codecombat/mirage-maker
+
 ## Stuff Everyone Should Know
 
 * [[Important Artisan Concepts]]
