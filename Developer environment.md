@@ -6,7 +6,8 @@ If you're running Mac OS X, you can see a screencast of the process [here.](http
 
 These directions apply to Linux and Mac OS X. For Windows, [see the paragraph near the bottom of this section.](#windows_details)
 
-1. [Set up a GitHub account](https://help.github.com/articles/set-up-git) if you don't already have one.
+1. [Create a GitHub account](https://github.com/join) if you don't already have one.
+1. [Set up Git on your computer](https://help.github.com/articles/set-up-git/) if you've never done it before. This will allow your computer to talk to GitHub. 
 1. (Optional) If you'd like your changes able to be integrated into the official CodeCombat repository, click the *Fork* button in the upper right hand corner of the page.
 1. Open a terminal and browse to the folder you wish to install codecombat under. 
     * If you've forked the repository, paste in the following command *with your forked repository URL*
