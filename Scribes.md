@@ -39,7 +39,7 @@ Let's say you wanted to update the [adventurer character class copy](http://code
 
 1. Update our base localization file, /app/locale/en.coffee, to add or update any localization keys you created or changed in the template. If the text change is large, it's best to change to a new key and delete the old key, so that the Diplomats know to translate it into our 45+ languages. Otherwise, if the change is small, you can just update the existing key's text, and it'll change in English and still be translated in the other languages, but they might not notice and update it for most of them.
 
-Let's say you wanted to update [this text](https://github.com/codecombat/codecombat/blob/master/app/templates/contribute/adventurer.jade#L17-L22).
+Let's say you wanted to update [this text](https://github.com/codecombat/codecombat/blob/master/app/templates/contribute/adventurer.jade#L17-L22):
 
      p(data-i18n="contribute.adventurer_introduction")
      | Let's be clear about your role: you are the tank. You're going to take heavy damage.
@@ -47,3 +47,10 @@ Let's say you wanted to update [this text](https://github.com/codecombat/codecom
      | The pain will be enormous; making good games is a long process and no one gets
      | it right the first time.
      | If you can endure and have a high constitution score, then this class might be for you.
+
+And you want to change it to this: 
+
+     p
+     span.spr(data-i18n="contribute.adventurer_introduction_prefix") You get to playtest new levels early,     and stuff. We introduce new levels weekly, and then you give us feedback on
+a(href="http://discourse.codecombat.com", data-i18n="play.adventurer_forum") the Adventurer forum
+span(data-i18n="contribute.adventurer_introduction_suffix") , which really helps us so much a lot thanks you!
