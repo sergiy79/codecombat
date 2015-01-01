@@ -40,30 +40,30 @@ Let's say you wanted to update the [adventurer character class copy](http://code
 
 1. Make your changes to the copy. You can check out http://jade-lang.com/ for a reference on how it works, but it's basically super-compactified minimalist HTML.
 
-1. Update our base localization file, /app/locale/en.coffee, to add or update any localization keys you created or changed in the template. If the text change is large, it's best to change to a new key and delete the old key, so that the Diplomats know to translate it into our 45+ languages. Otherwise, if the change is small, you can just update the existing key's text, and it'll change in English and still be translated in the other languages, but they might not notice and update it for most of them.
+1. Update our base localization file, [app/locale/en.coffee](https://github.com/codecombat/codecombat/blob/master/app/locale/en.coffee), to add or update any localization keys you created or changed in the template. If the text change is large, it's best to change to a new key and delete the old key, so that the Diplomats know to translate it into our 45+ languages. Otherwise, if the change is small, you can just update the existing key's text, and it'll change in English and still be translated in the other languages, but they might not notice and update it for most of them.
 
 Let's say you wanted to update [this text](https://github.com/codecombat/codecombat/blob/master/app/templates/contribute/adventurer.jade#L17-L22):
 
      p(data-i18n="contribute.adventurer_introduction")
-     | Let's be clear about your role: you are the tank. You're going to take heavy damage.
-     | We need people to try out brand-new levels and help identify how to make things better.
-     | The pain will be enormous; making good games is a long process and no one gets
-     | it right the first time.
-     | If you can endure and have a high constitution score, then this class might be for you.
+         | Let's be clear about your role: you are the tank. You're going to take heavy damage.
+         | We need people to try out brand-new levels and help identify how to make things better.
+         | The pain will be enormous; making good games is a long process and no one gets
+         | it right the first time.
+         | If you can endure and have a high constitution score, then this class might be for you.
 
 And you want to change it to this: 
 
      p
-     span.spr(data-i18n="contribute.adventurer_introduction_prefix") You get to playtest new levels early, and stuff. We introduce new levels weekly, and then you give us feedback on
-     a(href="http://discourse.codecombat.com", data-i18n="play.adventurer_forum") the Adventurer forum
-     span(data-i18n="contribute.adventurer_introduction_suffix") , which really helps us so much a lot thanks to you!
+         span.spr(data-i18n="contribute.adventurer_introduction_prefix") You get to playtest new levels early, and stuff. We introduce new levels weekly, and then you give us feedback on
+         a(href="http://discourse.codecombat.com", data-i18n="play.adventurer_forum") the Adventurer forum
+         span(data-i18n="contribute.adventurer_introduction_suffix") , which really helps us so much a lot thanks to you!
 
 That would translate into this HTML:
 
      <p>
-     <span class="spr" data-i18n="contribute.adventurer_introduction_prefix">You get to playtest new levels early, and stuff. We introduce new levels weekly, and then you give us feedback on</span>
-     <a href="http://discourse.codecombat.com" data-i18n="play.adventurer_forum">the Adventurer forum</a>
-     <span data-i18n="contribute.adventurer_introduction_suffix">, which really helps us so much a lot thanks to you!</span>
+         <span class="spr" data-i18n="contribute.adventurer_introduction_prefix">You get to playtest new levels early, and stuff. We introduce new levels weekly, and then you give us feedback on</span>
+         <a href="http://discourse.codecombat.com" data-i18n="play.adventurer_forum">the Adventurer forum</a>
+         <span data-i18n="contribute.adventurer_introduction_suffix">, which really helps us so much a lot thanks to you!</span>
      </p>
 
 except with no whitespace in it that wasn't explicitly in the .jade template. To keep the link from mashing with the prefix, the [".spr" (space-right) class](https://github.com/codecombat/codecombat/blob/master/app/styles/common/common.sass#L181-L184) is used.
@@ -71,7 +71,7 @@ except with no whitespace in it that wasn't explicitly in the .jade template. To
 ###How to Make Sure Your Content is Translated into Other Languages
 CodeCombat is available in over 45 languages. If you don't speak them all, don't worry! Use this process and our [Diplomats](http://codecombat.com/contribute/diplomat) will help make sure your content gets translated properly. 
 
-We added two localization keys (contribute.adventurer_introduction_prefix and contribute.adventurer_introduction_suffix) and reused one we found elsewhere in en.coffee (play.adventurer_forum), so we'd add those two and delete the contribute.adventurer_introduction key.
+We added two localization keys (contribute.adventurer_introduction_prefix and contribute.adventurer_introduction_suffix) and reused one we found elsewhere in en.coffee (play.adventurer_forum), so we'd go to [app/locale/en.coffee](https://github.com/codecombat/codecombat/blob/master/app/locale/en.coffee) add those two and delete the contribute.adventurer_introduction key.
 
 ###Merging Your Changes
 Follow these steps and you'd be good to go–new copy with brilliant wordsmithery! After committing your changes and pushing them to your fork, [create a pull request](https://help.github.com/articles/creating-a-pull-request/) with the GitHub web interface. 
