@@ -25,4 +25,14 @@ If you're ready to flex your writing skills, here are the places where we can us
 1. Organizing, editing, and contributing content to our [GitHub wiki](http://discourse.codecombat.com/t/faq-check-before-posting/1027).
 
 ##How to Modify Content on the General Website
+We maintain all the content on the website through GitHub. There are two ways to contribute: 
+1. [Set up the dev environment on your computer](https://github.com/codecombat/codecombat/wiki/Developer-environment), so you can test your changes locally. _(Recommended)_ 
+
+1. Make edits in the GitHub web interface, and a member of the core team will test your changes to make sure they work.
+
+###Sample Workflow
+Let's say you wanted to update the [adventurer character class copy](http://codecombat.com/contribute/adventurer). You'd follow this process:
+1. Find the template you want to use by following the directories here: https://github.com/codecombat/codecombat/tree/master/app/templates -> this would eventually lead to /app/templates/contribute/adventurer.jade.
+1. Make your changes to the copy. You can check out http://jade-lang.com/ for a reference on how it works, but it's basically super-compactified minimalist HTML.
+1. Update our base localization file, /app/locale/en.coffee, to add or update any localization keys you created or changed in the template. If the text change is large, it's best to change to a new key and delete the old key, so that the Diplomats know to translate it into our 45+ languages. Otherwise, if the change is small, you can just update the existing key's text, and it'll change in English and still be translated in the other languages, but they might not notice and update it for most of them.
 
