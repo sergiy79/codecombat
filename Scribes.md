@@ -28,6 +28,7 @@ If you're ready to flex your writing skills, here are the places where we can us
 
 ##How to Modify Content on the General Website
 We maintain all the content on the website through GitHub. There are two ways to contribute: 
+
 1. [Set up the dev environment on your computer](https://github.com/codecombat/codecombat/wiki/Developer-environment), so you can test your changes locally. _(Recommended)_ 
 
 1. Make edits in the GitHub web interface, and a member of the core team will test your changes to make sure they work.
