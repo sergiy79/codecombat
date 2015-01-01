@@ -10,7 +10,7 @@ Here are answers to a few frequently asked questions:
 
 We'll try! It should be a cinch on Linux or Mac, but it's pretty hard to get right on Windows right now. If you can't find us for help on Windows, you might try installing it on a Linux VM. (We'll be happy when someone can take the time and help us update our Windows installer.)
 
-## What can I do to get into Google Summer of Code in 2015?
+## What can I do to get into [Google Summer of Code](https://github.com/codecombat/codecombat/wiki/Summer-Project-Ideas-List) in 2015?
 
 We can't guarantee whether CodeCombat will participate or how many slots we'll get (last year there were four), but two things are certain: 1) competition will be high, and 2) preference will have to go to those who have already been contributing to our GitHub so that we know you can be effective working with our stack. So if you'd like to get paid to hack on CodeCombat for the summer for GSoC, let's start hacking on stuff together now. (And you might want to pick a backup organization, too, in case there aren't enough slots.)
 
