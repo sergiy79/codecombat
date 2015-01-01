@@ -7,6 +7,8 @@ Programming and code aren't the only languages we use at CodeCombat — the writ
 1. Click the "Contact Us" link to open a popup contact form. 
 1. Tell us a little about yourself, your experience with programming and what sort of things you'd like to write about. We'll go from there!
 
+_Please note, we'll need to have you sign our [Contributor Licence Agreement](http://codecombat.com/cla) before your changes are merged._
+
 ##What Scribes Can Work On
 If you're ready to flex your writing skills, here are the places where we can use your help the most: 
  
@@ -64,3 +66,11 @@ That would translate into this HTML:
      </p>
 
 except with no whitespace in it that wasn't explicitly in the .jade template. To keep the link from mashing with the prefix, the [".spr" (space-right) class](https://github.com/codecombat/codecombat/blob/master/app/styles/common/common.sass#L181-L184) is used.
+
+###How to Make Sure Your Content is Translated into Other Languages
+CodeCombat is available in over 45 languages. If you don't speak them all, don't worry! Use this process and our [Diplomats](http://codecombat.com/contribute/diplomat) will help make sure your content gets translated properly. 
+
+We added two localization keys (contribute.adventurer_introduction_prefix and contribute.adventurer_introduction_suffix) and reused one we found elsewhere in en.coffee (play.adventurer_forum), so we'd add those two and delete the contribute.adventurer_introduction key.
+
+###Merging Your Changes
+Follow these steps and you'd be good to go–new copy with brilliant wordsmithery! After committing your changes and pushing them to your fork, [create a pull request](https://help.github.com/articles/creating-a-pull-request/) with the GitHub web interface. 
