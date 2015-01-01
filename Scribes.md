@@ -52,5 +52,5 @@ And you want to change it to this:
 
      p
      span.spr(data-i18n="contribute.adventurer_introduction_prefix") You get to playtest new levels early, and stuff. We introduce new levels weekly, and then you give us feedback on
-a(href="http://discourse.codecombat.com", data-i18n="play.adventurer_forum") the Adventurer forum
+     a(href="http://discourse.codecombat.com", data-i18n="play.adventurer_forum") the Adventurer forum
 span(data-i18n="contribute.adventurer_introduction_suffix") , which really helps us so much a lot thanks you!
