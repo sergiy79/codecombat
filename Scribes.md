@@ -54,3 +54,13 @@ And you want to change it to this:
      span.spr(data-i18n="contribute.adventurer_introduction_prefix") You get to playtest new levels early, and stuff. We introduce new levels weekly, and then you give us feedback on
      a(href="http://discourse.codecombat.com", data-i18n="play.adventurer_forum") the Adventurer forum
      span(data-i18n="contribute.adventurer_introduction_suffix") , which really helps us so much a lot thanks to you!
+
+That would translate into this HTML:
+
+     <p>
+     <span class="spr" data-i18n="contribute.adventurer_introduction_prefix">You get to playtest new levels early, and stuff. We introduce new levels weekly, and then you give us feedback on</span>
+     <a href="http://discourse.codecombat.com" data-i18n="play.adventurer_forum">the Adventurer forum</a>
+     <span data-i18n="contribute.adventurer_introduction_suffix">, which really helps us so much a lot thanks to you!</span>
+     </p>
+
+except with no whitespace in it that wasn't explicitly in the .jade template. To keep the link from mashing with the prefix, the [".spr" (space-right) class](https://github.com/codecombat/codecombat/blob/master/app/styles/common/common.sass#L181-L184) is used.
