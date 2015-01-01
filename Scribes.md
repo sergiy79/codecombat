@@ -33,7 +33,7 @@ We maintain all the content on the website through GitHub. There are two ways to
 ###Sample Workflow
 Let's say you wanted to update the [adventurer character class copy](http://codecombat.com/contribute/adventurer). You'd follow this process:
 
-1. Find the template you want to use by following the directories here: https://github.com/codecombat/codecombat/tree/master/app/templates -> this would eventually lead to /app/templates/contribute/adventurer.jade.
+1. Find the template you want to use by following the directories here: https://github.com/codecombat/codecombat/tree/master/app/templates -> this would eventually lead to [/app/templates/contribute/adventurer.jade](https://github.com/codecombat/codecombat/blob/master/app/templates/contribute/adventurer.jade).
 
 1. Make your changes to the copy. You can check out http://jade-lang.com/ for a reference on how it works, but it's basically super-compactified minimalist HTML.
 
