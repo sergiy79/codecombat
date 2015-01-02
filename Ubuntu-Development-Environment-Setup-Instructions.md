@@ -14,6 +14,10 @@ Fork and download the codecombat git repo:
 - Clone the repo:
     - mkdir -p $COCO_TREE && cd $COCO_TREE
     - git clone https://github.com/codecombat/codecombat.git .
+       (make it git clone https://github.com/[github_yourname_OR_ID]/codecombat.git .)
+       (what you're doing in this step is cloning your repo that you forked 
+]        and you'll link it with remote step next)
+        (Try to follow https://help.github.com/articles/fork-a-repo/)
     - git remote add upstream https://github.com/codecombat/codecombat.git
 
 Download and install nodejs for Ubuntu 12.04:
