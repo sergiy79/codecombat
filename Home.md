@@ -11,6 +11,9 @@ Archmages write code!
 ### [[Artisan Home]]
 Artisans build levels!
 
+### [[Scibe Home]]
+Scribes write text!
+
 ***
 
 Looking for the **Google Summer of Code** application info? It's over here: [[Summer Project Ideas List]]
