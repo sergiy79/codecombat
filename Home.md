@@ -11,7 +11,7 @@ Archmages write code!
 ### [[Artisan Home]]
 Artisans build levels!
 
-### [[Scibe Home]]
+### [[Scribe Home]]
 Scribes write text!
 
 ***
