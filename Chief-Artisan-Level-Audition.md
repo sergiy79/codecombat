@@ -2,7 +2,7 @@
 
 ![](https://dl.dropboxusercontent.com/u/138899/GitHub%20Wikis/recruiting_banner.png)
 
-You've read the blog post, you've us asked any questions about the job, and you're ready to try building a level, both to see if you like it and to prove that you've got what it takes even in the face of undocumented, horrifyingly complex tools like the CodeCombat level editor. Perfect! Here's the level design that you should implement. We normally design big batches of levels at a time with about this level of detail, so apart from working with us during the design sessions, this is how you'll do it if we hire you.
+You've read the blog post, you've asked us any questions about the job, and you're ready to try building a level, both to see if you like it and to prove that you've got what it takes even in the face of undocumented, horrifyingly complex tools like the CodeCombat level editor. Perfect! Here's the level design that you should implement. We normally design big batches of levels at a time with about this level of detail, so apart from working with us during the design sessions, this is how you'll do it if we hire you.
 
 ## The Level Design
 
