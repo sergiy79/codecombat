@@ -2,6 +2,8 @@ Welcome Artisans! This wiki is the main documentation on how to use the CodeComb
 
 If you don't want to read stuff, you can watch a screencast instead: https://vimeo.com/codecombat/mirage-maker
 
+Also check out the [[Chief Artisan Level Audition]] details.
+
 ## Stuff Everyone Should Know
 
 * [[Important Artisan Concepts]]
