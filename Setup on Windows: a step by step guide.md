@@ -19,7 +19,7 @@
 9. **[Final Note](#final-note)**
 
 #### Download
-Download the latest version: [v3.6 (beta)](https://dl.dropboxusercontent.com/u/138899/GitHub%20Wikis/coco-dev-win-setup-3.6.zip)
+Download the latest version: [v3.7 (beta)](https://dl.dropboxusercontent.com/u/138899/GitHub%20Wikis/coco-dev-win-setup-3.7.zip)
 
 #### Archmage instructions
 This paragraph is only for people who want to help on the development of the installation system, if you're a user of this system, you can and should skip this paragraph and go to [the next one](#introduction).
