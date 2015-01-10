@@ -7,6 +7,8 @@ The installation assumes a couple destinations. Season to taste:
 * $ export COCO_DB=~/src/coco/db
 * $ export MONGO_DL=~/mongodl
 
+Sometimes these will not work, if that is the case just replace the variable names with the location whenever you see them.
+
 Fork and download the codecombat git repo:
 - Create git account or sign in
 - Go to http://github.com/codecombat/codecombat
