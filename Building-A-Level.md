@@ -2,7 +2,7 @@
 
 ### PreProduction
 
-1. **Come up with a level idea**. If this is your first time building a level, we recommend something fairly simple, or a variation on an existing level.
+1. **Come up with a level idea**. If this is your first time building a level, we recommend something fairly simple, or a variation of an existing level.
 
 ### Production
 
