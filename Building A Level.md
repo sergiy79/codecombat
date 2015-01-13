@@ -23,7 +23,7 @@ No matter what you're building, regular and frequent iteration is key to making 
 To get feedback:
 
 * Show us and others hanging out in our [public HipChat room](http://www.hipchat.com/g3plnOKqa).
-* Post on the Artisan section of our [Discourse forum](discourse.codecombat.com/category/artisan).
+* Post on the Artisan section of our [Discourse forum](http://discourse.codecombat.com/category/artisan).
 * Link friends and family to it and have them play it.
 * If you want the best possible result, consider UX testing it. It's a tough skill to learn, but extremely valuable.
 
