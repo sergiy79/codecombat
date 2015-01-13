@@ -53,6 +53,8 @@ Save often.
 
 Look at other levels for inspiration on how to do things. The very latest levels at the end of the desert have the best examples, because we constantly improve our tooling to make common level scenarios easier.
 
+Common gotcha/bug: if you see a problem with the level ending early and you have a "Kill the ogres (34/35)" thing going on, or if it doesn't end, try just naming the kill ogres goal with ID "ogres-die" and removing the "Kill Thangs" criterion from it. The Referee will mark it successful once all waves have spawned and then those ogres die. We just need to fix this bug so it actually works, but this is the workaround.
+
 When you're ready to start, go to [the level editor](http://codecombat.com/editor/level), hit 'Create New Level', and have fun!
 
 ![](https://dl.dropboxusercontent.com/u/138899/GitHub%20Wikis/artisan_banner.png)
