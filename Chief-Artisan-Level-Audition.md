@@ -8,7 +8,7 @@ You've read the blog post, you've asked us any questions about the job, and you'
 
 This level is a theoretical level that would come right after Coinucopia, midway through the forest campaign. If you haven't gotten there yet, go play the campaign and come back, because otherwise you're not going to be able to understand what the player knows and doesn't know by this point. 
 
-This one is a battle between humans and ogres, with both sides being spawned randomly by a Referee Thang. You'll probably want to use human soldiers and archers of both genders for the human troops. For ogres, try munchkins, medium male ogres, throwers, and shamans. Don't spawn all the guys at once, but spread it out a bit for maximum combat. All of this can be configured in the Referee Component for good randomization and waves.
+This one is a battle between humans and ogres, with both sides being spawned randomly by a Referee Thang. You'll probably want to use human soldiers and archers of both genders for the human troops. For ogres, try munchkins, medium male ogres, throwers, and shamans. Don't spawn all the guys at once, but spread it out a bit for maximum combat. All of this can be configured in the Referee Component for good randomization and waves. **Make sure you name the `buildType` exactly like you see in the Referee Component code, like `"soldier-m"` or `"ogre-munchkin-f"`, or it'll spit out a JS console warning and your waves will just spawn 15 Thangs.** (We'll make this less tricky soon.)
 
 Make the balance such that the ogres are slightly winning, but that the hero can turn the tides of battle by contributing a little bit to the fight. The level should end in failure if the hero dies. Probably what the player should do is run to pick up the flag if there is a flag, otherwise fight. This way, they can fight until they're almost dead, then run away (or they can target ranged units behind the enemy lines). The player should die if they just do the naive loop-attack-nearest-enemy strategy unless they have bought some really sick gear. Bonus if it can be balanced for ranger/wizard, but it mainly needs to work for warriors.
 
@@ -21,7 +21,7 @@ loop:
     enemy = self.findNearestEnemy()
     flag = self.findFlag()
     if flag:
-        self.pickUpFlag()
+        self.pickUpFlag(flag)
     elif enemy:
         if self.isReady("cleave"):
             self.cleave(enemy)
