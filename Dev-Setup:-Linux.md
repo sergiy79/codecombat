@@ -1,5 +1,6 @@
 ###Index:
 * [Simple Linux](#simplelinux)
+* [Complex Linux](#complexlinux)
 
 ### <a name="simplelinux"></a> Simple Linux
 
@@ -36,3 +37,22 @@ export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 ```
 If you see a white screen only, check to see if the first line of app.css is `ERROR: Cannot load compass.`. If so, try either uninstalling compass (`gem uninstall compass`) or re-installing it if you actually need it (`gem install compass --pre`).
+
+### <a name="complexlinux"></a> Complex Linux
+
+**TODO: document this better**
+
+If you're on Ubuntu, check out [Steve Malmskog's instructions.](https://github.com/codecombat/codecombat/wiki/Ubuntu-Development-Environment-Setup-Instructions)
+
+1. [Set up a GitHub account](https://help.github.com/articles/set-up-git) if you don't already have one.
+1. Fork the CodeCombat project.
+1. `git clone` it to your computer.
+1. Install software
+  1. sudo npm install
+  1. sudo npm install -g bower
+  1. bower install ( bower install each dependency from bower.json )
+  1. sudo npm install -g brunch
+  1. Download [MongoDB 2.6.0](http://www.mongodb.org/downloads)
+  1. Start up Mongodb and define the bin folder of coco as your --dbpath variable
+1. Run bin/coco-mongodb, bin/coco-brunch and bin/coco-dev-server.
+1. Go to [http://localhost:3000](http://localhost:3000) to see your local CodeCombat in action.
