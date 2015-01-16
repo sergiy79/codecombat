@@ -1,6 +1,6 @@
 ###Index:
 
-* [Simple Linux Installation](#Simple-Linux-Installation) - Rewrite Complete
+* [Simple Linux Installation](#simple-linux-installation) - Rewrite Complete
 * [Complex Linux](#complexlinux)
 * [Simple Ubuntu](#simpleubuntu)
 * [Ubuntu Screencast](http://youtu.be/usN85KSiWUM)
