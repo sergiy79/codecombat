@@ -1,31 +1,32 @@
 ## <a name="getting_started"></a> Getting started 
 
-### The easy, hands-off way
+[Mac OS X Screencast](https://www.youtube.com/watch?v=fom1ksXSbKM)
 
-If you're running Mac OS X, you can see a screencast of the process [here.](https://www.youtube.com/watch?v=fom1ksXSbKM) If you're running Ubuntu, you can see a screencast [here.](http://youtu.be/usN85KSiWUM)
+[Ubuntu Screencast](http://youtu.be/usN85KSiWUM)
 
-These directions apply to Linux and Mac OS X. For Windows, [see the paragraph near the bottom of this section.](#windows_details)
+[Simple Linux Tutorial](#simplelinux)
 
-[Testing Links](#getting_started)
+### <a name="simplelinux"></a> Simple Linux Tutorial
 
 1. [Create a GitHub account](https://github.com/join) if you don't already have one.
-1. [Set up Git on your computer](https://help.github.com/articles/set-up-git/) if you've never done it before. This will allow your computer to talk to GitHub. 
-1. (Optional) If you'd like your changes able to be integrated into the official CodeCombat repository, click the *Fork* button in the upper right hand corner of the page.
-1. Open a terminal and browse to the folder you wish to install codecombat under. 
-    * If you've forked the repository, paste in the following command *with your forked repository URL*
+2. [Set up Git on your computer](https://help.github.com/articles/set-up-git/) to allow your computer to speak to GitHub
+3. (Optional) [Fork](https://github.com/codecombat/codecombat/fork) our CodeCombat repository if you wish to make changes.
+4. Make sure
+5. Open a terminal and navigate to the folder you wish to install CodeCombat under.
+6. * If you've forked the repository, paste in the following command.  *Replace "your_repository_url" with your repository*.
     ```bash
     curl https://raw.githubusercontent.com/codecombat/codecombat/master/scripts/devSetup/bootstrap.sh | bash -s your_repository_url
     ```
-    * If you haven't forked the repository, copy and paste in the following command
+   * If you haven't forked the repository, paste in the following command.
     ```bash
     curl https://raw.githubusercontent.com/codecombat/codecombat/master/scripts/devSetup/bootstrap.sh | bash
     ```
-   It should work with Python 2 or 3.1, but possibly not 3.2+ (yet).
-1. Follow the prompts. This should download and install all the necessary dependencies. If you've used the script above, it will prompt you to run the command below. If you cloned the repository yourself, you can also run the script below (you may need to edit it based on your current working directory.)
-
-    ```
-    sudo python ./coco/scripts/devSetup/setup.py
-    ```
+7. Ensure you have Python 2 installed with `sudo apt-get install python2`, or your distributional equivalent.  Python 3.1 is also supported, but 3.2+ are not tested.
+8. Follow the on-screen prompts.  The program will download and install all necessary dependencies.  If nothing seems to be happening, try running `sudo python ./coco/scripts/devSetup/setup.py` or join the [HipChat](www.hipchat.com/g3plnOKqa) to fix things.
+9.  Run the following commands in separate windows:
+    * `./coco/bin/coco-mongodb` - Starts MongoDB
+    * `sudo ./coco/bin/coco-brunch` - Starts brunch, which watches for file changes 
+    * `./coco/bin/coco-dev-server` - Starts your local web server
 1. Run each of these scripts in their own separate terminal window:
     * `coco/bin/coco-mongodb` (starts MongoDB, which stays running and awaits connections)
     * `coco/bin/coco-brunch` (starts brunch, which stays running and watches for file changes, may need to be run as sudo to increase the ulimit if brunch fails)
