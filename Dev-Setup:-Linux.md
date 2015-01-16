@@ -1,4 +1,4 @@
-##Index:
+###Index:
 * [Simple Linux](#simplelinux)
 
 ### <a name="simplelinux"></a> Simple Linux
