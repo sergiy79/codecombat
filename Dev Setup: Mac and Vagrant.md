@@ -2,6 +2,7 @@
 
 * [Mac OS X Screencast](https://www.youtube.com/watch?v=fom1ksXSbKM)
 * [Mac Tutorial](#simplemac)
+* [Vagrant Tutorial](#the-do-it-yourself-vagrant-vm-method)
 
 ### <a name="simplemac"></a> Simple Linux and Mac Tutorial
 
