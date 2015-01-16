@@ -11,6 +11,9 @@ Archmages write code!
 ### [[Artisan Home]]
 Artisans build levels!
 
+### [[Diplomat Home]]
+Diplomats translate content!
+
 ### [[Scribe Home]]
 Scribes write text!
 
