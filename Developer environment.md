@@ -60,7 +60,7 @@ Download the latest version [here (v3.7)](https://dl.dropboxusercontent.com/u/13
 We support the following, and only the following versions:
 * Windows Vista
 * Windows 7
-* Windows 8.0
+* Windows 8.0 - Problems found
 * Windows 8.1
 
 Other versions, newer then _Windows XP_, and not listed above, might work, but we don't guarantee that they will.
