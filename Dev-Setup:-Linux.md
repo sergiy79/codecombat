@@ -45,8 +45,6 @@ If you see a white screen only, check to see if the first line of app.css is `ER
 
 **TODO: document this better**
 
-If you're on Ubuntu, check out [Steve Malmskog's instructions.](https://github.com/codecombat/codecombat/wiki/Ubuntu-Development-Environment-Setup-Instructions)
-
 1. [Set up a GitHub account](https://help.github.com/articles/set-up-git) if you don't already have one.
 1. Fork the CodeCombat project.
 1. `git clone` it to your computer.
