@@ -1,12 +1,13 @@
 ## <a name="getting_started"></a> Getting started 
 
-[Mac OS X Screencast](https://www.youtube.com/watch?v=fom1ksXSbKM)
+* [Mac OS X Screencast](https://www.youtube.com/watch?v=fom1ksXSbKM)
+* [Ubuntu Screencast](http://youtu.be/usN85KSiWUM)
+* [Simple Linux and Mac Tutorial](#simplelinux)
+* [Simple Windows Tutorial](#simplewindows)
 
-[Ubuntu Screencast](http://youtu.be/usN85KSiWUM)
+### <a name="simplelinux"></a> Simple Linux and Mac Tutorial
 
-[Simple Linux Tutorial](#simplelinux)
-
-### <a name="simplelinux"></a> Simple Linux Tutorial
+This method should work on Mac and Linux, if you run into any problems, let us know!  On Mac, you'll need the [XCode Developer Tools](http://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12).  On Linux, you'll need make, build-essential, ruby, curl and git installed (`sudo apt-get install make build-essential ruby curl git`).
 
 1. [Create a GitHub account](https://github.com/join) if you don't already have one.
 2. [Set up Git on your computer](https://help.github.com/articles/set-up-git/) to allow your computer to speak to GitHub
@@ -21,50 +22,36 @@
     ```bash
     curl https://raw.githubusercontent.com/codecombat/codecombat/master/scripts/devSetup/bootstrap.sh | bash
     ```
+    NOTE: The repository will be in the coco subdirectory.  You should not run a separate git clone, as that is taken care of.
 7. Ensure you have Python 2 installed with `sudo apt-get install python2`, or your distributional equivalent.  Python 3.1 is also supported, but 3.2+ are not tested.
 8. Follow the on-screen prompts.  The program will download and install all necessary dependencies.  If nothing seems to be happening, try running `sudo python ./coco/scripts/devSetup/setup.py` or join the [HipChat](www.hipchat.com/g3plnOKqa) to fix things.
 9.  Run the following commands in separate windows:
     * `./coco/bin/coco-mongodb` - Starts MongoDB
     * `sudo ./coco/bin/coco-brunch` - Starts brunch, which watches for file changes 
     * `./coco/bin/coco-dev-server` - Starts your local web server
-1. Run each of these scripts in their own separate terminal window:
-    * `coco/bin/coco-mongodb` (starts MongoDB, which stays running and awaits connections)
-    * `coco/bin/coco-brunch` (starts brunch, which stays running and watches for file changes, may need to be run as sudo to increase the ulimit if brunch fails)
-    * `coco/bin/coco-dev-server` (starts your local webserver, which stays running and watches for file changes)
-1. Do the [MongoDB database import](https://github.com/codecombat/codecombat/wiki/Developer-environment#wiki-setup) *(we're working to making this optional)*
-1. Go to [http://localhost:3000](http://localhost:3000) to see your local CodeCombat in action.
+10. Setup [MongoDB](#MongoDB) *Soon to be Optional*
+### To be Edited
+11. Visit [http://localhost:3000](http://localhost:3000) to see your CodeCombat development environment!
 
-NOTE: The repository will be in the coco subdirectory.  You should not run a separate git clone, as that is taken care of.
-
-This should work on Mac and Linux. Please let us know of any problems you run into. On Mac, you'll need [Xcode Developer Tools](http://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12). On Linux, you'll need make, build-essential, ruby, curl, and git installed. 
-
-If you face issues with bower not being able to clone git repositories, you could try - [Clone over https](http://stackoverflow.com/questions/1722807/git-convert-git-urls-to-http-urls/11383587#11383587).
-
-To get a sandbox copy of the CodeCombat database for your local Mongo, see [Restoring a backup](https://github.com/codecombat/codecombat/wiki/Developer-environment#wiki-database).
-
-If sass complains about file encodings being wrong, try adding this to your .bash_profile:
-
+If you get errors with bower not being able to clone git repositories, try [cloning over https](http://stackoverflow.com/questions/1722807/git-convert-git-urls-to-http-urls/11383587#11383587).  If SASS brings up an error about file encodings being wrong, add this to your .bash_profile:
 ```bash
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 ```
-
 If you see a white screen only, check to see if the first line of app.css is `ERROR: Cannot load compass.`. If so, try either uninstalling compass (`gem uninstall compass`) or re-installing it if you actually need it (`gem install compass --pre`).
 
+### <a name="simplewindows"><a name="windows_details"></a></a> Simple Windows
 
-<a name="windows_details"></a>
-###Windows 
-##### The-fully-automatic-easy-way:
-
-**Note**: if your brunch isn't compiling sass properly, try removing the bless-brunch entry from package.json and deleting the bless-brunch folder from node_modules, then getting sass-brunch 1.7.0 with `npm install --save-dev sass-brunch@1.7.0`
-
-Download the latest version [here (v3.7)](https://dl.dropboxusercontent.com/u/138899/GitHub%20Wikis/coco-dev-win-setup-3.7.zip) and/or follow the instructions from [this step-by-step guide](https://github.com/codecombat/codecombat/wiki/Setup-on-Windows:-a-step-by-step-guide). The complete process is fully automated for all supported Windows versions.
+Download the latest version [here (v3.7)](https://dl.dropboxusercontent.com/u/138899/GitHub%20Wikis/coco-dev-win-setup-3.7.zip) and/or follow the instructions from [this step-by-step guide](#Setup-on-Windows:-a-step-by-step-guide)(https://github.com/codecombat/codecombat/wiki/Setup-on-Windows:-a-step-by-step-guide). The complete process is fully automated for all supported Windows versions.
 
 We support the following, and only the following versions:
 * Windows Vista
 * Windows 7
 * Windows 8.0 - Problems found
 * Windows 8.1
+
+
+**Note**: if your brunch isn't compiling sass properly, try removing the bless-brunch entry from package.json and deleting the bless-brunch folder from node_modules, then getting sass-brunch 1.7.0 with `npm install --save-dev sass-brunch@1.7.0`
 
 Other versions, newer then _Windows XP_, and not listed above, might work, but we don't guarantee that they will.
 ##### The-do-it-via-vagrant-vm-way (unofficial)
