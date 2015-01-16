@@ -1,3 +1,12 @@
+#Page is being deleted on 16/01/2015
+
+New pages:
+* [General Information](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-General-Information)
+* [Linux Setup](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-Linux)
+* [Windows Setup](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-Windows)
+* [Mac and Vagrant Setup](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-Mac-and-Vagrant)
+
+
 Thank you to Steve Malmskog for writing this great guide on getting the development environment running on Ubuntu 12.04 LTS!
 
 ###Installation
