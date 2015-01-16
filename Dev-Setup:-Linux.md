@@ -63,9 +63,9 @@ Thank you to Steve Malmskog for writing this great guide on getting the developm
 ####Installation
 The installation assumes a couple destinations. Season to taste:
 
-* $ export COCO_TREE=~/src/coco/codecombat
-* $ export COCO_DB=~/src/coco/db
-* $ export MONGO_DL=~/mongodl
+* `$ export COCO_TREE=~/src/coco/codecombat`
+* `$ xport COCO_DB=~/src/coco/db`
+* `$ export MONGO_DL=~/mongodl`
 
 Fork and download the codecombat git repo:
 - Create a git account or sign in
