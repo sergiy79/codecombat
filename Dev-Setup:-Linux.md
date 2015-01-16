@@ -1,8 +1,8 @@
 ###Index:
 
 * [Simple Linux Installation](#simple-linux-installation) - Rewrite Complete
-* [Complex Linux](#complexlinux)
-* [Simple Ubuntu](#simpleubuntu)
+* [Complex Linux](#complex-linux-installation)
+* [Simple Ubuntu](#ubuntu-installation)
 * [Ubuntu Screencast](http://youtu.be/usN85KSiWUM)
 
 ###Simple Linux Installation
@@ -41,7 +41,7 @@ export LC_ALL=en_US.UTF-8
 ```
 If you see a white screen only, check to see if the first line of app.css is `ERROR: Cannot load compass.`. If so, try either uninstalling compass (`gem uninstall compass`) or re-installing it if you actually need it (`gem install compass --pre`).
 
-### <a name="complexlinux"></a> Complex Linux
+###Complex Linux Installation
 
 **TODO: document this better**
 
@@ -58,7 +58,7 @@ If you see a white screen only, check to see if the first line of app.css is `ER
 1. Run bin/coco-mongodb, bin/coco-brunch and bin/coco-dev-server.
 1. Go to [http://localhost:3000](http://localhost:3000) to see your local CodeCombat in action.
 
-### <a name="simpleubuntu"></a> Ubuntu Installation
+###Ubuntu Installation
 
 Thank you to Steve Malmskog for writing this great guide on getting the development environment running on Ubuntu 12.04 LTS!
 
