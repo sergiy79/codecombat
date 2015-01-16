@@ -1,11 +1,11 @@
 ###Index:
-* [Simple Linux](#simplelinux) - Rewrite Complete
+* [Simple Linux Installation](#simplelinux) - Rewrite Complete
 * [Complex Linux](#complexlinux)
 * [Simple Ubuntu](#simpleubuntu)
 * [Ubuntu Screencast](http://youtu.be/usN85KSiWUM)
 
 
-### <a name="simplelinux"></a> Simple Linux
+### <a name="simplelinux"></a> Simple Linux Installation
 
 On Linux, you'll need make, build-essential, ruby, curl and git installed (`sudo apt-get install make build-essential ruby curl git`).
 
@@ -151,4 +151,3 @@ Accessing the local instance of codecombat:
 
 Pick up upstream changes:
 - git fetch upstream
-
