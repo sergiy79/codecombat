@@ -1,3 +1,11 @@
+#Page is being deleted on 16/01/2015
+
+New pages:
+* [General Information](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-General-Information)
+* [Linux Setup](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-Linux)
+* [Windows Setup](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-Windows)
+* [Mac and Vagrant Setup](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-Mac-and-Vagrant)
+
 **NOTE**: Following the guide can be complicated. If you have any questions, just ask in the [CodeCombat chatroom](http://www.hipchat.com/g3plnOKqa).
 
 Also, if you prefer, the [automated installer](https://s3.amazonaws.com/CodeCombatLargeFiles/coco-dev-win-setup-3.5.zip) is probably easier to use.
