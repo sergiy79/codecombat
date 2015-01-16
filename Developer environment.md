@@ -15,6 +15,7 @@ This method should work on Mac and Linux, if you run into any problems, let us k
 4. Make sure
 5. Open a terminal and navigate to the folder you wish to install CodeCombat under.
 6. * If you've forked the repository, paste in the following command.  *Replace "your_repository_url" with your repository*.
+
     ```bash
     curl https://raw.githubusercontent.com/codecombat/codecombat/master/scripts/devSetup/bootstrap.sh | bash -s your_repository_url
     ```
