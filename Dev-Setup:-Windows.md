@@ -1,4 +1,6 @@
 ###Index
+* [Simple Windows Installation](#simplewindows)
+* [Detailed Windows Installation](#detailedwindows)
 
 
 ### <a name="simplewindows"><a name="windows_details"></a></a> Simple Windows
