@@ -302,9 +302,3 @@ SCOCODE.bat should pop up three command prompts. The first one is MongoDB. If th
 That's it. If there are any question, just ask them on the [CodeCombat chatroom](http://www.hipchat.com/g3plnOKqa). 
 
 **[Go back to the top.](#index)**
-
-https://github.com/codecombat/codecombat/wiki/Developer-environment#simplewindows
-https://github.com/codecombat/codecombat/wiki/Windows-Development-Environment-Setup-Guide
-https://github.com/codecombat/codecombat/wiki/Setup-on-Windows:-a-step-by-step-guide
-
-TO BE COMPLETED.  SEE LINKS ABOVE UNTIL THEN.
