@@ -2,10 +2,12 @@
 
 New pages:
 [General Information](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-General-Information)
-[Linux Setup](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-Linux)
-[Windows Setup](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-Windows)
-[Mac and Vagrant Setup](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-Mac-and-Vagrant)
 
+[Linux Setup](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-Linux)
+
+[Windows Setup](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-Windows)
+
+[Mac and Vagrant Setup](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-Mac-and-Vagrant)
 
 
 ## <a name="getting_started"></a> Getting started 
