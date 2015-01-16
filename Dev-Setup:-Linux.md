@@ -1,5 +1,5 @@
 ###Index:
-* [Simple Linux](#simplelinux)
+* [Simple Linux](#simplelinux) - Rewrite Complete
 * [Complex Linux](#complexlinux)
 * [Simple Ubuntu](#simpleubuntu)
 
