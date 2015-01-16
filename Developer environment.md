@@ -1,4 +1,4 @@
-## Getting started <a name="getting_started"></a>
+## <a name="getting_started"></a> Getting started 
 
 ### The easy, hands-off way
 
