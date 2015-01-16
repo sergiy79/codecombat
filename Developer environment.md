@@ -6,7 +6,7 @@ If you're running Mac OS X, you can see a screencast of the process [here.](http
 
 These directions apply to Linux and Mac OS X. For Windows, [see the paragraph near the bottom of this section.](#windows_details)
 
-[Testing Links](## Getting started)
+[Testing Links](#getting)
 
 1. [Create a GitHub account](https://github.com/join) if you don't already have one.
 1. [Set up Git on your computer](https://help.github.com/articles/set-up-git/) if you've never done it before. This will allow your computer to talk to GitHub. 
