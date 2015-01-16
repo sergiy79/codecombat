@@ -1,11 +1,11 @@
 ###Index:
-* [Simple Linux Installation](#simplelinux) - Rewrite Complete
+
+* [Simple Linux Installation](#Simple-Linux-Installation) - Rewrite Complete
 * [Complex Linux](#complexlinux)
 * [Simple Ubuntu](#simpleubuntu)
 * [Ubuntu Screencast](http://youtu.be/usN85KSiWUM)
 
-
-### <a name="simplelinux"></a> Simple Linux Installation
+###Simple Linux Installation
 
 On Linux, you'll need make, build-essential, ruby, curl and git installed (`sudo apt-get install make build-essential ruby curl git`).
 
