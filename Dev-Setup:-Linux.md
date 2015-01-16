@@ -4,6 +4,7 @@
 * [Complex Linux](#complex-linux-installation)
 * [Simple Ubuntu](#ubuntu-installation)
 * [Ubuntu Screencast](http://youtu.be/usN85KSiWUM)
+* [Installing the Database](#installing-the-database)
 
 ##Simple Linux Installation
 
@@ -30,8 +31,7 @@ On Linux, you'll need make, build-essential, ruby, curl and git installed (`sudo
     * `./coco/bin/coco-mongodb` - Starts MongoDB
     * `sudo ./coco/bin/coco-brunch` - Starts brunch, which watches for file changes 
     * `./coco/bin/coco-dev-server` - Starts your local web server
-10. Setup [MongoDB](#MongoDB) *Soon to be Optional*
-### To be Edited
+10. Setup [MongoDB](#installing-the-database)
 11. Visit [http://localhost:3000](http://localhost:3000) to see your CodeCombat development environment!
 
 If you get errors with bower not being able to clone git repositories, try [cloning over https](http://stackoverflow.com/questions/1722807/git-convert-git-urls-to-http-urls/11383587#11383587).  If SASS brings up an error about file encodings being wrong, add this to your .bash_profile:
@@ -41,7 +41,7 @@ export LC_ALL=en_US.UTF-8
 ```
 If you see a white screen only, check to see if the first line of app.css is `ERROR: Cannot load compass.`. If so, try either uninstalling compass (`gem uninstall compass`) or re-installing it if you actually need it (`gem install compass --pre`).
 
-##Complex Linux Installation
+###Complex Linux Installation
 
 **TODO: document this better**
 
@@ -58,11 +58,11 @@ If you see a white screen only, check to see if the first line of app.css is `ER
 1. Run bin/coco-mongodb, bin/coco-brunch and bin/coco-dev-server.
 1. Go to [http://localhost:3000](http://localhost:3000) to see your local CodeCombat in action.
 
-##Ubuntu Installation
+###Ubuntu Installation
 
 Thank you to Steve Malmskog for writing this great guide on getting the development environment running on Ubuntu 12.04 LTS!
 
-###Installation
+####Installation
 The installation assumes a couple destinations. Season to taste:
 
 * $ export COCO_TREE=~/src/coco/codecombat
@@ -124,7 +124,7 @@ Install database snapshot:
 - In another terminal:
    - cd $COCO_DB && mongorestore --drop dump
 
-###Running
+####Running
 
 Start up mongo:
 - Mongo should already be running from your database snapshot install. If not:
@@ -145,7 +145,16 @@ Start up the dev server:
 Accessing the local instance of codecombat:
 - Start up a local browser and go to: http://localhost:3000.
 
-###Code Syncing
+####Code Syncing
 
 Pick up upstream changes:
 - git fetch upstream
+
+###Installing the Database
+Download [the public CodeCombat MongoDB sandbox copy backup](http://54.91.159.37/dump.tar.gz) (updated every 10 minutes) and import it into your locally running database with the following steps. 
+
+1. Make sure the database is running on your computer (./bin/coco-mongodb).
+2. If the backup file is compressed, uncompress it (for instance, if it is a .tar.gz file, run `tar xzvf [filename]`) 
+3. Step 2 should generate a `dump` folder. To import this run `mongorestore --drop [path to dump]` if mongorestore is in your path. If it's not and you used the script, run `[path to CodeCombat folder]/bin/mongo/mongorestore --drop [path to dump]`
+
+When downloading a new dump to keep the database up-to-date, use `mongorestore --drop [path to dump]` to clear out all old data (including any local data you have created) and replace with just the new data.
