@@ -4,6 +4,8 @@
 * [Ubuntu Screencast](http://youtu.be/usN85KSiWUM)
 * [Simple Linux and Mac Tutorial](#simplelinux)
 * [Simple Windows Tutorial](#simplewindows)
+* [The Vagrant VM Method](#vagrantvm)
+
 
 ### <a name="simplelinux"></a> Simple Linux and Mac Tutorial
 
@@ -55,7 +57,7 @@ We support the following, and only the following versions:
 **Note**: if your brunch isn't compiling sass properly, try removing the bless-brunch entry from package.json and deleting the bless-brunch folder from node_modules, then getting sass-brunch 1.7.0 with `npm install --save-dev sass-brunch@1.7.0`
 
 Other versions, newer then _Windows XP_, and not listed above, might work, but we don't guarantee that they will.
-##### The-do-it-via-vagrant-vm-way (unofficial)
+### <a name="vagrantvm"></a> The Do-It-Yourself Vagrant VM Method
 If you have [vagrant](http://www.vagrantup.com/) and virtualbox installed, [https://github.com/dpen2000/Codecombat-Vagrant](https://github.com/dpen2000/Codecombat-Vagrant) provides a method of starting a vagrant-managed VM with folder mappings, the website available at http://localhost:3000/ on your host machine and the latest mongo data auto restored into your Mongo instance (included in VM). Setup instructions are in the [Readme](https://github.com/dpen2000/Codecombat-Vagrant/blob/master/README.md).  
 ##### The-do-it-via-a-vm-way (THIS METHOD IS UNAVAILABLE FOR NOW, DOWNLOAD LINKS DO NOT WORK)
 If you want to run the VM, you'll have to [download VirtualBox](http://download.virtualbox.org/virtualbox/4.3.6/VirtualBox-4.3.6-91406-Win.exe), install it, then [download](https://s3.amazonaws.com/CodeCombatLargeFiles/CoCoLinux.ova) ([torrent](https://s3.amazonaws.com/CodeCombatLargeFiles/CoCoLinux.ova?torrent)) and import the CodeCombat Linux appliance by going to File:Import Appliance (note that occasionally the large download may be corrupted, so it's often easier to use the torrent.) The "CodeCombat" user account password is "coco". Once you have the Linux virtual machine running, the follow the directions above. To ease development, you can set up a shared folder so that you can edit files in Windows and have them accessible to the Ubuntu VM. See directions for setting up shared folders [here.](http://mikesmithers.wordpress.com/2011/03/23/installing-ubuntu-in-virtualbox-on-a-windows-7-host/#attachment_898) You can also [set up bridged networking](http://askubuntu.com/questions/196118/how-to-access-localhost-on-virtualbox-host-machine) so that your server is accessible from Windows.
