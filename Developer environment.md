@@ -1,13 +1,10 @@
 #Page is being deleted on 16/01/2015
 
 New pages:
-[General Information](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-General-Information)
-
-[Linux Setup](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-Linux)
-
-[Windows Setup](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-Windows)
-
-[Mac and Vagrant Setup](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-Mac-and-Vagrant)
+* [General Information](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-General-Information)
+* [Linux Setup](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-Linux)
+* [Windows Setup](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-Windows)
+* [Mac and Vagrant Setup](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-Mac-and-Vagrant)
 
 
 ## <a name="getting_started"></a> Getting started 
