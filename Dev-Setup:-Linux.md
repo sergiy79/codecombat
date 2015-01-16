@@ -141,10 +141,9 @@ Pick up upstream changes:
 - `git fetch upstream`
 
 ###Installing the Database
-Download [the public CodeCombat MongoDB sandbox copy backup](http://54.91.159.37/dump.tar.gz) (updated every 10 minutes) and import it into your locally running database with the following steps. 
-
-1. Make sure the database is running on your computer (./bin/coco-mongodb).
-2. If the backup file is compressed, uncompress it (for instance, if it is a .tar.gz file, run `tar xzvf [filename]`) 
-3. Step 2 should generate a `dump` folder. To import this run `mongorestore --drop [path to dump]` if mongorestore is in your path. If it's not and you used the script, run `[path to CodeCombat folder]/bin/mongo/mongorestore --drop [path to dump]`
+Download the [CodeCombat database](http://54.91.159.37/dump.tar.gz) (updated every 10 minutes) and import it to your locally running database with the following commands:
+1. Make sure the database is running on your computer (`./bin/coco-mongodb`).
+2. Uncompress the file with `tar xzvf [filename]`)
+3. Run `mongorestore --drop [path to dump]` if mongorestore is in your path. If mongorestore is not in your path, run `[path to CodeCombat folder]/bin/mongo/mongorestore --drop [path to dump]`
 
 When downloading a new dump to keep the database up-to-date, use `mongorestore --drop [path to dump]` to clear out all old data (including any local data you have created) and replace with just the new data.
