@@ -1,4 +1,11 @@
-## Working in the environment
+### Installation Guides
+
+Our installation guides are now split to per-OS guides.
+* [Linux Setup](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-Linux)
+* [Windows Setup](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-Windows)
+* [Mac and Vagrant Setup](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-Mac-and-Vagrant)
+
+### Working in the environment
 
 You don't need any particular IDE to work with CodeCombat. Scott uses WebStorm, Nick uses Emacs, and George uses Sublime Text, so already the most important parts are IDE-agnostic. We need help making it friendly for Linux and Windows, though, since we all develop on Mac.
 
