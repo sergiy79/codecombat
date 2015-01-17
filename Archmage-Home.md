@@ -23,8 +23,8 @@ The [Discourse Forum](http://discourse.codecombat.com/) is another useful place 
 1. Fix [bugs](https://github.com/codecombat/codecombat/labels/bug).
 1. Bring up new ideas in our [HipChat room](https://www.hipchat.com/g3plnOKqa)
 
-##Reading Material
-####General:
+####Reading Material
+######General:
 * [[Mission Statement]]
 * [[Developer Environment]] -- Start here to get CodeCombat set up on your computer.
 * [[Developer Organization]]
@@ -35,22 +35,22 @@ The [Discourse Forum](http://discourse.codecombat.com/) is another useful place 
 * [[Coco Models]]
 * [[Testing]]
 
-####Frontend Development:
+######Frontend Development:
 
 * [[Client Models]]
 * [[Views]]
 * [[Events, Subscriptions, Shortcuts]]
 
-####Backend Development:
+######Backend Development:
 
 * [[File System]]
 
-####Key Systems:
+######Key Systems:
 
 * [[Versioning]]
 * [[Permissions]]
 
-####Game Engine:
+######Game Engine:
 
 * CodeCombat uses a [[Thang Component System]] architecture.
     * A [[Thang]] can be an ogre, a land, an arrow--anything.
@@ -61,12 +61,12 @@ The [Discourse Forum](http://discourse.codecombat.com/) is another useful place 
 * The [[Tome]] is our spell editor.
 * [[Multiplayer]]
 
-####Side Projects:
+######Side Projects:
 
 * [[Treema]], our general interface for editing JSON data with schemas
 * [[Aether]], our transpiler
 
-##FAQ
+###FAQ
 **I don't understand git!!**
 
 Doing [this](https://www.codeschool.com/courses/try-git) super duper fast course should help get you comfortable.
