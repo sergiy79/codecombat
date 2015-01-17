@@ -26,7 +26,7 @@ The [Discourse Forum](http://discourse.codecombat.com/) is another useful place 
 ####Reading Material
 ######General:
 * [[Mission Statement]]
-* [Develeoper Environment](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-General-Information) - Start here to get CodeCombat set up on your computer.
+* [Developer Environment](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-General-Information) - Start here to get CodeCombat set up on your computer.
 * [[Developer Organization]]
 * [[Coding Guidelines]]
 * [[Technical Overview]]
