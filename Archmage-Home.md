@@ -3,7 +3,7 @@
 
 Hello [Archmages](http://codecombat.com/contribute/archmage)! Welcome to the developer wiki for CodeCombat. These documents are designed to give you everything you need to know, technical and non-technical, to dive into the project. If you see an opportunity to improve the docs, go ahead!
 
-###Index
+####Index
 * [Contact Us](#contact-us)
 * [Starting Off](#starting-off)
 * [Reading Material](#reading-material)
