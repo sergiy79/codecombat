@@ -1,4 +1,4 @@
-| ![CoCo](http://codecombat.com/images/pages/base/logo_square_250.png) |
+| ![CoCo](http://codecombat.com/images/pages/base/logo.png) |
 | :------------------------------------------------------------------: |
 
 Hello [**CodeCombat contributors**](http://codecombat.com/contribute)! Welcome to the wiki for CodeCombat. These documents are designed to give you everything you need to know, technical and non-technical, to dive into the project. If you see an opportunity to improve the docs, go ahead!  
