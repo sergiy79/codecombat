@@ -23,5 +23,5 @@ If you want to earn money from buildings levels, go check out the [[Chief Artisa
 
 ######More Resources
 
-* [Public HipChat Room](http://www.hipchat.com/g3plnOKqa) - Talk with us devs!
+* [Public HipChat Room](http://www.hipchat.com/g3plnOKqa)
 * [Artisan Forum](http://discourse.codecombat.com/category/artisan)
