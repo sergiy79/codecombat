@@ -1,6 +1,7 @@
 ######Pages Completed
 
 * [[Archmage Home]]
+* [[Artisan Home]]
 * [[Home]]
 * [[Dev Setup: General Information]]
 * [[Dev Setup: Linux]]
