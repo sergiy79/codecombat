@@ -1,7 +1,7 @@
-| [[Archmage Home]] | [[Artisan Home]]  | [[Diplomat Home]] |  [[Scribe Home]]  |
-| :---------------: | :---------------: | :---------------: | :---------------: |
-| ![<a href="[[Archmage Home]]">Archmage</a>](http://codecombat.com/images/pages/contribute/tile_archmage.png)                     | ![Artisan](http://codecombat.com/images/pages/contribute/tile_artisan.png)                       | ![Diplomat](http://codecombat.com/images/pages/contribute/tile_diplomat.png)                     | ![Scribe](http://codecombat.com/images/pages/contribute/tile_scribe.png) |
-|    **Coders!**    |   **Builders!**   |  **Translators!** |    **Writers!**   |
+| [[Archmage Home]] | [[Artisan Home]]  | [[Adventurer Home]] | [[Diplomat Home]] |  [[Scribe Home]]  | [[Ambassador Home]] |
+| :---------------: | :---------------: | :---------------: | :---------------: | :---------------: | :---------------: |
+| ![Archmage](http://codecombat.com/images/pages/contribute/tile_archmage.png)                     | ![Artisan](http://codecombat.com/images/pages/contribute/tile_artisan.png)                       | ![Adventurer](http://codecombat.com/images/pages/contribute/tile_adventurer.png)                     | ![Diplomat](http://codecombat.com/images/pages/contribute/tile_diplomat.png) | ![Scribe](http://codecombat.com/images/pages/contribute/tile_scribe.png) | ![Ambassador](http://codecombat.com/images/pages/contribute/tile_ambassador.png) |
+|    **Coders!**    |   **Builders!**   |  **Testers!** |    **Translators!**   |  **Writers!** |    **Supporters!**   |
 
 Hello [**CodeCombat contributors**](http://codecombat.com/contribute)! Welcome to the wiki for CodeCombat. These documents are designed to give you everything you need to know, technical and non-technical, to dive into the project. If you see an opportunity to improve the docs, go ahead!  
 
