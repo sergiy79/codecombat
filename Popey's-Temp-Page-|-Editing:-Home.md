@@ -2,8 +2,6 @@ Hello [CodeCombat contributors](http://codecombat.com/contribute)! Welcome to th
 
 If this is your first time hearing of CodeCombat, we recommend checking out our website [here](codecombat.com).  Our mission statement is available [here](https://github.com/codecombat/codecombat/wiki/Mission-statement)
 
-***
-
 ##Quick Navigation
 
 | [[Archmage Home]]     | [[Artisan Home]]  | [[Diplomat Home]]  | [[Scribe Home]] |
