@@ -9,8 +9,7 @@ If this is your first time hearing of CodeCombat, we recommend checking out our 
 | [[Archmage Home]]     | [[Artisan Home]]  | [[Diplomat Home]]  | [[Scribe Home]] |
 | :---------------: | :-----------: | :------------: | :---------: |
 | ![Archmage](http://codecombat.com/images/pages/contribute/tile_archmage.png)         | ![Artisan](http://codecombat.com/images/pages/contribute/tile_artisan.png) | ![Diplomat](http://codecombat.com/images/pages/contribute/tile_diplomat.png)          | ![Scribe](http://codecombat.com/images/pages/contribute/tile_scribe.png)            |
-| col 2 is          | centered      |   $12          |             |
-| zebra stripes     | are neat      |    $1          |             |
+| Archmages write code!          | Artisans build levels!      |   Diplomats translate content!          | Scribes write text!            |
 
 
 
