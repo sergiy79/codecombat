@@ -2,6 +2,10 @@ Hello [CodeCombat contributors](http://codecombat.com/contribute)! Welcome to th
 
 ***
 
+##Quick Navigation
+
+
+
 ### [[Mission Statement]]
 Why this game is open source.
 
