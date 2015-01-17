@@ -11,6 +11,6 @@
 
 * [[Artisan Home]]
 
-#######Pages To Be Deleted
+######Pages To Be Deleted
 
 * None
