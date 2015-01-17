@@ -7,7 +7,7 @@ If this is your first time hearing of CodeCombat, we recommend checking out our 
 | [[Archmage Home]]     | [[Artisan Home]]  | [[Diplomat Home]]  | [[Scribe Home]] |
 | :---------------: | :-----------: | :------------: | :---------: |
 | ![Archmage](http://codecombat.com/images/pages/contribute/tile_archmage.png)         | ![Artisan](http://codecombat.com/images/pages/contribute/tile_artisan.png) | ![Diplomat](http://codecombat.com/images/pages/contribute/tile_diplomat.png)          | ![Scribe](http://codecombat.com/images/pages/contribute/tile_scribe.png)            |
-| **Archmages write code!**          | **Artisans build levels!**      |   **Diplomats translate content!**          | **Scribes write text!**            |
+| **Coders!**          | **Builders!**      |   **Translators!**          | **Writers!**            |
 
 
 
