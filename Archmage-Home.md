@@ -2,8 +2,15 @@
 |:-:|:-:|:-:|
 
 Hello [Archmages](http://codecombat.com/contribute/archmage)! Welcome to the developer wiki for CodeCombat. These documents are designed to give you everything you need to know, technical and non-technical, to dive into the project. If you see an opportunity to improve the docs, go ahead!
+
+###Index
+* [Contact Us](#contact-us)
+* [Starting Off](#starting-off)
+* [Reading Material](#reading-material)
+* [FAQ](#faq)
+
 ## Beginners
-####1. Contact
+####Contact Us
 
 CodeCombat has a public HipChat room at [http://www.hipchat.com/g3plnOKqa](http://www.hipchat.com/g3plnOKqa), where we hang out when we're awake. Stop by, say hi, and ask a question any time. Although the core devs are asleep during the night (US Pacific time), there are usually a few other players awake.
 
@@ -12,7 +19,7 @@ There's also an off-topic room at [http://www.hipchat.com/gaXOD7lQ8](http://www.
 You can also come to the [Discourse Forum](http://discourse.codecombat.com/) or check the [main HipChat Room page](https://github.com/codecombat/codecombat/wiki/HipChat-Room).
 
 
-####2. Starting
+####Starting Off
 If you are new to coding or have a question, check the FAQ at the bottom of this page.
 
 * You should set up the [[Developer Environment]].
@@ -24,8 +31,8 @@ If you are new to coding or have a question, check the FAQ at the bottom of this
 * You can also [fix different bugs](https://github.com/codecombat/codecombat/labels/bug) or bring up new ideas in the HipChat.
 
 
-## Stuff Everyone Should Know
-
+##Reading Material
+####General:
 * [[Mission Statement]]
 * [[Developer Environment]] -- Start here to get CodeCombat set up on your computer.
 * [[Developer Organization]]
@@ -36,22 +43,22 @@ If you are new to coding or have a question, check the FAQ at the bottom of this
 * [[Coco Models]]
 * [[Testing]]
 
-## Frontend Development
+####Frontend Development:
 
 * [[Client Models]]
 * [[Views]]
 * [[Events, Subscriptions, Shortcuts]]
 
-## Backend Development
+####Backend Development:
 
 * [[File System]]
 
-## Key Systems
+####Key Systems:
 
 * [[Versioning]]
 * [[Permissions]]
 
-## Game Engine
+####Game Engine:
 
 * CodeCombat uses a [[Thang Component System]] architecture.
     * A [[Thang]] can be an ogre, a land, an arrow--anything.
@@ -62,12 +69,12 @@ If you are new to coding or have a question, check the FAQ at the bottom of this
 * The [[Tome]] is our spell editor.
 * [[Multiplayer]]
 
-## Side Projects
+####Side Projects:
 
 * [[Treema]], our general interface for editing JSON data with schemas
 * [[Aether]], our transpiler
 
-## FAQ
+##FAQ
 **I don't understand git!!**
 
 Doing [this](https://www.codeschool.com/courses/try-git) super duper fast course should help get you comfortable.
