@@ -6,7 +6,7 @@ There's also an off-topic room at [http://www.hipchat.com/gaXOD7lQ8](http://www.
 
 Here are answers to a few frequently asked questions:
 
-## Can you help me [set up my dev environment](https://github.com/codecombat/codecombat/wiki/Developer-environment)?
+## Can you help me [set up my dev environment](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-General-Information)?
 
 We'll try! It should be a cinch on Linux or Mac, but it's pretty hard to get right on Windows right now. If you can't find us for help on Windows, you might try installing it on a Linux VM. (We'll be happy when someone can take the time and help us update our Windows installer.)
 
