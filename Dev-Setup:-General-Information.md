@@ -1,6 +1,6 @@
 ### Installation Guides
 
-Our installation guides are now split to per-OS guides.
+Our installation guides are now split into per-OS guides.
 * [Linux Setup](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-Linux)
 * [Windows Setup](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-Windows)
 * [Mac and Vagrant Setup](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-Mac-and-Vagrant)
