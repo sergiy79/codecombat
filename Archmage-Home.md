@@ -9,27 +9,19 @@ Hello [Archmages](http://codecombat.com/contribute/archmage)! Welcome to the dev
 * [Reading Material](#reading-material)
 * [FAQ](#faq)
 
-## Beginners
 ####Contact Us
 
-CodeCombat has a public HipChat room at [http://www.hipchat.com/g3plnOKqa](http://www.hipchat.com/g3plnOKqa), where we hang out when we're awake. Stop by, say hi, and ask a question any time. Although the core devs are asleep during the night (US Pacific time), there are usually a few other players awake.
+There are a variety of ways to get help with CodeCombat related things.  We have a developer chat room at [HipChat](http://www.hipchat.com/g3plnOKqa).  Most people are in US Pacific Time (~GMT-8) but there are usually a few other players awake at other times.  We have room for off-topic talking [here](http://www.hipchat.com/gaXOD7lQ8) where you can talk about anything!
 
-There's also an off-topic room at [http://www.hipchat.com/gaXOD7lQ8](http://www.hipchat.com/gaXOD7lQ8).
-
-You can also come to the [Discourse Forum](http://discourse.codecombat.com/) or check the [main HipChat Room page](https://github.com/codecombat/codecombat/wiki/HipChat-Room).
-
+The [Discourse Forum](http://discourse.codecombat.com/) is another useful place to get help.  For more information check out the [main HipChat Room page](https://github.com/codecombat/codecombat/wiki/HipChat-Room).
 
 ####Starting Off
-If you are new to coding or have a question, check the FAQ at the bottom of this page.
-
-* You should set up the [[Developer Environment]].
-
-* You should check the [good-for-newbies issues](https://github.com/codecombat/codecombat/labels/good-for-newbies). You should easily do your first commit by [creating new Thang names](https://github.com/codecombat/codecombat/issues/53), [adding new tips for the loading screen](https://github.com/codecombat/codecombat/issues/710) or [adding documentation](https://github.com/codecombat/codecombat/issues/1237).
-
-* You should check all this wiki and understand how is CodeCombat organized. 
-
-* You can also [fix different bugs](https://github.com/codecombat/codecombat/labels/bug) or bring up new ideas in the HipChat.
-
+1. Setup the [Developer Environment](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-General-Information).
+1. Make a small first commit such as [creating a new Thang name](https://github.com/codecombat/codecombat/issues/53), [adding tips to the loading screen](https://github.com/codecombat/codecombat/issues/710) or [adding documentation](https://github.com/codecombat/codecombat/issues/1237).
+1. Check out the [Good for Newbies Issues](https://github.com/codecombat/codecombat/labels/good-for-newbies)
+1. Browse the wiki to learn something new!
+1. Fix [bugs](https://github.com/codecombat/codecombat/labels/bug).
+1. Bring up new ideas in our [HipChat room](https://www.hipchat.com/g3plnOKqa)
 
 ##Reading Material
 ####General:
