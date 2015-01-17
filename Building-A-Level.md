@@ -1,10 +1,15 @@
-## Steps
+###Index
 
-### PreProduction
+* [Pre-Production](#pre-production)
+* [Production](#production)
+* [Iteration](#iteration)
+* [Auto-Saving](#auto-saving)
+
+####Pre-Production
 
 1. **Come up with a level idea**. If this is your first time building a level, we recommend something fairly simple, or a variation of an existing level.
 
-### Production
+####Production
 
 1. **Create your level**. Go to the [level search page](http://codecombat.com/editor/level) and either make a brand new, blank level, or pick a level from the list and fork it, copying all the existing logic to have something to start from.
 1. **Place down Thangs in the Thangs tab**. The Thangs tab is the tab open by default. [Read more...](Thangs Tab)
@@ -16,7 +21,7 @@
 1. **Test test test**. Click 'play' in the upper right corner to play your level.
 1. **Save and publish**. Check 'publish' when saving your Level to make it accessible to anyone.
 
-### Iteration
+####Iteration
 
 No matter what you're building, regular and frequent iteration is key to making something incredible. Make a level and as soon as it's even a little bit usable, share it with us, with others, with anyone to get feedback. If you're not embarrassed by what you've built when you first demonstrate it, you're waiting too long.
 
@@ -27,7 +32,7 @@ To get feedback:
 * Link friends and family to it and have them play it.
 * If you want the best possible result, consider UX testing it. It's a tough skill to learn, but extremely valuable.
 
-## How Autosave Works
+####Auto-Saving
 
 Whatever edits you make are saved in [localStorage](https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Storage#localStorage) until you save them in the database. This way if you reload the page, any changes you make to the Level, Components and Systems are not lost. These are only stored locally on your browser, though, so if you clear your browser data any backups are lost. And you can only access those changes on the browser of the computer you used to make those changes. It's a fairly simple system to take the edge off the all-too-common case of losing work by closing the tab or reloading accidentally or the tab crashing.
 
