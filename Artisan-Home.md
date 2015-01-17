@@ -1,7 +1,7 @@
 ||![CodeCombat](http://www.owstartup.com/wp-content/uploads/2014/05/code-combat.png)||
 |:-:|:-:|:-:|
 
-Welcome [Artisans](http://codecombat.com/contribute/artisan)! This wiki is the main documentation on how to use the CodeCombat editors to build the levels of your dreams.  If you don't like reading, go ahead and watch [this](https://vimeo.com/codecombat/mirage-maker) screencast instead.
+Welcome [Artisans](http://codecombat.com/contribute/artisan)! This wiki is the main documentation on how to use the CodeCombat editors to build the levels of your dreams. If you don't like reading, go ahead and watch [this](https://vimeo.com/codecombat/mirage-maker) screencast instead.
 
 If you want to earn money from buildings levels, go check out the [[Chief Artisan Level Audition]] wiki page.
 
