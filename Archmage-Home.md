@@ -75,7 +75,7 @@ Doing [this](https://www.codeschool.com/courses/try-git) quick course should get
 
 We'll try! It should be a cinch on Linux or Mac, but it's pretty hard to get right on Windows right now. If you can't find us for help on Windows, you might try installing it on a Linux VM.  Anyone who can help with updating the Windows version is welcome to!
 
-######What can I do to get into [Google Summer](https://github.com/codecombat/codecombat/wiki/Summer-Project-Ideas-List) of Code in 2015?
+######What can I do to get into [Google Summer of Code](https://github.com/codecombat/codecombat/wiki/Summer-Project-Ideas-List) in 2015?
 
 We can't guarantee whether CodeCombat will participate or how many slots we'll get (last year there were four), but two things are certain: 
 1. Competition will be high
