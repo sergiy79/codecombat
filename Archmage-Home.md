@@ -67,14 +67,17 @@ The [Discourse Forum](http://discourse.codecombat.com/) is another useful place 
 * [[Aether]], our transpiler
 
 ###FAQ
-**I don't understand git!!**
+######How do I learn Git?
 
-Doing [this](https://www.codeschool.com/courses/try-git) super duper fast course should help get you comfortable.
+Doing [this](https://www.codeschool.com/courses/try-git) quick course should get you up to speed with Git.
 
-**Can you help me [set up my dev environment](https://github.com/codecombat/codecombat/wiki/Developer-environment)?**
+######Can you help with setting up my [development environment](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-General-Information)?
 
-We'll try! It should be a cinch on Linux or Mac, but it's pretty hard to get right on Windows right now. If you can't find us for help on Windows, you might try installing it on a Linux VM. (We'll be happy when someone can take the time and help us update our Windows installer.)
+We'll try! It should be a cinch on Linux or Mac, but it's pretty hard to get right on Windows right now. If you can't find us for help on Windows, you might try installing it on a Linux VM.  Anyone who can help with updating the Windows version is welcome to!
 
-**What can I do to get into [Google Summer](https://github.com/codecombat/codecombat/wiki/Summer-Project-Ideas-List) of Code in 2015?**
+######What can I do to get into [Google Summer](https://github.com/codecombat/codecombat/wiki/Summer-Project-Ideas-List) of Code in 2015?
 
-We can't guarantee whether CodeCombat will participate or how many slots we'll get (last year there were four), but two things are certain: 1) competition will be high, and 2) preference will have to go to those who have already been contributing to our GitHub so that we know you can be effective working with our stack. So if you'd like to get paid to hack on CodeCombat for the summer for GSoC, let's start hacking on stuff together now. (And you might want to pick a backup organization, too, in case there aren't enough slots.)
+We can't guarantee whether CodeCombat will participate or how many slots we'll get (last year there were four), but two things are certain: 
+1. Competition will be high
+2. Preference will go to those who have already contributed to our project, so that we know you are effective when working with out stack.
+So if you'd like to get paid to hack on CodeCombat for GSoC, let's start hacking on stuff together now. (And you might want to pick a backup organization, too, in case there aren't enough slots.)
