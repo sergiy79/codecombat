@@ -12,7 +12,7 @@
 ######Pages Being Worked On
 
 * [[Ambassador Home]]
-* [[
+* [[Adventurer]]
 
 ######Pages To Be Deleted
 
