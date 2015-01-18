@@ -7,10 +7,11 @@
 * [[Dev Setup: Linux]]
 * [[Dev Setup: Mac and Vagrant]]
 * [[Dev Setup: Windows]]
+* [[Artisan Home]]
 
 ######Pages Being Worked On
 
-* [[Artisan Home]]
+* None
 
 ######Pages To Be Deleted
 
