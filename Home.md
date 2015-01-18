@@ -1,7 +1,8 @@
-| [[Archmage Home]] | [[Artisan Home]]  | [[Adventurer Home]] |  [[Scribe Home]]  | [[Diplomat Home]] | [[Ambassador Home]] |
-| :---------------: | :---------------: | :---------------: | :---------------: | :---------------: | :---------------: |
-| ![Archmage](http://codecombat.com/images/pages/contribute/tile_archmage.png)                     | ![Artisan](http://codecombat.com/images/pages/contribute/tile_artisan.png)                       | ![Adventurer](http://codecombat.com/images/pages/contribute/tile_adventurer.png)                     | ![Scribe](http://codecombat.com/images/pages/contribute/tile_scribe.png) | ![Diplomat](http://codecombat.com/images/pages/contribute/tile_diplomat.png) | ![Ambassador](http://codecombat.com/images/pages/contribute/tile_ambassador.png) |
-|    **Coders!**    |   **Builders!**   |  **Testers!** |  **Writers!** |    **Translators!**   |    **Supporters!**   |
+| - [[Archmage Home]] -  **Coders!** | - [[Artisan Home]] -  **Builders!**  | - [[Adventurer Home]]  - **Testers!**
+| :---------------: | :---------------: | :---------------: 
+| ![Archmage](http://codecombat.com/images/pages/contribute/tile_archmage.png)                     | ![Artisan](http://codecombat.com/images/pages/contribute/tile_artisan.png)                       | ![Adventurer](http://codecombat.com/images/pages/contribute/tile_adventurer.png)                     
+| **- [[Scribe Home]] -** **Scribblers!** |  **- [[Diplomat Home]] -**  **Translators!** |  **- [[Ambassador Home]] -  Supporters!** |
+| ![Scribe](http://codecombat.com/images/pages/contribute/tile_scribe.png) | ![Diplomat](http://codecombat.com/images/pages/contribute/tile_diplomat.png) | ![Ambassador](http://codecombat.com/images/pages/contribute/tile_ambassador.png) |
 
 Hello [**CodeCombat contributors**](http://codecombat.com/contribute)! Welcome to the wiki for CodeCombat. These documents are designed to give you everything you need to know, technical and non-technical, to dive into the project. If you see an opportunity to improve the docs, go ahead!  
 
