@@ -4,7 +4,7 @@
 Programming and code aren't the only languages we use at CodeCombat — the written word makes our app easy to understand, fun to play, and a joy to contribute to. For these important tasks, we lean on our [Scribes](http://codecombat.com/contribute/scribe).
 
 ####How to Become a Scribe
-1. Head over to the [Scribe description page](http://codecombat.com/contribute/scribe) on the main website. 
+1. Head over to the [Scribe Page](http://codecombat.com/contribute/scribe) on the main website. 
 1. Click the "Contact Us" link to open a popup contact form. 
 1. Tell us a little about yourself, your experience with programming and what sort of things you'd like to write about. We'll go from there!
 
