@@ -3,5 +3,5 @@ Hello [Adventurers](* https://codecombat.com/contribute/adventurer)! Welcome to 
 ####Index
 * [Useful Links](#useful-links)
 
-####Useful Links
+######Useful Links
 * [Information](https://codecombat.com/contribute/adventurer)
