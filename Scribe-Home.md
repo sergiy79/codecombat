@@ -5,14 +5,14 @@
 
 Programming and code aren't the only languages we use at CodeCombat — the written word makes our app easy to understand, fun to play, and a joy to contribute to. For these important tasks, we lean on our [Scribes](http://codecombat.com/contribute/scribe).
 
-##How to Become a Scribe
+####How to Become a Scribe
 1. Head over to the [Scribe description page](http://codecombat.com/contribute/scribe) on the main website. 
 1. Click the "Contact Us" link to open a popup contact form. 
 1. Tell us a little about yourself, your experience with programming and what sort of things you'd like to write about. We'll go from there!
 
 _Please note, we'll need to have you sign our [Contributor Licence Agreement](http://codecombat.com/cla) before your changes are merged._
 
-##What Scribes Can Work On
+####What Scribes Can Work On
 If you're ready to flex your writing skills, here are the places where we can use your help the most: 
  
 1. Each level has a guide with some level-specific tips and tricks in it. We want to make sure these guides nudge folks along, but keep the game challenging. Take a look through the existing guides and see if they make sense, especially to someone who is learning to code. As we create new levels, we need to write new guides for them, too. ([Example](https://www.dropbox.com/s/pv7yvxomlfa5nre/Screenshot%202014-12-31%2011.07.03.png?dl=0))
@@ -29,14 +29,14 @@ If you're ready to flex your writing skills, here are the places where we can us
 
 1. Organizing, editing, and contributing content to our [GitHub wiki](http://discourse.codecombat.com/t/faq-check-before-posting/1027).
 
-##How to Modify Content on the General Website
+####How to Modify Content on the General Website
 We maintain all the content on the website through GitHub. There are two ways to contribute: 
 
 1. [Set up the dev environment on your computer](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-General-Information), so you can test your changes locally. _(Recommended)_ 
 
 1. Make edits in the GitHub web interface, and a member of the core team will test your changes to make sure they work.
 
-###Sample Workflow
+####Sample Workflow
 Let's say you wanted to update the [adventurer character class copy](http://codecombat.com/contribute/adventurer). You'd follow this process:
 
 1. Find the template you want to use by following the directories here: https://github.com/codecombat/codecombat/tree/master/app/templates -> this would eventually lead to [/app/templates/contribute/adventurer.jade](https://github.com/codecombat/codecombat/blob/master/app/templates/contribute/adventurer.jade).
@@ -71,10 +71,10 @@ That would translate into this HTML:
 
 except with no whitespace in it that wasn't explicitly in the .jade template. To keep the link from mashing with the prefix, the [".spr" (space-right) class](https://github.com/codecombat/codecombat/blob/master/app/styles/common/common.sass#L181-L184) is used.
 
-###How to Make Sure Your Content is Translated into Other Languages
+####How to Make Sure Your Content is Translated into Other Languages
 CodeCombat is available in over 45 languages. If you don't speak them all, don't worry! Use this process and our [Diplomats](http://codecombat.com/contribute/diplomat) will help make sure your content gets translated properly. 
 
 We added two localization keys (contribute.adventurer_introduction_prefix and contribute.adventurer_introduction_suffix) and reused one we found elsewhere in en.coffee (play.adventurer_forum), so we'd go to [app/locale/en.coffee](https://github.com/codecombat/codecombat/blob/master/app/locale/en.coffee) add those two and delete the contribute.adventurer_introduction key.
 
-###Merging Your Changes
+####Merging Your Changes
 Follow these steps and you'd be good to go–new copy with brilliant wordsmithery! After committing your changes and pushing them to your fork, [create a pull request](https://help.github.com/articles/creating-a-pull-request/) with the GitHub web interface. 
