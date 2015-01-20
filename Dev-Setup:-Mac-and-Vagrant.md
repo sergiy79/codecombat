@@ -30,8 +30,7 @@ This method should work on Mac and Linux, if you run into any problems, let us k
     * `./coco/bin/coco-mongodb` - Starts MongoDB
     * `sudo ./coco/bin/coco-brunch` - Starts brunch, which watches for file changes 
     * `./coco/bin/coco-dev-server` - Starts your local web server
-10. Setup [MongoDB](#installing-the-database)
-### To be Edited
+10. Setup [MongoDB](#installing-the-database) **Soon to be made optional**
 11. Visit [http://localhost:3000](http://localhost:3000) to see your CodeCombat development environment!
 
 If you get errors with bower not being able to clone git repositories, try [cloning over https](http://stackoverflow.com/questions/1722807/git-convert-git-urls-to-http-urls/11383587#11383587).  If SASS brings up an error about file encodings being wrong, add this to your .bash_profile:
