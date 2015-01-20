@@ -3,6 +3,7 @@
 * [Mac OS X Screencast](https://www.youtube.com/watch?v=fom1ksXSbKM)
 * [Mac Tutorial](#simplemac)
 * [Vagrant Tutorial](#the-do-it-yourself-vagrant-vm-method)
+* [Installing the Database](#installing-the-database)
 
 ### <a name="simplemac"></a> Simple Linux and Mac Tutorial
 
@@ -29,7 +30,7 @@ This method should work on Mac and Linux, if you run into any problems, let us k
     * `./coco/bin/coco-mongodb` - Starts MongoDB
     * `sudo ./coco/bin/coco-brunch` - Starts brunch, which watches for file changes 
     * `./coco/bin/coco-dev-server` - Starts your local web server
-10. Setup [MongoDB](#MongoDB) *Soon to be Optional*
+10. Setup [MongoDB](#installing-the-database)
 ### To be Edited
 11. Visit [http://localhost:3000](http://localhost:3000) to see your CodeCombat development environment!
 
@@ -45,3 +46,13 @@ If you have [vagrant](http://www.vagrantup.com/) and virtualbox installed, [http
 ##### The-do-it-via-a-vm-way (THIS METHOD IS UNAVAILABLE FOR NOW, DOWNLOAD LINKS DO NOT WORK)
 If you want to run the VM, you'll have to [download VirtualBox](http://download.virtualbox.org/virtualbox/4.3.6/VirtualBox-4.3.6-91406-Win.exe), install it, then [download](https://s3.amazonaws.com/CodeCombatLargeFiles/CoCoLinux.ova) ([torrent](https://s3.amazonaws.com/CodeCombatLargeFiles/CoCoLinux.ova?torrent)) and import the CodeCombat Linux appliance by going to File:Import Appliance (note that occasionally the large download may be corrupted, so it's often easier to use the torrent.) The "CodeCombat" user account password is "coco". Once you have the Linux virtual machine running, the follow the directions above. To ease development, you can set up a shared folder so that you can edit files in Windows and have them accessible to the Ubuntu VM. See directions for setting up shared folders [here.](http://mikesmithers.wordpress.com/2011/03/23/installing-ubuntu-in-virtualbox-on-a-windows-7-host/#attachment_898) You can also [set up bridged networking](http://askubuntu.com/questions/196118/how-to-access-localhost-on-virtualbox-host-machine) so that your server is accessible from Windows.
 
+###Installing the Database
+Download the [CodeCombat database](http://54.91.159.37/dump.tar.gz) (updated every 10 minutes) and import it to your locally running database with the following commands:
+
+1. Make sure the database is running on your computer (`./bin/coco-mongodb`).
+
+1. Uncompress the file with `tar xzvf [filename]`)
+
+1. Run `mongorestore --drop [path to dump]` if mongorestore is in your path. If mongorestore is not in your path, run `[path to CodeCombat folder]/bin/mongo/mongorestore --drop [path to dump]`
+
+When downloading a new dump to keep the database up-to-date, use `mongorestore --drop [path to dump]` to clear out all old data (including any local data you have created) and replace with just the new data.
