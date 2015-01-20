@@ -7,7 +7,7 @@
 
 ### <a name="simplemac"></a> Simple Linux and Mac Tutorial
 
-This method should work on Mac, if it doesn't, join our HipChat room [here](https://www.hipchat.com/g3plnOKqa).  This tutorial requires you to have the [XCode Developer Tools](http://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12).
+This method should work on Mac, if it doesn't, join our HipChat room [here](https://www.hipchat.com/g3plnOKqa). This tutorial requires you to have the [XCode Developer Tools](http://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12).
 
 1. [Create a GitHub account](https://github.com/join) if you don't already have one.
 2. [Set up Git on your computer](https://help.github.com/articles/set-up-git/) to allow your computer to speak to GitHub
