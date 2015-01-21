@@ -49,7 +49,7 @@ If you see a white screen only, check to see if the first line of app.css is `ER
 4. Install software
   1. `sudo npm install`
   2. `sudo npm install -g bower`
-  3. `bower install` ( bower install each dependency from bower.json )
+  3. `bower install` ( bower install each dependency from bower.json, make sure you're inside the coco directory )
   4. `sudo npm install -g brunch`
   5. Download [MongoDB 2.6.0](http://www.mongodb.org/downloads)
   6. Start up Mongodb and define the bin folder of coco as your --dbpath variable
