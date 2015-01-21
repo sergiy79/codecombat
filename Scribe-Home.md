@@ -1,5 +1,4 @@
-||![CodeCombat](http://www.owstartup.com/wp-content/uploads/2014/05/code-combat.png)||
-|:-:|:-:|:-:|
+<div style="text-align:center"><img src ="http://www.owstartup.com/wp-content/uploads/2014/05/code-combat.png" /></div>
 
 Programming and code aren't the only languages we use at CodeCombat — the written word makes our app easy to understand, fun to play, and a joy to contribute to. For these important tasks, we lean on our [Scribes](http://codecombat.com/contribute/scribe).
 
