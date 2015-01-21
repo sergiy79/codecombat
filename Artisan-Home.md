@@ -1,5 +1,4 @@
-||![CodeCombat](http://www.owstartup.com/wp-content/uploads/2014/05/code-combat.png)||
-|:-:|:-:|:-:|
+<div style="text-align:center"><img src ="http://www.owstartup.com/wp-content/uploads/2014/05/code-combat.png" /></div>
 
 Welcome [Artisans](http://codecombat.com/contribute/artisan)! This wiki is the main documentation on how to use the CodeCombat editors to build the levels of your dreams. If you don't like reading, go ahead and watch [this](https://vimeo.com/codecombat/mirage-maker) screencast instead.
 
