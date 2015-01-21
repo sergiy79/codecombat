@@ -13,7 +13,7 @@ On Linux, you'll need make, build-essential, ruby, curl and git installed (`sudo
 1. [Create a GitHub account](https://github.com/join) if you don't already have one.
 2. [Set up Git on your computer](https://help.github.com/articles/set-up-git/) to allow your computer to speak to GitHub
 3. (Optional) [Fork](https://github.com/codecombat/codecombat/fork) our CodeCombat repository if you wish to make changes.
-4. Make sure - Message lost, if anyone knows the warning that was placed here, please re-add.  
+4. Make sure - _Message lost, if anyone knows the warning that was placed here, please re-add.  _
 5. Open a terminal and navigate to the folder you wish to install CodeCombat under.
 6. * If you've forked the repository, paste in the following command.  *Replace "your_repository_url" with your repository*.
 
@@ -48,7 +48,7 @@ If you see a white screen only, check to see if the first line of app.css is `ER
 3. `git clone` it to your computer.
 4. Install software
   1. `sudo npm install`
-  2. `sudo npm install -g bower`
+  2. `sudo npm install -g bower` - _It might be necessary to do `cd coco`_
   3. `bower install` ( bower install each dependency from bower.json, make sure you're inside the coco directory )
   4. `sudo npm install -g brunch`
   5. Download [MongoDB 2.6.0](http://www.mongodb.org/downloads)
