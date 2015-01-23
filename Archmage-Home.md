@@ -2,7 +2,7 @@
 
 Hello [Archmages](http://codecombat.com/contribute/archmage)! Welcome to the developer wiki for CodeCombat. These documents are designed to give you everything you need to know, technical and non-technical, to dive into the project. If you see an opportunity to improve the docs, go ahead!
 
-####Index
+###Index:
 * [Contact Us](#contact-us)
 * [Starting Off](#starting-off)
 * [Reading Material](#reading-material)
@@ -17,10 +17,10 @@ The [Discourse Forum](http://discourse.codecombat.com/) is another useful place 
 ####Starting Off
 1. Setup the [Developer Environment](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-General-Information).
 1. Make a small first commit such as [creating a new Thang name](https://github.com/codecombat/codecombat/issues/53), [adding tips to the loading screen](https://github.com/codecombat/codecombat/issues/710) or [adding documentation](https://github.com/codecombat/codecombat/issues/1237).
-1. Check out the [Good for Newbies Issues](https://github.com/codecombat/codecombat/labels/good-for-newbies)
+1. Check out the [Good for Newbies Issues](https://github.com/codecombat/codecombat/labels/good-for-newbies).
 1. Browse the wiki to learn something new!
 1. Fix [bugs](https://github.com/codecombat/codecombat/labels/bug).
-1. Bring up new ideas in our [HipChat room](https://www.hipchat.com/g3plnOKqa)
+1. Bring up new ideas in our [HipChat room](https://www.hipchat.com/g3plnOKqa).
 
 ####Reading Material
 ######General:
@@ -58,12 +58,12 @@ The [Discourse Forum](http://discourse.codecombat.com/) is another useful place 
 * [[World]]s simulate deterministically.
 * The [[Surface]] is what we call our graphics layer.
 * The [[Tome]] is our spell editor.
-* [[Multiplayer]]
+* [[Multiplayer]].
 
 ######Side Projects:
 
-* [[Treema]], our general interface for editing JSON data with schemas
-* [[Aether]], our transpiler
+* [[Treema]], our general interface for editing JSON data with schemas.
+* [[Aether]], our transpiler.
 
 ###FAQ
 ######How do I learn Git?
