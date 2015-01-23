@@ -1,37 +1,37 @@
 ##Index:
 
 * [Simple Linux Installation](#simple-linux-installation) - Rewrite Complete
-* [Complex Linux](#complex-linux-installation)
-* [Simple Ubuntu](#ubuntu-installation)
-* [Ubuntu Screencast](http://youtu.be/usN85KSiWUM)
+* [Complex Linux Installation](#complex-linux-installation)
+* [Ubuntu Installation](#ubuntu-installation)
 * [Installing the Database](#installing-the-database)
+* [Ubuntu Screencast](http://youtu.be/usN85KSiWUM)
 
-##Simple Linux Installation
+###Simple Linux Installation
 
-On Linux, you'll need make, build-essential, ruby, curl and git installed (`sudo apt-get install make build-essential ruby curl git`).
+On Linux, you'll need _make_, _build-essential_, _ruby_, _curl_ and _git_ installed (`sudo apt-get install make build-essential ruby curl git`).
 
 1. [Create a GitHub account](https://github.com/join) if you don't already have one.
-2. [Set up Git on your computer](https://help.github.com/articles/set-up-git/) to allow your computer to speak to GitHub
+2. [Set up Git on your computer](https://help.github.com/articles/set-up-git/) to allow your computer to speak to GitHub.
 3. (Optional) [Fork](https://github.com/codecombat/codecombat/fork) our CodeCombat repository if you wish to make changes.
 4. Make sure - _Message lost, if anyone knows the warning that was placed here, please re-add.  _
 5. Open a terminal and navigate to the folder you wish to install CodeCombat under.
-6. * If you've forked the repository, paste in the following command.  *Replace "your_repository_url" with your repository*.
+6. * If you've forked the repository, paste in the following command (*Replace "your_repository_url" with your repository*):
 
     ```bash
     curl https://raw.githubusercontent.com/codecombat/codecombat/master/scripts/devSetup/bootstrap.sh | bash -s your_repository_url
     ```
-   * If you haven't forked the repository, paste in the following command.
+   * If you haven't forked the repository, paste in the following command:
     ```bash
     curl https://raw.githubusercontent.com/codecombat/codecombat/master/scripts/devSetup/bootstrap.sh | bash
     ```
     NOTE: The repository will be in the coco subdirectory.  You should not run a separate git clone, as that is taken care of.
 7. Ensure you have Python 2 installed with `sudo apt-get install python2`, or your distributional equivalent.  Python 3.1 is also supported, but 3.2+ are not tested.  If that is not working, it is also possible to install it directly from the Ubuntu software center.
-8. Follow the on-screen prompts.  The program will download and install all necessary dependencies.  If nothing seems to be happening, try running `sudo python ./coco/scripts/devSetup/setup.py` or join the [HipChat](www.hipchat.com/g3plnOKqa) to fix things.
-9.  Run the following commands in separate windows (these are python scripts, so make sure you have python IDE installed):
+8. Follow the on-screen prompts.  The program will download and install all necessary dependencies.  If nothing seems to be happening, try running `sudo python ./coco/scripts/devSetup/setup.py` or join the [HipChat room](https://www.hipchat.com/g3plnOKqa) to fix things.
+9.  Run the following commands in separate windows (these are python scripts, so make sure you have a python IDE installed):
     * `./coco/bin/coco-mongodb` - Starts MongoDB
     * `sudo ./coco/bin/coco-brunch` - Starts brunch, which watches for file changes 
     * `./coco/bin/coco-dev-server` - Starts your local web server
-10. Setup [MongoDB](#installing-the-database)
+10. Setup [MongoDB](#installing-the-database).
 11. Visit [http://localhost:3000](http://localhost:3000) to see your CodeCombat development environment!
 
 If you get errors with bower not being able to clone git repositories, try [cloning over https](http://stackoverflow.com/questions/1722807/git-convert-git-urls-to-http-urls/11383587#11383587).  If SASS brings up an error about file encodings being wrong, add this to your .bash_profile:
@@ -39,7 +39,7 @@ If you get errors with bower not being able to clone git repositories, try [clon
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 ```
-If you see a white screen only, check to see if the first line of app.css is `ERROR: Cannot load compass.`. If so, try either uninstalling compass (`gem uninstall compass`) or re-installing it if you actually need it (`gem install compass --pre`).
+If you only see a white screen, check to see if the first line of app.css is `ERROR: Cannot load compass`. If so, try either uninstalling compass (`gem uninstall compass`) or re-installing it if you actually need it (`gem install compass --pre`).
 
 ###Complex Linux Installation
 
@@ -145,8 +145,8 @@ Download the [CodeCombat database](http://54.91.159.37/dump.tar.gz) (updated eve
 
 1. Make sure the database is running on your computer (`./bin/coco-mongodb`).
 
-1. Uncompress the file with `tar xzvf [filename]`)
+1. Uncompress the file with `tar xzvf [filename]`).
 
-1. Run `mongorestore --drop [path to dump]` if mongorestore is in your path. If mongorestore is not in your path, run `[path to CodeCombat folder]/bin/mongo/mongorestore --drop [path to dump]`
+1. Run `mongorestore --drop [path to dump]` if mongorestore is in your path. If mongorestore is not in your path, run `[path to CodeCombat folder]/bin/mongo/mongorestore --drop [path to dump]`.
 
 When downloading a new dump to keep the database up-to-date, use `mongorestore --drop [path to dump]` to clear out all old data (including any local data you have created) and replace with just the new data.
