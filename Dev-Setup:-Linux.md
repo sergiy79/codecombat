@@ -26,6 +26,7 @@ On Linux, you'll need make, build-essential, ruby, curl and git installed (`sudo
     ```
     NOTE: The repository will be in the coco subdirectory.  You should not run a separate git clone, as that is taken care of.
 7. Ensure you have Python 2 installed with `sudo apt-get install python2`, or your distributional equivalent.  Python 3.1 is also supported, but 3.2+ are not tested or you could directly install it from Ubuntu software center or it can be directly downloaded from ubuntu software center.
+![](file:///home/geetika/Downloads/oie_Hcy1Jg5DoG8W.png)
 
 
 
