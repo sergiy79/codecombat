@@ -13,7 +13,7 @@ On Linux, you'll need _make_, _build-essential_, _ruby_, _curl_ and _git_ instal
 1. [Create a GitHub account](https://github.com/join) if you don't already have one.
 2. [Set up Git on your computer](https://help.github.com/articles/set-up-git/) to allow your computer to speak to GitHub.
 3. (Optional) [Fork](https://github.com/codecombat/codecombat/fork) our CodeCombat repository if you wish to make changes.
-4. Make sure - _Message lost, if anyone knows the warning that was placed here, please re-add.  _
+4. Make sure - *Message lost, if anyone knows the warning that was placed here, please re-add.*
 5. Open a terminal and navigate to the folder you wish to install CodeCombat under.
 6. * If you've forked the repository, paste in the following command (*Replace "your_repository_url" with your repository*):
 
