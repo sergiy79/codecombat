@@ -4,7 +4,7 @@
 * [Complex Linux Installation](#complex-linux-installation)
 * [Ubuntu Installation](#ubuntu-installation)
 * [Installing the Database](#installing-the-database)
-* [Ubuntu Screencast](http://youtu.be/usN85KSiWUM)
+* [Ubuntu Screencast](http://youtu.be/usN85KSiWUM) (video)
 
 ###Simple Linux Installation
 
