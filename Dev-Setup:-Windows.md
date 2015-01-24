@@ -1,10 +1,10 @@
-###Index
-* [Simple Windows Installation](#simplewindows)
-* [Detailed Windows Installation](#detailedwindows)
-* [Step by Step](#stepbystep)
+##Index:
+* [Simple Windows Installation](#simple-windows-installation)
+* [Detailed Windows Installation](#detailed-windows-installation)
+* [Step by Step Guide](#step-by-step-guide)
 
 
-### <a name="simplewindows"><a name="windows_details"></a></a> Simple Windows
+###Simple Windows Installation
 
 Download the latest version [here (v3.7)](https://dl.dropboxusercontent.com/u/138899/GitHub%20Wikis/coco-dev-win-setup-3.7.zip) and/or follow the instructions from [this step-by-step guide](#Setup-on-Windows:-a-step-by-step-guide).  The complete process is fully automated for all supported Windows versions.
 
@@ -15,13 +15,13 @@ We support the following, and only the following versions:
 * Windows 8.1
 
 
-**Note**: if your brunch isn't compiling sass properly, try removing the bless-brunch entry from package.json and deleting the bless-brunch folder from node_modules, then getting sass-brunch 1.7.0 with `npm install --save-dev sass-brunch@1.7.0`
+**Note**: if your brunch isn't compiling sass properly, try removing the bless-brunch entry from package.json and deleting the bless-brunch folder from node_modules, then getting sass-brunch 1.7.0 with `npm install --save-dev sass-brunch@1.7.0`.
 
 Other versions, newer then _Windows XP_, and not listed above, might work, but we don't guarantee that they will.
 
-### <a name="detailedwindows"></a> Detailed Windows Install
+###Detailed Windows Installation
 
-**NOTE**: Following the guide can be complicated. If you have any questions, just ask in the [CodeCombat chatroom](http://www.hipchat.com/g3plnOKqa).
+**NOTE**: Following the guide can be complicated. If you have any questions, just ask in the [CodeCombat chatroom](https://www.hipchat.com/g3plnOKqa).
 
 Also, if you prefer, the [automated installer](https://s3.amazonaws.com/CodeCombatLargeFiles/coco-dev-win-setup-3.5.zip) is probably easier to use.
 
@@ -31,7 +31,7 @@ To get started, first you'll need to know a little bit about your computer: whet
 
 * If you're not sure what version of Windows you have, [this link](http://windows.microsoft.com/en-us/windows/which-operating-system) will tell you.
 
-Once you have gotten those pieces of information, go through the sections below to download and install each dependency, which are
+Once you have gotten those pieces of information, go through the sections below to download and install each dependency, which are:
 * Node.js
 * MongoDB
 * Ruby
@@ -42,7 +42,7 @@ Once you have gotten those pieces of information, go through the sections below 
 ### Node.js
 
 
-To install Node, first download the correct version of the installer from the table below. Then, run the installer. Make sure that the Node installer adds Node to your path(don't change the option in the installer circled below from its default value.)
+To install Node, first download the correct version of the installer from the table below. Then, run the installer. Make sure that the Node installer adds Node to your path(don't change the option in the installer circled below from its default value).
 
 ####Node Download Links
 | Windows Version| 32 bit | 64 bit |
@@ -165,7 +165,7 @@ Copy the start script (courtesy to @GlenDC) from `codecombat/scripts/windows/SCO
 
 Visit `http://localhost:3000` :).
 
-### <a name="stepbystep"></a> Step by Step Guide
+###Step by Step Guide
 
 #### TLDR
 1. [download](#download);
