@@ -1,4 +1,4 @@
-###Index
+##Index:
 
 * [Simple Mac Tutorial](#simple-mac-tutorial)
 * [Vagrant Tutorial](#the-do-it-yourself-vagrant-vm-method)
