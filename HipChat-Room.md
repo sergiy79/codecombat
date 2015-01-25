@@ -4,7 +4,7 @@ CodeCombat has a public [HipChat room](http://www.hipchat.com/g3plnOKqa), where 
 
 There's also an off-topic room at [http://www.hipchat.com/gaXOD7lQ8](http://www.hipchat.com/gaXOD7lQ8).
 
-Here are answers to a few frequently asked questions:
+## Frequently Asked Questions
 
 ###### Can you help me [set up my dev environment](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-General-Information)?
 
