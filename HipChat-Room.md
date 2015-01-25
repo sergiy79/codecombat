@@ -1,4 +1,4 @@
-# CodeCombat HipChat Room
+<div style="text-align:center"><img src ="https://s3.amazonaws.com/uploads.uservoice.com/assets/074/143/315/original/Hipchat.png?AWSAccessKeyId=14D6VH0N6B73PJ6VE382&Expires=1485296322&Signature=GOQ2mimBxXfZyp9fjx7pc2Y8H5w%3D" /></div>
 
 CodeCombat has a public HipChat room at [http://www.hipchat.com/g3plnOKqa](http://www.hipchat.com/g3plnOKqa), where we hang out when we're awake. Stop by, say hi, and ask a question any time. Although the core devs are asleep during the night (US Pacific time), there are usually a few other players awake.
 
