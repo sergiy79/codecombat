@@ -33,6 +33,7 @@ We are going to be ranking proposals in early April, and since mostly we care ab
 1. [Add Responsive Sound / Music](#wiki-audio)
 1. [Create Developer Tools Window](#wiki-devtools)
 1. [Build Massively Multiplayer Sandbox Play](#wiki-sandbox)
+1. [Autocomplete Magic](#wiki-autocomplete)
 1. [Your Own Idea](#wiki-your-idea)
 
 ### <a name="aether"/> Make Aether Transpiler More Friendly
@@ -223,6 +224,18 @@ CodeCombat currently simulates a level from beginning to end every time the code
 *Knowledge prerequisite:* Good programming fundamentals, some knowledge of CoffeeScript or JavaScript, and an interest in game design.
 
 *Difficulty:* Very hard.
+
+
+### <a name="autocomplete"/> Autocomplete Magic
+
+CodeCombat currently extends the [ace editor](https://github.com/ajaxorg/ace) autocomplete via a [small library](https://github.com/differentmatt/zatanna)
+ to handle our in-game code editor autocomplete.  It’s useful, but not magical.  That’s where you come in!  Contact [matt@codecombat.com](mailto:matt@codecombat.com) for more details.
+
+*Expected results:* CodeCombat autocomplete almost always puts the code snippet a player wants to type at the top of the suggestion popup, and the autocomplete visuals support advanced styling.
+
+*Knowledge prerequisite:* Basic web development knowledge. We use CoffeeScript, Jade, and Sass, but those are easy to pick up if you know JavaScript, HTML, and CSS.
+
+Difficulty: Medium.  Understanding the currently implementation should be straightforward.  Making autocomplete awesome will be the interesting part.
 
 
 ### <a name="sandbox"/> Your Own Idea
