@@ -1,12 +1,12 @@
 ##Index:
 
-* [Automatic Linux Installation](#simple-linux-installation)
+* [Automatic Linux Installation](#automatic-linux-installation)
 * [Complex Linux Installation](#complex-linux-installation)
 * [Ubuntu Installation](#ubuntu-installation)
 * [Installing the Database](#installing-the-database)
 * [Ubuntu Screencast](http://youtu.be/usN85KSiWUM) (video)
 
-###Simple Linux Installation
+###Automatic Linux Installation
 
 On Linux, you'll need _make_, _build-essential_, _ruby_, _curl_ and _git_ installed (`sudo apt-get install make build-essential ruby curl git`).
 
