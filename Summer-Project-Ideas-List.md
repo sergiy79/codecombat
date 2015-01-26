@@ -52,7 +52,7 @@ Want to make CodeCombat levels to teach regular expressions? Math? Physics? Recu
 
 *Expected results:* Dozens of fun, playable, polished levels that fit into CodeCombat's existing campaigns.
 
-*Knowledge prerequisite:* An interest in game design, and basic programming knowledge. You don't need to know any programming to use the level editor, but presumably you're trying to teach some programming, so you need to know at least what you're teaching. It will also help to know JavaScript / CoffeeScript if you want to write custom Components and Systems, which will be needed more the more different your levels are than the existing CodeCombat levels.
+*Knowledge prerequisite:* An interest in game design, and basic programming knowledge. You don't need to know any programming to use the level editor, but presumably you're trying to teach some programming, so you need to know at least what you're teaching. It will also help to know JavaScript / CoffeeScript if you want to write custom Components and Systems, which will be needed if your levels are significantly different than existing CodeCombat levels.
 
 *Difficulty:* Medium. Although the coding is easy, it takes a lot of thought to make good levels, so expect to iterate a lot on each level.
 
