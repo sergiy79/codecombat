@@ -93,7 +93,7 @@ As we get more and more levels, it becomes harder to make changes to the game en
 
 ### <a name="languages"/> Add [More Programming Languages](https://github.com/codecombat/codecombat/issues/72)
 
-The [Aether transpiler](http://aetherjs.com/) currently parses and transpiles JavaScript (and soon CoffeeScript) code to safe, yielding, instrumented JavaScript that can be integrated into the CodeCombat game engine and other projects. Thanks to our open-source contributors, it now also does Python, CoffeeScript, Lua, Clojure, and Io. If you want to see CodeCombat players play in Ruby, C, Swift, or whatever language you think you can pull off, then you'd just need to write or adapt an in-browser parser for that language to the [Mozilla Parser abstract syntax tree format](https://developer.mozilla.org/en-US/docs/SpiderMonkey/Parser_API).
+The [Aether transpiler](http://aetherjs.com/) currently parses and [transpiles](http://en.wikipedia.org/wiki/Source-to-source_compiler) JavaScript, Python, CoffeeScript, Lua, Clojure, and Io code into safe, yielding, instrumented JavaScript that can be integrated into the CodeCombat game engine and other projects. If you want to see CodeCombat players play in Ruby, C, Swift, or whatever language you think you can pull off, then you'd need to write or adapt an in-browser parser for that language to the [Mozilla Parser abstract syntax tree format](https://developer.mozilla.org/en-US/docs/SpiderMonkey/Parser_API).
 
 *Expected results:* Players can play all CodeCombat levels in the new language.
 
