@@ -17,6 +17,4 @@
 ######Pages To Be Deleted
 
 * None
-
-![](https://dl.dropboxusercontent.com/u/138899/GitHub%20Wikis/readme_00.png)
-
+<div style="text-align:center"><a src="http://codecombat.com/"><img src ="https://dl.dropboxusercontent.com/u/138899/GitHub%20Wikis/readme_00.png" /></div></a>
