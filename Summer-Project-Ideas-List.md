@@ -104,7 +104,7 @@ The [Aether transpiler](http://aetherjs.com/) currently parses and [transpiles](
 
 ### <a name="ipad"/> Improve iPad App Performance
 
-CodeCombat is a web app written with cross-platform HTML5 in mind from the start, and we developed a complete iPad app to which wraps it in Apple's new, fast WKWebView. Unfortunately, it's still too slow and uses too much memory, so we can't release it. If you like optimizing performance, here's a challenge for you!
+CodeCombat is a web app written with cross-platform HTML5 in mind from the start, and we developed a complete iPad app which wraps it in Apple's new, fast WKWebView. Unfortunately, it's still too slow and uses too much memory, so we can't release it. If you like optimizing performance, here's a challenge for you!
 
 *Expected results:* Players can have fun playing CodeCombat on iPad.
 
@@ -121,7 +121,7 @@ The level editor is really cool: drag-and-drop, completely configurable, and eve
 
 *Knowledge prerequisite:* Basic web development knowledge. We use CoffeeScript, Jade, and Sass, but those are easy to pick up if you know JavaScript, HTML, and CSS.
 
-*Difficulty:* Easy. You just watch people try to make levels, see where they get stuck, and tweak the design until they stop getting stuck there.
+*Difficulty:* Easy. You can watch people try to make levels, see where they get stuck, and tweak the design until they stop getting stuck there.
 
 
 ### <a name="classroom"/> Add Classroom Organization Features
@@ -148,7 +148,7 @@ CodeCombat uses [EaselJS](http://www.createjs.com/#!/EaselJS), a 2D graphics lib
 
 ### <a name="multilingual-audio"/> Organize Multilingual Audio Recordings
 
-We've built internationalization and localization tools allowing translation of almost all of CodeCombat's text (pretty much except for the names of the player's API methods themselves), but we still have some voiceover from the heroes that is only in English. We could organize our Diplomats to record this dialogue for us in their own languages so that even younger international players can understand it (since often they want to hear, not read, the instructions, plus having flavor sound bytes in your own language is always cool). This wouldn't take much coding, although if you can code, there is some to do to be able to use the sound files in game and visualize the recording completion coverage progress. But mostly it'll take patience and communication with all of our Diplomats to get the recordings done. Alternatively, if your coding is strong, you could build an HTML5-based speech recorder node for Treema that would allow anyone to record their language's audio from their browser, normalize the audio and remove noise using the web audio APIs, and upload it to our server in mp3 and ogg.
+We've built internationalization and localization tools allowing translation of almost all of CodeCombat's text (pretty much except for the names of the player's API methods themselves), but we still have some voiceover from the heroes that is only in English. We could organize our Diplomats to record this dialogue for us in their own languages so that even younger international players can understand it (since often they want to hear, not read, the instructions, plus having flavor sound bytes in your own language is always cool). This wouldn't take much coding, although if you can code, there is some to do to be able to use the sound files in game and visualize the recording completion coverage progress. But mostly it'll take patience and communication with all of our Diplomats to get the recordings done. Alternatively, if your coding is strong, you could build an HTML5-based speech recorder node for [Treema](https://github.com/codecombat/treema) that would allow anyone to record their language's audio from their browser, normalize the audio and remove noise using the web audio APIs, and upload it to our server in mp3 and ogg.
 
 *Expected results:* CodeCombat's voiceover and hero flavor audio can be localized.
 
@@ -161,7 +161,7 @@ We've built internationalization and localization tools allowing translation of 
 
 CodeCombat uses a 2D physics engine with Box2D for collision detection, and we've written some basic position / velocity / acceleration stuff and locomotion dynamics, but there's so much more physics that could be done, enabling more physics-based gameplay and levels. Imagine coding the laser targeting system to solve reflection-based puzzle levels in CodeCombat, or levels where you adjust your thrust to guide your rocket. You could make that happen. Plus, we can always make it more performant, like by [implementing quadtrees](https://github.com/codecombat/codecombat/issues/358).
 
-*Expected results:* CodeCombat should be have a general physics system that enables lots of emergent physics-based gameplay while still being performant.
+*Expected results:* CodeCombat should have a general physics system that enables lots of emergent physics-based gameplay while still being performant.
 
 *Knowledge prerequisite:* Physics (mechanics) and proficiency with algorithms. Knowledge of CoffeeScript or JavaScript helpful.
 
@@ -181,7 +181,7 @@ In CodeCombat's real-time cooperative and eventually competitive multiplayer, it
 
 ### <a name="audio"/> Add Responsive Sound / Music
 
-We have some great music and sound effects, but they don't do enough to add to the immersion, since the sound and music that plays is often not adapting to what's going on in the game. Doing some smart music switches and possibly audio processing in the browser could go a long way toward adding to the fun. There's some really audio APIs that would be great to put through their paces.
+We have some great music and sound effects, but they don't do enough to add to the immersion, since the sound and music that plays is often not adapting to what's going on in the game. Doing some smart music switches and possibly audio processing in the browser could go a long way toward adding to the fun. There's some really good audio APIs that would be great to put through their paces.
 
 *Expected results:* CodeCombat's music and sound would adapt to the game environment for an immersive game experience.
 
