@@ -1,6 +1,6 @@
 ##Index:
 
-* [Simple Linux Installation](#simple-linux-installation) - Rewrite Complete
+* [Automatic Linux Installation](#simple-linux-installation)
 * [Complex Linux Installation](#complex-linux-installation)
 * [Ubuntu Installation](#ubuntu-installation)
 * [Installing the Database](#installing-the-database)
