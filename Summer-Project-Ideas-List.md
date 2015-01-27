@@ -2,7 +2,7 @@ Here are some ideas that would make good summer projects for student developers.
 
 Students wanting to submit a proposal should start with the following:
 
-1. [Get your development environment set up](https://github.com/codecombat/codecombat/wiki/Developer-environment).
+1. [Get your development environment set up](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-General-Information).
 1. To get a great feel for the project, make a [small pull request or two](https://github.com/codecombat/codecombat/issues?labels=good-for-newbies&page=1&state=open).
 1. You should also [sign up as an Archmage](http://codecombat.com/contribute/archmage), [follow our forum](http://discourse.codecombat.com/), and watch this GitHub repository.
 1. Play through [some of our existing levels](http://codecombat.com/play) to get a feel for the game.
