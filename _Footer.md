@@ -1,1 +1,2 @@
 [Code Combat](http://codecombat.com) | [[Home]] | [Blog](http://blog.codecombat.com/) | [Forum](http://discourse.codecombat.com/) | [Teachers](http://codecombat.com/teachers) | [Legal](http://codecombat.com/legal) |   © All Rights Reserved CodeCombat 2015
+<sup>Footer</sup>
