@@ -1,1 +1,1 @@
-<div style="text-align:center;">[Code Combat](www.codecombat.com)</div>
+<span style="text-align:center;">[Code Combat](www.codecombat.com)</span>
