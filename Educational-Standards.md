@@ -1,4 +1,4 @@
-# CodeCombat and Educational Standards
+# Educational Standards
 
 According to the CSTA, the Computer Science Teachers Association standards are designed to: 
 
