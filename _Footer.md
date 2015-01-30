@@ -1,1 +1,2 @@
-Testing Custom Footers
+|[Code Combat](www.codecombat.com)|
+|:-------------------------------:|
