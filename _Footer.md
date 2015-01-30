@@ -1,1 +1,1 @@
-<span style="text-align:center;">[Code Combat](www.codecombat.com)</span>
+[Code Combat](www.codecombat.com) | [[Home]] | [Blog](http://blog.codecombat.com/) | [Forum](http://discourse.codecombat.com/) | [Teachers](http://codecombat.com/teachers) | [Legal](http://codecombat.com/legal) | © All Rights Reserved CodeCombat 2015
