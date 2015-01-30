@@ -1,2 +1,1 @@
-|[Code Combat](www.codecombat.com)|
-|:-------------------------------:|
+<div style="text-align:center;">[Code Combat](www.codecombat.com)</div>
