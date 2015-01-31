@@ -39,10 +39,10 @@
  * [[Tome]]
  * [[World]]
 * **[[Artisan Tabs|Artisan-Home#level-editor]]**
- * [[Components And Systems Tabs]]
- * [[Scripts Tab]]
- * [[Settings Tab]]
- * [[Thangs Tab]]
+ * [[Components And Systems|Components And Systems Tabs]]
+ * [[Scripts|Scripts Tab]]
+ * [[Settings|Settings Tab]]
+ * [[Thangs|Thangs Tab]]
 * **[[Other|Home]]**
  * [[Aether]]
  * [[Client models]]
