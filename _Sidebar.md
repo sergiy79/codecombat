@@ -1,7 +1,7 @@
-* [[Home]]
- * [[Archmage Home]]
- * [[Artisan Home]]
- * [[Adventurer Home]]
- * [[Scribe Home]]
- * [[Diplomat Home]]
- * [[Ambassador Home]]
+* **[[Home]]**
+ * **[[Archmage Home]]**
+ * **[[Artisan Home]]**
+ * **[[Adventurer Home]]**
+ * **[[Scribe Home]]**
+ * **[[Diplomat Home]]**
+ * **[[Ambassador Home]]**
