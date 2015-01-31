@@ -28,7 +28,7 @@
 * **[[Dev Setup|Dev Setup: General Information]]**
  * [[Dev Setup: Linux]]
  * [[Dev Setup: Windows]]
- * [[Dev Setup: Mac]]
+ * [[Dev Setup: Mac|Dev Setup: Mac and Vagrant]]
 * [[Aether]]
 * [[Client models]]
 * [[Component]]
