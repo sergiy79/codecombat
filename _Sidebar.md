@@ -1,1 +1,7 @@
-Thought I'd test a custom sidebar.
+* [[Home]]
+ * [[Archmage Home]]
+ * [[Artisan Home]]
+ * [[Adventurer Home]]
+ * [[Scribe Home]]
+ * [[Diplomat Home]]
+ * [[Ambassador Home]]
