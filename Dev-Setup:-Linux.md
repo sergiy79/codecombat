@@ -58,24 +58,24 @@ If you only see a white screen, check to see if the first line of app.css is `ER
 
 ###Ubuntu Installation
 
-Thank you to Steve Malmskog for writing this great guide on getting the development environment running on Ubuntu 12.04 LTS!
+Thank you to Steve Malmskog for writing this great guide on getting the development environment running on Ubuntu 12.04 LTS (and later)!
 
 ####Installation
 The installation assumes a couple destinations. Season to taste:
 
-* `$ export COCO_TREE=~/src/coco/codecombat`
-* `$ export COCO_DB=~/src/coco/db`
-* `$ export MONGO_DL=~/mongodl`
+* `export COCO_TREE=~/src/coco/codecombat`
+* `export COCO_DB=~/src/coco/db`
+* `export MONGO_DL=~/mongodl`
 
 Fork and download the codecombat git repo:
 - Create a git account or sign in
 - [Fork](https://github.com/codecombat/codecombat/fork) the CodeCombat repository
 - Clone the repository:
     - `mkdir -p $COCO_TREE && cd $COCO_TREE`
-    - `git clone https://github.com/[YOUR_USERNAME_OR_ID]codecombat/codecombat.git`
+    - `git clone https://github.com/[YOUR_USERNAME_OR_ID]/codecombat.git`
     - `git remote add upstream https://github.com/codecombat/codecombat.git`
 
-Download and install Node.JS for Ubuntu 12.04:
+Download and install Node.JS for Ubuntu 12.04 (and later):
 - `sudo add-apt-repository ppa:chris-lea/node.js`
 - `sudo apt-get update`
 - `sudo apt-get install nodejs`
@@ -98,11 +98,10 @@ Setup bower:
 Download and (manually) install mongodb 2.6 for Linux:
 - `mkdir -p $MONGO_DL && cd $MONGO_DL`
 - `wget https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-2.6.4.tgz` (`wget https://fastdl.mongodb.org/linux/mongodb-linux-i686-2.6.4.tgz` for 32-bit)
-- `tar xfz mongodb-linux-x86_64-2.6.4.tgz`
-- `sudo cp mongodb-linux-x86_64-2.6.4/bin/* /usr/local/bin`
+- `tar xfz mongodb-linux-x86_64-2.6.4.tgz` (`tar xfz mongodb-linux-i686-2.6.4.tgz` for 32-bit)
+- `sudo cp mongodb-linux-x86_64-2.6.4/bin/* /usr/local/bin` (`sudo cp mongodb-linux-i686-2.6.4/bin/* /usr/local/bin` for 32-bit)
 - `sudo mkdir -p /data/db`
-- `sudo chown -R \<username\>:\<username\> /data/db`
-   where \<username\> = your username (e.g., `whoami`)
+- `sudo chown -R <username>:<username> /data/db` where \<username\> = your username (e.g., `whoami`)
 
 Download and unpack database snapshot:
 - `mkdir -p $COCO_DB && cd $COCO_DB`
@@ -125,7 +124,7 @@ Start up brunch:
 - `sudo cd $COCO_TREE && bin/coco-brunch`
    This should say something like:
 
-   info: compiled 696 files into 6 files, copied 286 in 34766ms
+   info: compiled 806 files into 597 files, copied 371 in 34766ms
 
    It will continue to run in the foreground.
 
