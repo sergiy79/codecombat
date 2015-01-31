@@ -65,7 +65,7 @@ The [Discourse Forum](http://discourse.codecombat.com/) is another useful place 
 * [[Treema]], our general interface for editing JSON data with schemas.
 * [[Aether]], our transpiler.
 
-###FAQ
+####FAQ
 ######How do I learn Git?
 
 Doing [this](https://www.codeschool.com/courses/try-git) quick course should get you up to speed with Git.
