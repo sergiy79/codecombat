@@ -1,31 +1,38 @@
 * **[[Home]]**
+ * [[Archmage Home]]
+ * [[Artisan Home]]
+ * [[Adventurer Home]]
+ * [[Scribe Home]]
+ * [[Diplomat Home]]
+ * [[Ambassador Home]]
+* **[[Archmage General|Archmage Home]]**
  * [[Mission statement]]
-* **[[Archmage Home]]**
- * [[Technical overview]]
- * [[JSON Schema]]
+ * [[Coco Models]]
  * [[Coding Guidelines]]
+ * [[Developer organization]]
  * [[File system]]
-* **[[Artisan Home]]**
- * [[Important Artisan Concepts]]
+ * [[JSON Schema]]
+ * [[Technical overview]]
+ * [[Third party software and services]]
+* **[[Artisan General|Artisan Home]]**
  * [[Building A Level]]
  * [[Chief Artisan Level Audition]]
  * [[Coding Guidelines for Artisans]]
-* **[[Adventurer Home]]**
+ * [[Important Artisan Concepts]]
+* **[[Adventurer General|Adventurer Home]]**
  * [[Testing]]
-* **[[Scribe Home]]**
-* **[[Diplomat Home]]**
+* **[[Scribe General|Scribe Home]]**
+* **[[Diplomat General|Diplomat Home]]**
  * [[i18n]]
-* **[[Ambassador Home]]**
+* **[[Ambassador General|Ambassador Home]]**
 * **[[Dev Setup|Dev Setup: General Information]]**
  * [[Dev Setup: Linux]]
  * [[Dev Setup: Windows]]
  * [[Dev Setup: Mac and Vagrant]]
 * [[Aether]]
 * [[Client models]]
-* [[Coco Models]]
 * [[Component]]
 * [[Components And Systems Tabs]]
-* [[Developer organization]]
 * [[Editing Thang Components]]
 * [[Educational Standards]]
 * [[Events, subscriptions, shortcuts]]
@@ -40,7 +47,6 @@
 * [[Thang]]
 * [[Thang Component System]]
 * [[Thangs Tab]]
-* [[Third party software and services]]
 * [[Tome]]
 * [[Treema]]
 * [[Versioning]]
