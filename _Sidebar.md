@@ -1,22 +1,22 @@
 * **[[Home]]**
  * [[Mission statement]]
-* [[Archmage Home]]
+* **[[Archmage Home]]**
  * [[Technical overview]]
  * [[JSON Schema]]
  * [[Coding Guidelines]]
  * [[File system]]
-* [[Artisan Home]]
+* **[[Artisan Home]]**
  * [[Important Artisan Concepts]]
  * [[Building A Level]]
  * [[Chief Artisan Level Audition]]
  * [[Coding Guidelines for Artisans]]
-* [[Adventurer Home]]
+* **[[Adventurer Home]]**
  * [[Testing]]
-* [[Scribe Home]]
-* [[Diplomat Home]]
+* **[[Scribe Home]]**
+* **[[Diplomat Home]]**
  * [[i18n]]
-* [[Ambassador Home]]
-* [[Dev Setup: General Information]]
+* **[[Ambassador Home]]**
+* **[[Dev Setup: General Information]]**
  * [[Dev Setup: Linux]]
  * [[Dev Setup: Windows]]
  * [[Dev Setup: Mac and Vagrant]]
