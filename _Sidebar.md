@@ -16,7 +16,7 @@
 * **[[Diplomat Home]]**
  * [[i18n]]
 * **[[Ambassador Home]]**
-* **[[Dev Setup: General Information]]**
+* **[[Dev Setup|Dev Setup: General Information]]**
  * [[Dev Setup: Linux]]
  * [[Dev Setup: Windows]]
  * [[Dev Setup: Mac and Vagrant]]
