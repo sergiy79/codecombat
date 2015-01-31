@@ -23,7 +23,7 @@ Other versions, newer then _Windows XP_, and not listed above, might work, but w
 
 **NOTE**: Following the guide can be complicated. If you have any questions, just ask in the [CodeCombat chatroom](https://www.hipchat.com/g3plnOKqa).
 
-Also, if you prefer, the [automated installer](https://s3.amazonaws.com/CodeCombatLargeFiles/coco-dev-win-setup-3.5.zip) is probably easier to use.
+Also, if you prefer, the [automated installer](https://dl.dropboxusercontent.com/u/138899/GitHub%20Wikis/coco-dev-win-setup-3.7.zip) is probably easier to use.
 
 To get started, first you'll need to know a little bit about your computer: whether your computer is 32 or 64 bit, and what version of Windows you're running. 
 
