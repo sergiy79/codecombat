@@ -141,9 +141,9 @@ Pick up upstream changes:
 ###Installing the Database
 Download the [CodeCombat database](http://54.91.159.37/dump.tar.gz) (updated every 10 minutes) and import it to your locally running database with the following commands:
 
-1. Make sure the database is running on your computer (`./bin/coco-mongodb`).
+1. Make sure the database is running on your computer `./bin/coco-mongodb`.
 
-1. Uncompress the file with `tar xzvf [filename]`).
+1. Uncompress the file with `tar xzvf [filename]`.
 
 1. Run `mongorestore --drop [path to dump]` if mongorestore is in your path. If mongorestore is not in your path, run `[path to CodeCombat folder]/bin/mongo/mongorestore --drop [path to dump]`.
 
