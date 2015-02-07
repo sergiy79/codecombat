@@ -18,7 +18,7 @@ All layers use the same data format: JSON. Integrity and model meta-data is main
 * /server: Server application. Code written here runs on the **server**. Unlike the client application, no pre-compilation is needed; Node compiles the CoffeeScript files dynamically.
 * /test: Testing files.
 * /vendor: Third-party resources for the client(like jQuery, Bootstrap, and so on..) (server resources are governed by npm).
-* brunch.coffee: Brunch config, mainly for compiling /app and /vendor into /public.
+* config.coffee: Brunch config, mainly for compiling /app and /vendor into /public.
 * package.json: NPM config: mainly for defining what packages the server requires.
 * server_config.js: environmental variables for the server.
 * server.coffee: main server file.
