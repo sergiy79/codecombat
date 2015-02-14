@@ -7,5 +7,5 @@ nb — Norwegian Bokmål
 | Buildables | Byggbare | "Ting som kan bygges" ? |
 | Casts | ??? | as in "casts a spell" |
 | Hero | Helt | 
-| Ogre | Troll |
+| Ogre | Troll | "Uhyre"? |
 | Spell | Trylleformular | Har vi noe bedre, tro? |
