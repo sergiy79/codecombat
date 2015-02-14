@@ -4,6 +4,7 @@ nb — Norwegian Bokmål
 |----------|-------------|---|
 | Ambush | Bakholdsangrep |
 | Backwoods | Villniss | A rough patch of dense forest |
+| Buildables | Byggbare | "Ting som kan bygges" ? |
 | Casts | ??? | as in "casts a spell" |
 | Hero | Helt | 
 | Ogre | Troll |
