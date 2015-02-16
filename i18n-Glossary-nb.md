@@ -11,6 +11,14 @@ Place names
 | Kithgard | Kithgård |
 | Kithmaze | Kithlabyrint | Kithlespill? |
 
+Programming concepts
+--------------------
+
+| Original | Translation | Comments
+|----------|-------------|---|
+| Array | Vektor? | or "array"? wiktionary says "vektor" for swedish. Wiki translates array to "Tabell" |
+
+
 Other
 -----
 | Original | Translation | Comments
