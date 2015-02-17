@@ -26,6 +26,7 @@ Other
 | Ambush | Bakholdsangrep |
 | Buildables | Byggbare ting | "Ting som kan bygges" ? |
 | Casts | Kaste | as in "casts a spell" |
+| DPS | SPS | Damage → "Skade" |
 | Dungeon | Fangehull | 
 | Gem | Juvel |
 | Hero | Helt | 
