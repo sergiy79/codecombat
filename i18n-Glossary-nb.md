@@ -8,8 +8,9 @@ Place names
 | Cloudrip | Skybrudd |  |
 | Cloudrip Mountain | Skybruddfjellet | Place name |
 | Backwoods Forest | Villnisskogen | A rough patch of dense forest |
+| Plainswood | Flatskog |
 | Kithgard | Kithgård |
-| Kithmaze | Kithlabyrint | Kithlespill? |
+| Kithmaze | Kith-labyrint |
 
 Programming concepts
 --------------------
