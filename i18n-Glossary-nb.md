@@ -3,14 +3,18 @@ nb — Norwegian Bokmål
 Place names
 -----------
 
+Good place names are important to give the levels a sense of coherency and fluidity.  Try to make up names that aren't just transliterations, but instead translate the words and find a good name that fits with the rest of the level.
+
 | Original | Translation | Comments
 |----------|-------------|---|
+| Backwoods Forest | Villnisskogen | A rough patch of dense forest |
 | Cloudrip | Skybrudd |  |
 | Cloudrip Mountain | Skybruddfjellet | Place name |
-| Backwoods Forest | Villnisskogen | A rough patch of dense forest |
 | Plainswood | Flatskog |
 | Kithgard | Kithgård |
 | Kithmaze | Kith-labyrint |
+| Thornbush | Tornbusk | I thought "Tornebusk" would be too close to the common word for "thorny bush". It's a _name_ afterall. —@mogsie |
+| Thornbush farm | Tornbuskgården |
 
 Programming concepts
 --------------------
