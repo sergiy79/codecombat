@@ -5,8 +5,8 @@ Place names
 
 Good place names are important to give the levels a sense of coherency and fluidity.  Try to make up names that aren't just transliterations, but instead translate the words and find a good name that fits with the rest of the level.
 
-| Original | Translation | Comments
-|----------|-------------|---|
+| Original | Translation | Comments|
+|----------|-------------|---------|
 | Backwoods Forest | Villnisskogen | A rough patch of dense forest |
 | Cloudrip | Skybrudd |  |
 | Cloudrip Mountain | Skybruddfjellet | Place name |
@@ -47,7 +47,7 @@ Hard to translate phrases
 
 "spell" has no direct translation, or at least the translations are loaded with positiveness or negativeness:
 - "forbanne" – curse or "fortrylle" — enchant
-- "forhekse" – bewich
+- "forhekse" – bewitch
 - "formel" – formula
 - "magisk formel" – magic formula
 - "besvergelse" – ???
