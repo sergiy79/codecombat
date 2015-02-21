@@ -26,19 +26,19 @@ Programming concepts
 
 Other
 -----
-| Original | Translation | Comments
-|----------|-------------|---|
-| Ambush | Bakholdsangrep |
-| Buildables | Byggbare ting | "Ting som kan bygges" ? |
-| Casts | Kaste | as in "casts a spell" |
-| DPS | SPS | Damage → "Skade" |
-| Dungeon | Fangehull | 
-| Gem | Juvel |
-| Hero | Helt | 
-| Ogre | Troll | "Uhyre"? |
-| Spell | Magisk formel | See discussion below |
-| Thang | Thang | ??? Should we translate this to "Tang" like "ting og tang"? |
-| Tharin Thunderfist | Tharin Tordenneve | (The Knight) |
+| Original   | Translation    | Comments               |
+|------------|----------------|------------------------|
+| Ambush     | Bakholdsangrep |                        |
+| Buildables | Byggbare ting  | "Ting som kan bygges" ?|
+| Casts      | Kaste          | as in "casts a spell"  |
+| DPS        | SPS            | Damage → "Skade"       |
+| Dungeon    | Fangehull      |                        |
+| Gem        | Juvel          |                        |
+| Hero       | Helt           |                        |
+| Ogre       | Troll          | "Uhyre"?               |
+| Spell      | Magisk formel  | See discussion below   |
+| Thang      | Thang          | ??? Should we translate this to "Tang" like "ting og tang"?|
+| Tharin Thunderfist          | Tharin Tordenneve      | (The Knight) |
 
 Hard to translate phrases
 -------------------------
