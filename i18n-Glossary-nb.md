@@ -1,7 +1,6 @@
 nb — Norwegian Bokmål
 
-Place names
------------
+##Place Names
 
 Good place names are important to give the levels a sense of coherency and fluidity.  Try to make up names that aren't just transliterations, but instead translate the words and find a good name that fits with the rest of the level.
 
@@ -16,16 +15,14 @@ Good place names are important to give the levels a sense of coherency and fluid
 | Thornbush | Tornbusk | I thought "Tornebusk" would be too close to the common word for "thorny bush". It's a _name_ afterall. —@mogsie |
 | Thornbush farm | Tornbuskgården |
 
-Programming concepts
---------------------
+##Programming concepts
 
 | Original | Translation | Comments
 |----------|-------------|---|
 | Array | Vektor? | or "array"? wiktionary says "vektor" for swedish. Wiki translates array to "Tabell" |
 
+##Other
 
-Other
------
 | Original   | Translation    | Comments               |
 |------------|----------------|------------------------|
 | Ambush     | Bakholdsangrep |                        |
@@ -40,8 +37,7 @@ Other
 | Thang      | Thang          | ??? Should we translate this to "Tang" like "ting og tang"?|
 | Tharin Thunderfist          | Tharin Tordenneve      | (The Knight) |
 
-Hard to translate phrases
--------------------------
+#Hard to translate phrases
 
 "to cast" has a direct translation "å kaste" which is a common phrase for throwing things.
 
