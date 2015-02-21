@@ -52,6 +52,7 @@ Hard to translate phrases
 - "magisk formel" – magic formula
 - "besvergelse" – ???
 
-"XX casts a YY spell on ZZ" — "XX forhekser ZZ med forbannelsen YY" translates back as "XX bewiches ZZ with the curse YY", not exactly the same.
-
-"XX casts a YY spell on ZZ" — "XX kaster den magiske formelen YY mot ZZ" translates back as "XX throws the magic formula YY towards ZZ", which is not so far from the original.
+|English|Norwegian|Translation Back|
+|-------|---------|----------------|
+|XX casts a YY spell on ZZ|XX forhekser ZZ med forbannelsen YY|XX bewiches ZZ with the curse YY|
+|XX casts a YY spell on ZZ|XX kaster den magiske formelen YY mot ZZ|XX throws the magic formula YY towards ZZ|
