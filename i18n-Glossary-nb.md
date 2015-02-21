@@ -46,12 +46,12 @@ Hard to translate phrases
 "to cast" has a direct translation "å kaste" which is a common phrase for throwing things.
 
 "spell" has no direct translation, or at least the translations are loaded with positiveness or negativeness:
-- "forbanne" – curse
-- "fortrylle" — enchant
-- "forhekse" – bewitch
-- "formel" – formula
-- "magisk formel" – magic formula
-- "besvergelse" – ???
+* "forbanne" - curse
+* "fortrylle" - enchant
+* "forhekse" - bewitch
+* "formel" - formula
+* "magisk formel" - magic formula
+* "besvergelse" - ???
 
 |English|Norwegian|Translation Back|
 |-------|---------|----------------|
