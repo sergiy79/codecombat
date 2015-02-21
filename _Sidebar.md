@@ -24,6 +24,7 @@
 * **[[Scribe General|Scribe Home]]**
 * **[[Diplomat General|Diplomat Home]]**
  * [[i18n]]
+ * [[i18n Glossary nb]]
 * **[[Ambassador General|Ambassador Home]]**
 * **[[Dev Setup|Dev Setup: General Information]]**
  * [[Dev Setup: Linux]]
