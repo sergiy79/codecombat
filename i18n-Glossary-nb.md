@@ -4,22 +4,22 @@ nb — Norwegian Bokmål
 
 Good place names are important to give the levels a sense of coherency and fluidity.  Try to make up names that aren't just transliterations, but instead translate the words and find a good name that fits with the rest of the level.
 
-| Original | Translation | Comments|
-|----------|-------------|---------|
-| Backwoods Forest | Villnisskogen | A rough patch of dense forest |
-| Cloudrip | Skybrudd |  |
-| Cloudrip Mountain | Skybruddfjellet | Place name |
-| Plainswood | Flatskog |
-| Kithgard | Kithgård |
-| Kithmaze | Kith-labyrint |
-| Thornbush | Tornbusk | I thought "Tornebusk" would be too close to the common word for "thorny bush". It's a _name_ afterall. —@mogsie |
-| Thornbush farm | Tornbuskgården |
+| Original         | Translation     | Comments                      |
+|------------------|-----------------|-------------------------------|
+| Backwoods Forest | Villnisskogen   | A rough patch of dense forest |
+| Cloudrip         | Skybrudd        |                               |
+| Cloudrip Mountain| Skybruddfjellet | Place name                    |
+| Plainswood       | Flatskog        |                               |
+| Kithgard         | Kithgård        |                               |
+| Kithmaze         | Kith-labyrint   |                               |
+| Thornbush        | Tornbusk        | I thought "Tornebusk" would be too close to the common word for "thorny bush". It's a _name_ afterall. —@mogsie                  |
+| Thornbush farm   | Tornbuskgården  |                               |
 
 ##Programming concepts
 
-| Original | Translation | Comments
-|----------|-------------|---|
-| Array | Vektor? | or "array"? wiktionary says "vektor" for swedish. Wiki translates array to "Tabell" |
+| Original | Translation | Comments |
+|----------|-------------|----------|
+| Array    | Vektor?     | or "array"? wiktionary says "vektor" for swedish. Wiki translates array to "Tabell" |
 
 ##Other
 
@@ -49,7 +49,7 @@ Good place names are important to give the levels a sense of coherency and fluid
 * "magisk formel" - magic formula
 * "besvergelse" - ???
 
-|English|Norwegian|Translation Back|
-|-------|---------|----------------|
+|English                  |Norwegian                          |Translation Back|
+|-------------------------|-----------------------------------|----------------|
 |XX casts a YY spell on ZZ|XX forhekser ZZ med forbannelsen YY|XX bewiches ZZ with the curse YY|
 |XX casts a YY spell on ZZ|XX kaster den magiske formelen YY mot ZZ|XX throws the magic formula YY towards ZZ|
