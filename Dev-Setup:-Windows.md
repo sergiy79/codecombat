@@ -23,13 +23,9 @@ Other versions, newer then _Windows XP_, and not listed above, might work, but w
 
 **NOTE**: Following the guide can be complicated. If you have any questions, just ask in the [CodeCombat chatroom](https://www.hipchat.com/g3plnOKqa).
 
-Also, if you prefer, the [automated installer](https://dl.dropboxusercontent.com/u/138899/GitHub%20Wikis/coco-dev-win-setup-3.7.zip) is probably easier to use.
-
-To get started, first you'll need to know a little bit about your computer: whether your computer is 32 or 64 bit, and what version of Windows you're running. 
-
-* If you don't know if your computer is 32 or 64 bit, use [this link](http://windows.microsoft.com/en-us/windows7/find-out-32-or-64-bit) to find out. 
-
-* If you're not sure what version of Windows you have, [this link](http://windows.microsoft.com/en-us/windows/which-operating-system) will tell you.
+First, you'll need some preliminary knowledge.
+1. Whether your computer is 32 or 64 bit.  Use [this link](http://windows.microsoft.com/en-us/windows7/find-out-32-or-64-bit) to find out.
+2. What version of Windows you have.  Use [this link](http://windows.microsoft.com/en-us/windows/which-operating-system) to find out
 
 Once you have gotten those pieces of information, go through the sections below to download and install each dependency, which are:
 * Node.js
