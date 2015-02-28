@@ -3,7 +3,6 @@
 * [Detailed Windows Installation](#detailed-windows-installation)
 * [Step by Step Guide](#step-by-step-guide)
 
-
 ###Simple Windows Installation
 
 Download the latest version [here (v3.7)](https://dl.dropboxusercontent.com/u/138899/GitHub%20Wikis/coco-dev-win-setup-3.7.zip) and/or follow the instructions from [this step-by-step guide](#Setup-on-Windows:-a-step-by-step-guide).  The complete process is fully automated for all supported Windows versions.
@@ -38,15 +37,15 @@ Once you've found those out, you need to install the following:
 #### Required Packages
 ##### Node.js
 
+To install node, you will need to download the correct version from the table below, and then run the installer.  Note that you need to make sure that it adds Node to your PATH (this happens by default, see image below for more information).
 
-To install Node, first download the correct version of the installer from the table below. Then, run the installer. Make sure that the Node installer adds Node to your path(don't change the option in the installer circled below from its default value).
+<img src="http://i.imgur.com/tEKA0UAl.jpg" alt="Make sure Node is added to your PATH" />
 
-######Node Download Links
-| Windows Version| 32 bit | 64 bit |
+| Windows Version | 32 bit | 64 bit  |
 | :-------------: | :----: | :-----: |
-| All versions | [node.js](http://nodejs.org/dist/v0.10.35/node-v0.10.35-x86.msi) | [node.js](http://nodejs.org/dist/v0.10.35/x64/node-v0.10.35-x64.msi) | 
+| All versions    | [node.js](http://nodejs.org/dist/v0.10.35/node-v0.10.35-x86.msi) | [node.js](http://nodejs.org/dist/v0.10.35/x64/node-v0.10.35-x64.msi) | 
 
-<img src="http://i.imgur.com/tEKA0UAl.jpg" alt="Make sure Node is added to your PATH" style="width: 200px;" />
+
 
 #####MongoDB
 
