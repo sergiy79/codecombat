@@ -39,13 +39,11 @@ Once you've found those out, you need to install the following:
 
 To install node, you will need to download the correct version from the table below, and then run the installer.  Note that you need to make sure that it adds Node to your PATH (this happens by default, see image below for more information).
 
-<img src="http://i.imgur.com/tEKA0UAl.jpg" alt="Make sure Node is added to your PATH" />
+<img src="http://i.imgur.com/pqjXOWQ.png" alt="Make sure Node is added to your PATH" />
 
 | Windows Version | 32 bit | 64 bit  |
 | :-------------: | :----: | :-----: |
 | All versions    | [node.js](http://nodejs.org/dist/v0.10.35/node-v0.10.35-x86.msi) | [node.js](http://nodejs.org/dist/v0.10.35/x64/node-v0.10.35-x64.msi) | 
-
-
 
 #####MongoDB
 
@@ -57,7 +55,6 @@ MongoDB is the database used for CodeCombat. To install, execute the following s
   * c. Press the "Environment Variables..." button;
   * d. Under "User variables for..." you'll find the PATH variable, select it and press the "Edit..." button;
   * e. Enter ';%PATH_TO_MONGODB' (e.g.: ;C:\mongodb-2.6.4\bin) at the end of the "Variable value" and press "OK".
-
 
 ######Mongo Download Links
 
