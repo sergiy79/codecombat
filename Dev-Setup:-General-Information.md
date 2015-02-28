@@ -1,9 +1,12 @@
 ### Installation Guides
 
 Our installation guides are now split into per-OS guides.
-* [Linux Setup](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-Linux)
-* [Windows Setup](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-Windows)
-* [Mac and Vagrant Setup](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-Mac-and-Vagrant)
+* **[Linux Setup](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-Linux)**
+ * [Automatic](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-Linux#automatic-linux-installation)
+ * [Hands-On](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-Linux#complex-linux-installation)
+ * [Ubuntu Hands-On](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-Linux#ubuntu-installation)
+* **[Windows Setup](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-Windows)**
+* **[Mac and Vagrant Setup](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-Mac-and-Vagrant)**
 
 ### Working in the environment
 
