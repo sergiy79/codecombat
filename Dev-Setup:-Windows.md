@@ -14,7 +14,6 @@ We support the following, and only the following versions:
 * Windows 8.0 - Problems found
 * Windows 8.1
 
-
 **Note**: if your brunch isn't compiling sass properly, try removing the bless-brunch entry from package.json and deleting the bless-brunch folder from node_modules, then getting sass-brunch 1.7.0 with `npm install --save-dev sass-brunch@1.7.0`.
 
 Other versions, newer then _Windows XP_, and not listed above, might work, but we don't guarantee that they will.
