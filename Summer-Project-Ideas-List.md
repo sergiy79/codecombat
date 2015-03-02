@@ -9,11 +9,7 @@ Students wanting to submit a proposal should start with the following:
 1. Read through some of the [articles on our Archmage wiki](https://github.com/codecombat/codecombat/wiki/Archmage-Home) to better understand the code.
 1. If you need help getting oriented or experience difficulties with the dev setup you can join our [HipChat room](https://www.hipchat.com/g3plnOKqa) and start talking to us about what they're passionate about doing and finding the perfect project idea. But make sure to read [the HipChat FAQ](https://github.com/codecombat/codecombat/wiki/HipChat-Room) first.
 
-**Because GSoC applications are *very very* competitive, we'll heavily favor students who have started contributing to CodeCombat already** before submitting a proposal, because then we know you're really into the project, and we'll already be familiar from working with you. If you want to participate in GSoC, it's definitely a good idea to apply for more than one organization, since most organizations don't have enough slots to accept all their applicants. (Last year CodeCombat had 70 applicants and 4 slots.)
-
-GSoC 2015 hasn't officially kicked off, so nothing is guaranteed, but to learn more about the Google Summer of Code application process early, see [last year's CodeCombat GSoC page](http://www.google-melange.com/gsoc/org2/google/gsoc2014/codecombat). It has last year's application template you can preview. Later, you can share applications you're working on for review with us as Google Docs shared with nick@codecombat.com and also submit something to the GSoC website [before the application deadline sometime in March](http://www.google-melange.com/gsoc/events/google/gsoc2014) so you can be in their system, too.
-
-We are going to be ranking proposals in early April, and since mostly we care about your CodeCombat contributions, you still have time to build some cool things until then–just make sure you have submitted something to the GSoC site by the earlier deadline.
+This was originally put together as a Google Summer of Code projects list, but despite participating in 2014, we weren't selected for 2015. :cry: So instead, read it as a list of bigger projects that would be good for open source contributors interested in getting more involved.
 
 # Project Ideas
 
