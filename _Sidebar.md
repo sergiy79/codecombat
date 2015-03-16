@@ -19,6 +19,7 @@
  * [[Chief Artisan Level Audition]]
  * [[Coding Guidelines for Artisans]]
  * [[Important Artisan Concepts]]
+ * [[Keyboard Shortcuts]]
 * **[[Adventurer General|Adventurer Home]]**
  * [[Testing]]
 * **[[Scribe General|Scribe Home]]**
