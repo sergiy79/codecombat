@@ -1,23 +1,22 @@
-```
-    'esc': 'selectAddThang'
-    'delete, del, backspace': 'deleteSelectedExtantThang'
-    'ctrl+z, ⌘+z': 'undo'
-    'ctrl+shift+z, ⌘+shift+z': 'redo'
-    'alt+c': 'toggleSelectedThangCollision'
-    'left': -> @moveSelectedThangBy -1, 0
-    'right': -> @moveSelectedThangBy 1, 0
-    'up': -> @moveSelectedThangBy 0, 1
-    'down': -> @moveSelectedThangBy 0, -1
-    'alt+left': -> @rotateSelectedThangTo Math.PI unless key.shift
-    'alt+right': -> @rotateSelectedThangTo 0 unless key.shift
-    'alt+up': -> @rotateSelectedThangTo -Math.PI / 2
-    'alt+down': -> @rotateSelectedThangTo Math.PI / 2
-    'alt+shift+left': -> @rotateSelectedThangBy Math.PI / 16
-    'alt+shift+right': -> @rotateSelectedThangBy -Math.PI / 16
-    'shift+left': -> @resizeSelectedThangBy -1, 0
-    'shift+right': -> @resizeSelectedThangBy 1, 0
-    'shift+up': -> @resizeSelectedThangBy 0, 1
-    'shift+down': -> @resizeSelectedThangBy 0, -1
-    'ctrl+\\, ⌘+\\': 'onToggleDebug'.
-
-```
+|Key                         |What it does                       |
+|----------------------------|-----------------------------------|
+|esc                         |Select Add Thang                   |
+|delete, del, backspace      |Delete Selected Thang              |
+|ctrl+z, ⌘+z                 |Undo                               |
+|ctrl+shift+z, ⌘+shift+z     |Redo                               |
+|alt+c                       |Toggle Collision View              |
+|left                        |Move Selected Thang Left           |
+|right                       |Move Selected Thang Right          |
+|up                          |Move Selected Thang Up             |
+|down                        |Move Selected Thang Down           |
+|alt+left                    |Rotate Thang Left                  |
+|alt+right                   |Rotate Thang Right                 |
+|alt+up                      |Rotate Thang Up                    |
+|alt+down                    |Rotate Thang Down                  |
+|alt+shift+left              |Rotate Thang By Math.PI / 16       |
+|alt+shift+right             |Rotate Thang By -Math.PI / 16      |
+|shift+left                  |Make Thang Thinner                 |
+|shift+right                 |Make Thang Fatter                  |
+|shift+up                    |Make Thang Taller                  |
+|shift+down                  |Make Thang Shorter                 |
+|ctrl+\, ⌘+\                 |Toggle Debug Mode                  |
