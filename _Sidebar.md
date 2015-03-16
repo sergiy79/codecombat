@@ -13,6 +13,7 @@
  * [[File system]]
  * [[JSON Schema]]
  * [[Technical overview]]
+ * [[Testing]]
  * [[Third party software and services]]
 * **[[Artisan General|Artisan Home]]**
  * [[Building A Level]]
@@ -21,7 +22,6 @@
  * [[Important Artisan Concepts]]
  * [[Keyboard Shortcuts]]
 * **[[Adventurer General|Adventurer Home]]**
- * [[Testing]]
 * **[[Scribe General|Scribe Home]]**
 * **[[Diplomat General|Diplomat Home]]**
  * [[i18n]]
