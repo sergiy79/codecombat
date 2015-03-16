@@ -1,3 +1,5 @@
+### Note - This position has been filled.
+
 # Chief Artisan Level Audition
 
 ![](https://dl.dropboxusercontent.com/u/138899/GitHub%20Wikis/recruiting_banner.png)
