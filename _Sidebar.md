@@ -9,7 +9,6 @@
  * [[Mission statement]]
  * [[Coco Models]]
  * [[Coding Guidelines]]
- * [[Developer organization]]
  * [[File system]]
  * [[JSON Schema]]
  * [[Technical overview]]
@@ -48,6 +47,7 @@
 * **[[Other|Home]]**
  * [[Aether]]
  * [[Client models]]
+ * [[Developer organization]]
  * [[Editing Thang Components]]
  * [[Educational Standards]]
  * [[Events, subscriptions, shortcuts]]
