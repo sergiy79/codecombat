@@ -1,8 +1,14 @@
-## Issues
+### Index
+* [Issues](#issues)
+* [Contributions](#contributions)
+* [Communication](#communication)
+* [Things to do](#things-to-do)
+
+#### Issues
 
 Found a bug? Want a feature? Go ahead and make an issue in [our GitHub issue tracker](https://github.com/codecombat/codecombat/issues), and we'll see what we can do.
 
-## Contributions
+#### Contributions
 
 See an issue that you think you can handle? Want to make an improvement? Just [fork this repository](https://help.github.com/articles/fork-a-repo), make your changes, and [submit a pull request](https://help.github.com/articles/using-pull-requests). After you have made your fork, you'll want to [keep it in sync to get the latest changes](https://help.github.com/articles/syncing-a-fork).
 
@@ -12,7 +18,7 @@ We are going to organize our branches [something like this](http://nvie.com/post
 
 It is nice if you follow our [[coding guidelines]] and include tests, but don't let that stop you from contributing.
 
-## Communication
+#### Communication
 
 Let's try to keep it to these five channels so that everything can be as open as possible:
 
@@ -22,7 +28,7 @@ Let's try to keep it to these five channels so that everything can be as open as
 * Go into high-bandwidth collaboration on a Google Hangout call (organize it via HipChat)
 * Use the Contact form on [codecombat.com](http://codecombat.com) to send the team a private email. Try to use the public methods if possible, since open-source projects thrive on transparency.
 
-## Things to Do
+#### Things to Do
 
 There's so much fun stuff to do! The blessing of working on a game is that game programming is really fun. The curse is that there's always an impossible amount of work to do.
 
