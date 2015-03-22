@@ -1,1 +1,1 @@
-[CodeCombat](https://codecombat.com) | [[Home]] | [Blog](https://blog.codecombat.com/) | [Forum](https://discourse.codecombat.com/) | [Teachers](https://codecombat.com/teachers) | [Legal](https://codecombat.com/legal) | [Contribute](https://codecombat.com/contribute)
+[CodeCombat](https://codecombat.com) | [[Home]] | [Blog](https://blog.codecombat.com/) | [Forum](http://discourse.codecombat.com/) | [Teachers](https://codecombat.com/teachers) | [Legal](https://codecombat.com/legal) | [Contribute](https://codecombat.com/contribute)
