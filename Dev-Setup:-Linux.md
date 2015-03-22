@@ -104,7 +104,7 @@ Download and (manually) install mongodb 2.6 for Linux:
 
 Download and unpack database snapshot:
 - `mkdir -p $COCO_DB && cd $COCO_DB`
-- `wget http://54.91.159.37/dump.tar.gz`
+- `wget http://analytics.codecombat.com:8080/dump.tar.gz`
 - `tar xfz dump.tar.gz`
 
 Install database snapshot:
@@ -139,7 +139,7 @@ Pick up upstream changes:
 - `git fetch upstream`
 
 ###Installing the Database
-Download the [CodeCombat database](http://54.91.159.37/dump.tar.gz) (updated every 10 minutes) and import it to your locally running database with the following commands:
+Download the [CodeCombat database](http://analytics.codecombat.com:8080/dump.tar.gz) (updated every 10 minutes) and import it to your locally running database with the following commands:
 
 1. Make sure the database is running on your computer `./bin/coco-mongodb`.
 
