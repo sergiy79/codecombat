@@ -20,7 +20,7 @@ The guest web client doesn't show logs, unfortunately. The native client does, b
 
 ###### Can I connect with IRC?
 
-Unfortunately, you can only use IRC with HipChat if we buy you an account.
+Unfortunately, you can only use IRC with HipChat if we buy you an account.  When you get an account, you can connect using IRC by following [this](http://larryfox.us/writing/hipchat-with-irc/) tutorial.
 
 ###### Why isn't this just IRC?
 
