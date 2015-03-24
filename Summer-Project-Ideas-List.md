@@ -24,7 +24,6 @@ This was originally put together as a Google Summer of Code projects list, but d
 1. [Improve iPad App Performance](#wiki-ipad)
 1. [Upgrade the Level Editor](#wiki-editor)
 1. [Add Classroom Organization Features](#wiki-classroom)
-1. [Add Visual Effects](#wiki-effects)
 1. [Organize Multilingual Audio Recordings](#wiki-multilingual-audio)
 1. [Improve Game Physics](#wiki-physics)
 1. [Add WebRTC Voice/Video Chat to Multiplayer](#wiki-webrtc)
@@ -132,17 +131,6 @@ Teachers of students of all ages often ask us for features to manage student acc
 *Knowledge prerequisite:* Basic web development knowledge. We use CoffeeScript, Jade, and Sass, but those are easy to pick up if you know JavaScript, HTML, and CSS. This will get into the server, so familiarity with Node.js or Express will also help, but aren't required.
 
 *Difficulty:* Medium. Teachers don't need a lot of features, but the features must be well-designed and intuitive to use.
-
-
-##### <a name="effects"/> Add Visual Effects
-
-CodeCombat uses [EaselJS](http://www.createjs.com/#!/EaselJS), a 2D graphics library for Canvas with a Flash-like API, for rendering the game graphics. It also has [a new WebGL-backed renderer](http://blog.createjs.com/webgl-easeljs-a-technical-intro/) that we use for awesome performance. But we could do so much more with the visuals, like adding particle emitters, faux 3D effects, drawing heroes' equipped weapons and armor, and visualizing the effects of player's code. Plus, we could dynamically adaptive performance to push up to 60 FPS when performance allows it.
-
-*Expected results:* CodeCombat can introduce particle emitters and other visual effects.
-
-*Knowledge prerequisite:* Basic programming skills and an interest in graphics. Knowledge of CoffeeScript or JavaScript helpful.
-
-*Difficulty:* Easy. Getting the basic particle emitters in should be a cinch, and then after that, it's up to you how much cool stuff to add using it.
 
 
 ##### <a name="multilingual-audio"/> Organize Multilingual Audio Recordings
