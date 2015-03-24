@@ -12,14 +12,14 @@ Good place names are important to give the levels a sense of coherency and fluid
 | Plainswood       | Flatskog        |                               |
 | Kithgard         | Kithgård        |                               |
 | Kithmaze         | Kith-labyrint   |                               |
-| Thornbush        | Tornbusk        | I thought "Tornebusk" would be too close to the common word for "thorny bush". It's a _name_ afterall. —@mogsie                  |
+| Thornbush        | Tornbusk        | I thought "Tornebusk" would be too close to the common word for "thorny bush". It's a _name_ after all. —@mogsie                  |
 | Thornbush farm   | Tornbuskgården  |                               |
 
 ##Programming concepts
 
 | Original | Translation | Comments |
 |----------|-------------|----------|
-| Array    | Vektor?     | or "array"? wiktionary says "vektor" for swedish. Wiki translates array to "Tabell" |
+| Array    | Vektor?     | or "array"? Wiktionary says "vektor" for Swedish. Wiki translates array to "Tabell" |
 
 ##Other
 
@@ -51,5 +51,5 @@ Good place names are important to give the levels a sense of coherency and fluid
 
 |English                  |Norwegian                          |Translation Back|
 |-------------------------|-----------------------------------|----------------|
-|XX casts a YY spell on ZZ|XX forhekser ZZ med forbannelsen YY|XX bewiches ZZ with the curse YY|
+|XX casts a YY spell on ZZ|XX forhekser ZZ med forbannelsen YY|XX bewitches ZZ with the curse YY|
 |XX casts a YY spell on ZZ|XX kaster den magiske formelen YY mot ZZ|XX throws the magic formula YY towards ZZ|
