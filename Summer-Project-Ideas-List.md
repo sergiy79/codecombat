@@ -1,6 +1,8 @@
-Here are some ideas that would make good summer projects for student developers. They run from beginner-level up to crazy compiler stuff and everything in between. This is a very friendly project to work on–since CodeCombat's mission is to teach everyone to code, we like to help people learn how to contribute effectively to open source, too. CodeCombat has over 250 contributors from around the world, from novices to pros. CodeCombat is written in CoffeeScript (it's basically just JavaScript), so pretty much any project will use that as a base language.
+###We're afraid we're not participating in GSoC this year.
 
-Students wanting to submit a proposal should start with the following:
+Provided here are a list of features that we feel would be good to see in CodeCombat.  They range from beginner-level all the way up to crazy compiler stuff, take your pick.  To try most of these projects you'll need a basic understanding of CoffeeScript (JavaScript + Python).  You'll be working with over 250 other contributors in order to create the best coding game ever created! 
+
+###Index
 
 1. [Get your development environment set up](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-General-Information).
 1. To get a great feel for the project, make a [small pull request or two](https://github.com/codecombat/codecombat/issues?labels=good-for-newbies&page=1&state=open).
@@ -11,7 +13,7 @@ Students wanting to submit a proposal should start with the following:
 
 This was originally put together as a Google Summer of Code projects list, but despite participating in 2014, we weren't selected for 2015. :cry: So instead, read it as a list of bigger projects that would be good for open source contributors interested in getting more involved.
 
-# Project Ideas
+### Project Ideas
 
 1. [Make Aether Transpiler More Friendly](#wiki-aether)
 1. [Build More Levels](#wiki-levels)
@@ -32,7 +34,7 @@ This was originally put together as a Google Summer of Code projects list, but d
 1. [Autocomplete Magic](#wiki-autocomplete)
 1. [Your Own Idea](#wiki-your-idea)
 
-### <a name="aether"/> Make Aether Transpiler More Friendly
+##### <a name="aether"/> Make Aether Transpiler More Friendly
 
 Throughout the process of parsing, transforming, compiling, and running user-submitted code in the game world, there are hundreds of different types of info, warning, and error messages that can result. Most of these were designed for experienced programmers, like `Expected an identifier and instead saw '}'`. That doesn't help anyone learn to code if they don't know what an identifier is! Our [Aether transpiler](http://aetherjs.com/) can rewrite, anticipate, and friendly-ify all possible error messages, but each type of problem needs to be thought out and made more understandable to beginners. In addition to coming up with friendly error messages, you'll need to write a lot of abstract syntax tree traversals to find the problems before they become runtime errors.
 
@@ -43,7 +45,7 @@ Throughout the process of parsing, transforming, compiling, and running user-sub
 *Difficulty:* Medium. Most of the error messages will be simple string replacements with perhaps some interpolation, but some will require some really smart parser alterations.
 
 
-### <a name="levels"/> Build More Levels
+##### <a name="levels"/> Build More Levels
 
 Want to make CodeCombat levels to teach regular expressions? Math? Physics? Recursion? Advanced RTS AI micro skills? Want to make super-hard dungeon crawl series? Want to do a level progression with your own game mechanics ideas? CodeCombat's level editor is yours to command! It's an extraordinarily powerful, drag-and-drop, live-programmable editor inspired by the StarCraft II Galaxy Editor, and you can use it to build just about anything. All [Artisans](http://codecombat.com/contribute/artisan) share Systems and Components, so the building blocks you create to enable custom logic in your levels will be available in everyone else's levels and vice versa.
 
@@ -54,7 +56,7 @@ Want to make CodeCombat levels to teach regular expressions? Math? Physics? Recu
 *Difficulty:* Medium. Although the coding is easy, it takes a lot of thought to make good levels, so expect to iterate a lot on each level.
 
 
-### <a name="more-thangs"/> Create More Items, Heroes, Enemies, and Special Abilities
+##### <a name="more-thangs"/> Create More Items, Heroes, Enemies, and Special Abilities
 
 We have hundreds of items (swords and watches and rings, oh my!) and a dozen heroes done or on the way, but as we build more and more advanced levels, we can introduce many more items, heroes, enemies, and special abilities tied to those items, enemies, and heroes. Want to make a plan for what cool items and heroes to add, figure out the game balance for them, tell our illustrator what to draw, and code up the new skills? Then you can make lightsabers, portal guns, mirror shields, flying giants, or whatever you want! The game is your playground as you create powerful new Thangs that our elite players will die for.
 
@@ -66,7 +68,7 @@ We have hundreds of items (swords and watches and rings, oh my!) and a dozen her
 
 
 
-### <a name="treema"/> Improve [Treema (JSON editor)](http://codecombat.github.io/treema/)
+##### <a name="treema"/> Improve [Treema (JSON editor)](http://codecombat.github.io/treema/)
 
 Treema is a jQuery plugin that builds interfaces for editing large, complex, well-defined JSON data. It runs on tv4, which implements JSON-Schema validation. We use it for our Level, Article, and Thang editors, and it's generally useful in any project which wants to generate UIs for JSON data. It works pretty well, but there are a bunch of refactorings and improvements and upgrades that'll make it really shine, not just in CodeCombat, but in many other projects which need to deal with JSON.
 
@@ -77,7 +79,7 @@ Treema is a jQuery plugin that builds interfaces for editing large, complex, wel
 *Difficulty:* Medium. Treema's code is small, but very meta, so you'll need to be able to understand some complicated schema-schemas.
 
 
-### <a name="level-testing"/> Build Automated Level Testing Harness
+##### <a name="level-testing"/> Build Automated Level Testing Harness
 
 As we get more and more levels, it becomes harder to make changes to the game engine while still making sure that we don't break the balance on any of the levels. A good solution for this will be to make an automated level testing harness where we can test game engine changes against all past levels to make sure that failing solutions still fail, successful solutions still succeed, etc. Then we'll be able to improve the game engine with much more confidence, as well as have a quick way to see which levels are having problems with their intended solutions. This would have a web front-end but probably mostly run on the server using our headless level simulator.
 
@@ -88,7 +90,7 @@ As we get more and more levels, it becomes harder to make changes to the game en
 *Difficulty:* Medium. The front-end will be easy, but the server code will be pretty involved, so it's a good opportunity to learn more about Node.js.
 
 
-### <a name="languages"/> Add [More Programming Languages](https://github.com/codecombat/codecombat/issues/72)
+##### <a name="languages"/> Add [More Programming Languages](https://github.com/codecombat/codecombat/issues/72)
 
 The [Aether transpiler](http://aetherjs.com/) currently parses and [transpiles](http://en.wikipedia.org/wiki/Source-to-source_compiler) JavaScript, Python, CoffeeScript, Lua, Clojure, and Io code into safe, yielding, instrumented JavaScript that can be integrated into the CodeCombat game engine and other projects. If you want to see CodeCombat players play in Ruby, C, Swift, or whatever language you think you can pull off, then you'd need to write or adapt an in-browser parser for that language to the [Mozilla Parser abstract syntax tree format](https://developer.mozilla.org/en-US/docs/SpiderMonkey/Parser_API).
 
@@ -99,7 +101,7 @@ The [Aether transpiler](http://aetherjs.com/) currently parses and [transpiles](
 *Difficulty:* Harder the further away from JavaScript the language is. Something like TypeScript or Roy would be easy, whereas languages like Haskell or Ruby would be hard, and some static languages like C++ would be very hard.
 
 
-### <a name="ipad"/> Improve iPad App Performance
+##### <a name="ipad"/> Improve iPad App Performance
 
 CodeCombat is a web app written with cross-platform HTML5 in mind from the start, and we developed a complete iPad app which wraps it in Apple's new, fast WKWebView. Unfortunately, it's still too slow and uses too much memory, so we can't release it. If you like optimizing performance, here's a challenge for you!
 
@@ -110,7 +112,7 @@ CodeCombat is a web app written with cross-platform HTML5 in mind from the start
 *Difficulty:* Hard. Our current efforts get it running slowly with occasional memory crashes on iPad 3 and almost smooth enough with rare memory crashes on iPad Air. We need it to be solid and smooth on iPad 3 and up, so we'll have to pull out all the stops to optimize our JS, reduce memory usage, and bundle native resources.
 
 
-### <a name="editor"/> Upgrade the Level Editor
+##### <a name="editor"/> Upgrade the Level Editor
 
 The level editor is really cool: drag-and-drop, completely configurable, and even live-programmable from within the editor itself. It's a powerful tool, but the user interface is always a challenge; the learning curve is too steep right now. You could do usability testing, improve the design, polish the rough edges, add missing features, write documentation, and generally make it easier to use such that anyone can figure it out and make their own levels.
 
@@ -121,7 +123,7 @@ The level editor is really cool: drag-and-drop, completely configurable, and eve
 *Difficulty:* Easy. You can watch people try to make levels, see where they get stuck, and tweak the design until they stop getting stuck there.
 
 
-### <a name="classroom"/> Add Classroom Organization Features
+##### <a name="classroom"/> Add Classroom Organization Features
 
 Teachers of students of all ages often ask us for features to manage student accounts so that they can see their students' progress, give them levels to do, and better run a classroom of CodeCombatants. It would be great to bring CodeCombat into more schools by adding the classroom organization features that teachers need and [learning tools interoperability](https://github.com/codecombat/codecombat/issues/1238).
 
@@ -132,7 +134,7 @@ Teachers of students of all ages often ask us for features to manage student acc
 *Difficulty:* Medium. Teachers don't need a lot of features, but the features must be well-designed and intuitive to use.
 
 
-### <a name="effects"/> Add Visual Effects
+##### <a name="effects"/> Add Visual Effects
 
 CodeCombat uses [EaselJS](http://www.createjs.com/#!/EaselJS), a 2D graphics library for Canvas with a Flash-like API, for rendering the game graphics. It also has [a new WebGL-backed renderer](http://blog.createjs.com/webgl-easeljs-a-technical-intro/) that we use for awesome performance. But we could do so much more with the visuals, like adding particle emitters, faux 3D effects, drawing heroes' equipped weapons and armor, and visualizing the effects of player's code. Plus, we could dynamically adaptive performance to push up to 60 FPS when performance allows it.
 
@@ -143,7 +145,7 @@ CodeCombat uses [EaselJS](http://www.createjs.com/#!/EaselJS), a 2D graphics lib
 *Difficulty:* Easy. Getting the basic particle emitters in should be a cinch, and then after that, it's up to you how much cool stuff to add using it.
 
 
-### <a name="multilingual-audio"/> Organize Multilingual Audio Recordings
+##### <a name="multilingual-audio"/> Organize Multilingual Audio Recordings
 
 We've built internationalization and localization tools allowing translation of almost all of CodeCombat's text (pretty much except for the names of the player's API methods themselves), but we still have some voiceover from the heroes that is only in English. We could organize our Diplomats to record this dialogue for us in their own languages so that even younger international players can understand it (since often they want to hear, not read, the instructions, plus having flavor sound bytes in your own language is always cool). This wouldn't take much coding, although if you can code, there is some to do to be able to use the sound files in game and visualize the recording completion coverage progress. But mostly it'll take patience and communication with all of our Diplomats to get the recordings done. Alternatively, if your coding is strong, you could build an HTML5-based speech recorder node for [Treema](https://github.com/codecombat/treema) that would allow anyone to record their language's audio from their browser, normalize the audio and remove noise using the web audio APIs, and upload it to our server in mp3 and ogg.
 
@@ -154,7 +156,7 @@ We've built internationalization and localization tools allowing translation of 
 *Difficulty:* Medium. Don't underestimate the difficulty of recording good audio and coordinating with dozens of contributors.
 
 
-### <a name="physics"/> Improve Game Physics
+##### <a name="physics"/> Improve Game Physics
 
 CodeCombat uses a 2D physics engine with Box2D for collision detection, and we've written some basic position / velocity / acceleration stuff and locomotion dynamics, but there's so much more physics that could be done, enabling more physics-based gameplay and levels. Imagine coding the laser targeting system to solve reflection-based puzzle levels in CodeCombat, or levels where you adjust your thrust to guide your rocket. You could make that happen. Plus, we can always make it more performant, like by [implementing quadtrees](https://github.com/codecombat/codecombat/issues/358).
 
@@ -165,7 +167,7 @@ CodeCombat uses a 2D physics engine with Box2D for collision detection, and we'v
 *Difficulty:* Medium. The basics of the physics system are all there, so it's more about handling more mechanics and improving performance.
 
 
-### <a name="webrtc"/> Add WebRTC Voice/Video Chat to Multiplayer
+##### <a name="webrtc"/> Add WebRTC Voice/Video Chat to Multiplayer
 
 In CodeCombat's real-time cooperative and eventually competitive multiplayer, it's nice to be able to chat textually with other players, but it'd be even cooler to hook up voice and even video chat using the new WebRTC protocols. No more learning to code alone! You'd research and pick a high-level WebRTC library, integrate it into CodeCombat's multiplayer mode, and possibly figure out how to deal with trolls.
 
@@ -176,7 +178,7 @@ In CodeCombat's real-time cooperative and eventually competitive multiplayer, it
 *Difficulty:* Easy–WebRTC libraries do most of the work for you.
 
 
-### <a name="audio"/> Add Responsive Sound / Music
+##### <a name="audio"/> Add Responsive Sound / Music
 
 We have some great music and sound effects, but they don't do enough to add to the immersion, since the sound and music that plays is often not adapting to what's going on in the game. Doing some smart music switches and possibly audio processing in the browser could go a long way toward adding to the fun. There's some really good audio APIs that would be great to put through their paces.
 
@@ -187,7 +189,7 @@ We have some great music and sound effects, but they don't do enough to add to t
 *Difficulty:* Medium. In addition to figuring out the audio processing stuff, it's going to require a good design sense to figure out what music and sounds should play when and how they should be processed.
 
 
-### <a name="devtools"/> Create [Developer Tools Window](https://github.com/codecombat/codecombat/issues/35)
+##### <a name="devtools"/> Create [Developer Tools Window](https://github.com/codecombat/codecombat/issues/35)
 
 One thing that would make it much easier for Archmages to contribute to the CodeCombat code would be a way for them to see what's going on with the site as they're on it. Anywhere on the site, the developer could click a button or press a shortcut and open a Developer Tools like interface in a separate window which includes:
 
@@ -211,7 +213,7 @@ This could be created as its own open source project for all other Backbone-powe
 *Difficulty:* Easy. All of the info should be present in the Backbone view hierarchy at any time, so designing and implementing the UI will be most of the work.
 
 
-### <a name="sandbox"/> Build Massively Multiplayer Sandbox Play
+##### <a name="sandbox"/> Build Massively Multiplayer Sandbox Play
 
 CodeCombat currently simulates a level from beginning to end every time the code changes and replaces the past, present, and future with the new results for a live-coding experience. This limits the size of the game levels that we can run, though. It would be fascinating to experiment with a persistent game world in which players' code changes didn't change the past. We could support huge levels with many players in open sandbox play, like Minecraft but actually programming the algorithms instead of executing them with zillions of pickaxe strikes. You would create a new game mode where the synchronous multiplayer (which already works) doesn't result in history replacement, then see how big you could make it and experiment with game design to find a sandbox environment that's really fun.
 
@@ -222,7 +224,7 @@ CodeCombat currently simulates a level from beginning to end every time the code
 *Difficulty:* Very hard.
 
 
-### <a name="autocomplete"/> Autocomplete Magic
+##### <a name="autocomplete"/> Autocomplete Magic
 
 CodeCombat currently extends the [ace editor](https://github.com/ajaxorg/ace) autocomplete via a [small library](https://github.com/differentmatt/zatanna)
  to handle our in-game code editor autocomplete.  It’s useful, but not magical.  That’s where you come in!  Contact [matt@codecombat.com](mailto:matt@codecombat.com) for more details.
@@ -234,7 +236,7 @@ CodeCombat currently extends the [ace editor](https://github.com/ajaxorg/ace) au
 Difficulty: Medium.  Understanding the currently implementation should be straightforward.  Making autocomplete awesome will be the interesting part.
 
 
-### <a name="sandbox"/> Your Own Idea
+##### <a name="sandbox"/> Your Own Idea
 
 Want to do something else, or some combination or remix of ideas from this list? Just talk to us and let's figure out how to do it! These ideas are just starting points; really, we want you to work on what you're passionate about doing and confident that you can pull off. Whatever it is, just keep in mind that the more players it can help, the better.
 
