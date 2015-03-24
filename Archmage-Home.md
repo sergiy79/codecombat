@@ -75,4 +75,4 @@ Doing [this](https://www.codeschool.com/courses/try-git) quick course should get
 We'll try! It should be a cinch on Linux or Mac, but it's pretty hard to get right on Windows right now. If you can't find us for help on Windows, you might try installing it on a Linux VM.  Anyone who can help with updating the Windows version is welcome to!
 
 ######What are some larger projects I can do?
-[[Here's out big project ideas list|Summer Project Ideas List]], originally put together for Google Summer of Code.
+[[Here's out big project ideas list|Project Ideas List]], originally put together for Google Summer of Code.
