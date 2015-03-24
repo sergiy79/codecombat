@@ -72,7 +72,7 @@ Doing [this](https://www.codeschool.com/courses/try-git) quick course should get
 
 ######Can you help with setting up my [development environment](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-General-Information)?
 
-We'll try! It should be a cinch on Linux or Mac, but it's pretty hard to get right on Windows right now. If you can't find us for help on Windows, you might try installing it on a Linux VM.  Anyone who can help with updating the Windows version is welcome to!
+We'll try! It should be a cinch on Linux or Mac, but it's pretty hard to get right on Windows right now. If you can't find us for help on Windows, you might try installing it on a Linux VM.  Anyone who can help with updating the Windows version is welcome to!  A good platform to setup your VM on is [Ubuntu](http://www.ubuntu.com/) which can have a desktop or only a terminal.  Also, [VirtualBox](https://www.virtualbox.org/) is easy to setup with and it free.
 
 ######What are some larger projects I can do?
 [[Here's out big project ideas list|Project Ideas List]], which should give you some ideas about what you can contribute on.
