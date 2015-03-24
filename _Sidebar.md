@@ -53,7 +53,7 @@
  * [[Events, subscriptions, shortcuts]]
  * [[HipChat Room]]
  * [[Permissions]]
- * [[Summer Project Ideas List]]
+ * [[Project Ideas List]]
  * [[Treema]]
  * [[Versioning]]
  * [[Views]]
