@@ -2,7 +2,7 @@
 
 Provided here are a list of features that we feel would be good to see in CodeCombat.  They range from beginner-level all the way up to crazy compiler stuff, take your pick.  To try most of these projects you'll need a basic understanding of CoffeeScript (JavaScript + Python).  You'll be working with over 250 other contributors in order to create the best coding game ever created! 
 
-###Index
+###Steps to Contribute
 
 1. [Get your development environment set up](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-General-Information).
 1. To get a great feel for the project, make a [small pull request or two](https://github.com/codecombat/codecombat/issues?labels=good-for-newbies&page=1&state=open).
