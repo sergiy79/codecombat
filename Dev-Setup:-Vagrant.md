@@ -75,6 +75,6 @@ To rebuild the virtual machine from scratch, run `vagrant destroy` followed by `
   * This uses VirtualBox shared folders, using the VirtualBox Guest Additions. 
   * If the Guest Additions are a different version from the installed VirtualBox (a common occurrence), then symbolic links will not work on Windows. 
   * This is problematic because `npm` likes to make symlinks to executables in `node_modules/.bin`. 
-  * To work around this, the various dependencies are installed in `/coco`, a directory local to the virtual machine. 
-  * The directory `/coco/node_modules/.bin` is then put on the path and the `/coco/node_modules` directory is copied over to `/vagrant`.
+  * To work around this, npm is run with `--no-bin-links`.
+  * This means that the regular run scripts cannot be used because they expect executables to be in `node_modules/.bin`. So different run scripts are provided.
 
