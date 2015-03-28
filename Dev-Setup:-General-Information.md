@@ -7,6 +7,7 @@ Our installation guides are now split into per-OS guides.
  * [Ubuntu Hands-On](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-Linux#ubuntu-installation)
 * **[Windows Setup](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-Windows)**
 * **[Mac and Vagrant Setup](https://github.com/codecombat/codecombat/wiki/Dev-Setup:-Mac-and-Vagrant)**
+* **[Vagrant Setup](https://github.com/codecombat/wiki/Dev-Setup:-Vagrant)** (fast setup in a virtual machine for Linux, Windows, or Mac OS)
 
 ### Working in the environment
 
