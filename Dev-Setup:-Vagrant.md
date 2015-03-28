@@ -2,6 +2,8 @@
 
 [Vagrant](https://www.vagrantup.com) is a tool for rapidly creating and configuring [virtual machines](http://en.wikipedia.org/wiki/Virtual_machine).
 
+By using Vagrant, we can quickly create an environment for CodeCombat with all the necessary dependencies, without requiring these dependencies to be installed directly on your computer. Vagrant also simplifies rebuilding the environment and upgrading to newer versions of dependencies.
+
 Vagrant supports a number of virtual machine environments. For this setup we will be using [VirtualBox](https://www.virtualbox.org/).
 
 ## Installation
