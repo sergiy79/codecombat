@@ -1,6 +1,6 @@
 ## About This Method
 
-**NOTE** This method is not yet working well for Windows, due to issues that arise when the version of VirtualBox is different from the VirtualBox driver running in the virtual machine. For the moment, the regular Windows setup instructions are more reliable.
+**NOTE** There is a fix to allow this method to work on Windows that is not yet merged. Until merged, the regular Windows method should be used.
 
 [Vagrant](https://www.vagrantup.com) is a tool for rapidly creating and configuring [virtual machines](http://en.wikipedia.org/wiki/Virtual_machine).
 
@@ -79,6 +79,6 @@ To rebuild the virtual machine from scratch, run `vagrant destroy` followed by `
   * This uses VirtualBox shared folders, using the VirtualBox Guest Additions. 
   * If the Guest Additions are a different version from the installed VirtualBox (a common occurrence), then symbolic links will not work on Windows. 
   * This is problematic because `npm` likes to make symlinks to executables in `node_modules/.bin`. 
-  * To work around this, npm is run with `--no-bin-links`.
-  * This means that the regular run scripts cannot be used because they expect executables to be in `node_modules/.bin`. So different run scripts are provided.
+  * To work around this, a directory `/node_modules` is made inside the virtual machine and is mounted over top of `/vagrant/node_modules`.
+  * This means that the `node_modules` directory will appear empty from outside the virtual machine. It should not be deleted.
 
