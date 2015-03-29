@@ -1,5 +1,7 @@
 ## About This Method
 
+**NOTE** This method is not yet working well for Windows, due to issues that arise when the version of VirtualBox is different from the VirtualBox driver running in the virtual machine. For the moment, the regular Windows setup instructions are more reliable.
+
 [Vagrant](https://www.vagrantup.com) is a tool for rapidly creating and configuring [virtual machines](http://en.wikipedia.org/wiki/Virtual_machine).
 
 By using Vagrant, we can quickly create an environment for CodeCombat with all the necessary dependencies, without requiring these dependencies to be installed directly on your computer. Vagrant also simplifies rebuilding the environment and upgrading to newer versions of dependencies.
@@ -48,6 +50,8 @@ Once the Brunch window shows that it has compiled the files, you can visit [http
 First, hit `Ctrl-C` in each of the two command windows to stop Brunch and the dev server. Then, run `vagrant halt` in either window. This will stop the virtual machine but keep it available for future use. To start the VM again, just run `vagrant up`.
 
 ## Updating the MongoDB database
+
+** NOTE ** This section refers to features that are not yet merged into the master branch.
 
 The first time `vagrant up` is run, it runs a provisioning script that installs dependencies. This script then runs `fillMongo.sh`, which downloads the latest [database dump](http://analytics.codecombat.com:8080/dump.tar.gz) and installs it into MongoDB.
 
