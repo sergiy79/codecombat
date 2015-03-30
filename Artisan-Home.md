@@ -19,6 +19,7 @@ If you want to earn money from buildings levels, go check out the [[Chief Artisa
 * [[Settings Tab]]
 * [[Components And Systems Tabs]]
 * [[Coding Guidelines for Artisans]]
+* [[Keyboard Shortcuts]]
 
 ######More Resources
 
