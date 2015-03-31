@@ -30,6 +30,7 @@
  * [[Dev Setup: Linux]]
  * [[Dev Setup: Windows]]
  * [[Dev Setup: Mac|Dev Setup: Mac and Vagrant]]
+ * [[Dev Setup: Vagrant]]
 * **[[Game Engine|Archmage Home#game-engine]]**
  * [[Component]]
  * [[Multiplayer]]
