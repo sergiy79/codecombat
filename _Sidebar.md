@@ -21,7 +21,6 @@
  * [[Editing Thang Components]]
  * [[Important Artisan Concepts]]
  * [[Keyboard Shortcuts]]
- * [[Thangs Tab]]
 * **[[Adventurer General|Adventurer Home]]**
 * **[[Scribe General|Scribe Home]]**
 * **[[Diplomat General|Diplomat Home]]**
