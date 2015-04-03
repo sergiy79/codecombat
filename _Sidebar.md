@@ -15,12 +15,13 @@
  * [[Testing]]
  * [[Third party software and services]]
 * **[[Artisan General|Artisan Home]]**
- * [[Editing Thang Components]]
  * [[Building A Level]]
  * [[Chief Artisan Level Audition]]
  * [[Coding Guidelines for Artisans]]
+ * [[Editing Thang Components]]
  * [[Important Artisan Concepts]]
  * [[Keyboard Shortcuts]]
+ * [[Thangs Tab]]
 * **[[Adventurer General|Adventurer Home]]**
 * **[[Scribe General|Scribe Home]]**
 * **[[Diplomat General|Diplomat Home]]**
