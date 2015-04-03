@@ -49,8 +49,6 @@ First, hit `Ctrl-C` in each of the two command windows to stop Brunch and the de
 
 ## Updating the MongoDB database
 
-** NOTE ** This section refers to features that are not yet merged into the master branch.
-
 The first time `vagrant up` is run, it runs a provisioning script that installs dependencies. This script then runs `fillMongo.sh`, which downloads the latest [database dump](http://analytics.codecombat.com:8080/dump.tar.gz) and installs it into MongoDB.
 
 To update the database to the latest version, there is an update script in `scripts/vagrant`. However, note that this update script drops the existing contents of the MongoDB database. If you wish to save user and achievement data, first run the backup script, which will make a copy of these MongoDB collections. The update script will look for this backup and load it into MongoDB after loading the latest dump of the production database.
