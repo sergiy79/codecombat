@@ -1,7 +1,5 @@
 ## About This Method
 
-**NOTE** There is a fix to allow this method to work on Windows that is not yet merged. Until merged, the regular Windows method should be used.
-
 [Vagrant](https://www.vagrantup.com) is a tool for rapidly creating and configuring [virtual machines](http://en.wikipedia.org/wiki/Virtual_machine).
 
 By using Vagrant, we can quickly create an environment for CodeCombat with all the necessary dependencies, without requiring these dependencies to be installed directly on your computer. Vagrant also simplifies rebuilding the environment and upgrading to newer versions of dependencies.
