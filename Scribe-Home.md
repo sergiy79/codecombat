@@ -1,13 +1,13 @@
 <div style="text-align:center"><img src ="https://popey456963.github.io/CodeCombat/CoCo.png" /></div>
 
-Programming and code aren't the only languages we use at CodeCombat — the written word makes our app easy to understand, fun to play, and a joy to contribute to. For these important tasks, we lean on our [Scribes](http://codecombat.com/contribute/scribe).
+Programming and code aren't the only languages we use at CodeCombat — the written word makes our app easy to understand, fun to play, and a joy to contribute to. For these important tasks, we lean on our [Scribes](http://direct.codecombat.com/contribute/scribe).
 
 ####How to Become a Scribe
-1. Head over to the [Scribe Page](http://codecombat.com/contribute/scribe) on the main website. 
+1. Head over to the [Scribe Page](http://direct.codecombat.com/contribute/scribe) on the main website. 
 1. Click the "Contact Us" link to open a popup contact form. 
 1. Tell us a little about yourself, your experience with programming and what sort of things you'd like to write about. We'll go from there!
 
-_Please note, we'll need to have you sign our [Contributor Licence Agreement](http://codecombat.com/cla) before your changes are merged._
+_Please note, we'll need to have you sign our [Contributor Licence Agreement](http://direct.codecombat.com/cla) before your changes are merged.  We also suggest you use [Direct CodeCombat](http://direct.codecombat.com) while contributing._
 
 ####What Scribes Can Work On
 If you're ready to flex your writing skills, here are the places where we can use your help the most: 
@@ -69,7 +69,7 @@ That would translate into this HTML:
 except with no whitespace in it that wasn't explicitly in the .jade template. To keep the link from mashing with the prefix, the [".spr" (space-right) class](https://github.com/codecombat/codecombat/blob/master/app/styles/common/common.sass#L181-L184) is used.
 
 ####How to Make Sure Your Content is Translated into Other Languages
-CodeCombat is available in over 45 languages. If you don't speak them all, don't worry! Use this process and our [Diplomats](http://codecombat.com/contribute/diplomat) will help make sure your content gets translated properly. 
+CodeCombat is available in over 45 languages. If you don't speak them all, don't worry! Use this process and our [Diplomats](http://direct.codecombat.com/contribute/diplomat) will help make sure your content gets translated properly. 
 
 We added two localization keys (contribute.adventurer_introduction_prefix and contribute.adventurer_introduction_suffix) and reused one we found elsewhere in en.coffee (play.adventurer_forum), so we'd go to [app/locale/en.coffee](https://github.com/codecombat/codecombat/blob/master/app/locale/en.coffee) add those two and delete the contribute.adventurer_introduction key.
 
