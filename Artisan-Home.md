@@ -2,8 +2,6 @@
 
 Welcome [Artisans](http://codecombat.com/contribute/artisan)! This wiki is the main documentation on how to use the CodeCombat editors to build the levels of your dreams. If you don't like reading, go ahead and watch [this](https://vimeo.com/codecombat/mirage-maker) screencast instead.
 
-If you want to earn money from buildings levels, go check out the [[Chief Artisan Level Audition]] wiki page.
-
 ####Reading Material
 
 ######General
