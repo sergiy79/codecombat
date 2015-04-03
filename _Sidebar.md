@@ -15,6 +15,7 @@
  * [[Testing]]
  * [[Third party software and services]]
 * **[[Artisan General|Artisan Home]]**
+ * [[Editing Thang Components]]
  * [[Building A Level]]
  * [[Chief Artisan Level Audition]]
  * [[Coding Guidelines for Artisans]]
@@ -49,7 +50,6 @@
  * [[Aether]]
  * [[Client models]]
  * [[Developer organization]]
- * [[Editing Thang Components]]
  * [[Educational Standards]]
  * [[Events, subscriptions, shortcuts]]
  * [[HipChat Room]]
