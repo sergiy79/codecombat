@@ -77,4 +77,7 @@ To rebuild the virtual machine from scratch, run `vagrant destroy` followed by `
   * This is problematic because `npm` likes to make symlinks to executables in `node_modules/.bin`. 
   * To work around this, a directory `/node_modules` is made inside the virtual machine and is mounted over top of `/vagrant/node_modules`.
   * This means that the `node_modules` directory will appear empty from outside the virtual machine. It should not be deleted.
+* [Brunch](http://brunch.io/) is used by CodeCombat to watch for changes to Coffeescript files and recompile them automatically. In order to allow Brunch running in the virtual machine to detect changes made on the "host" machine, "polling" mode is used. This results in higher CPU usage.
+  * In order to avoid this and run Brunch in regular mode, you can start Brunch manually inside the VM by `vagrant ssh`, `cd /vagrant`, and `brunch w`. You will need to have an SSH client installed (e.g. the one installed by Git for Windows).
+  * When running Brunch in regular mode, changes must be made from inside the virtual machine (i.e. via `vagrant ssh`). The virtual machine is running Ubuntu Linux, so any of the normal text mode editors may be installed and used.
 
