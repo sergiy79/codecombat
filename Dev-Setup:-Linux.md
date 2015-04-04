@@ -1,4 +1,4 @@
-##Index:
+###Index:
 
 * [Automatic Linux Installation](#automatic-linux-installation)
 * [Complex Linux Installation](#complex-linux-installation)
@@ -6,7 +6,7 @@
 * [Installing the Database](#installing-the-database)
 * [Ubuntu Screencast](http://youtu.be/usN85KSiWUM) (video)
 
-###Automatic Linux Installation
+####Automatic Linux Installation
 
 On Linux, you'll need _make_, _build-essential_, _ruby_, _curl_ and _git_ installed (`sudo apt-get install make build-essential ruby curl git`).
 
@@ -40,7 +40,7 @@ export LC_ALL=en_US.UTF-8
 ```
 If you only see a white screen, check to see if the first line of app.css is `ERROR: Cannot load compass`. If so, try either uninstalling compass (`gem uninstall compass`) or re-installing it if you actually need it (`gem install compass --pre`).
 
-###Complex Linux Installation
+####Complex Linux Installation
 
 1. [Set up a GitHub account](https://help.github.com/articles/set-up-git) if you don't already have one.
 2. [Fork](https://github.com/codecombat/codecombat/fork) the CodeCombat project.
@@ -55,11 +55,11 @@ If you only see a white screen, check to see if the first line of app.css is `ER
 5. Run `bin/coco-mongodb`, `bin/coco-brunch` and `bin/coco-dev-server`.
 6. Go to [http://localhost:3000](http://localhost:3000) to see your local CodeCombat in action.
 
-###Ubuntu Installation
+####Ubuntu Installation
 
 Thank you to Steve Malmskog for writing this great guide on getting the development environment running on Ubuntu 12.04 LTS (and later)!
 
-####Installation
+#####Installation
 The installation assumes a couple destinations. Season to taste:
 
 * `export COCO_TREE=~/src/coco/codecombat`
@@ -113,7 +113,7 @@ Install database snapshot:
 - In another terminal:
    - `cd $COCO_DB && mongorestore --drop dump`
 
-####Running
+#####Running
 
 Start up mongo:
 - Mongo should already be running from your database snapshot install. If not:
@@ -133,12 +133,12 @@ Start up the dev server:
 Accessing the local instance of codecombat:
 - Start up a local browser and go to: http://localhost:3000.
 
-####Code Syncing
+#####Code Syncing
 
 Pick up upstream changes:
 - `git fetch upstream`
 
-###Installing the Database
+####Installing the Database
 Download the [CodeCombat database](http://analytics.codecombat.com:8080/dump.tar.gz) (updated every 10 minutes) and import it to your locally running database with the following commands:
 
 1. Make sure the database is running on your computer `./bin/coco-mongodb`.
