@@ -20,6 +20,7 @@ On Linux, you'll need _make_, _build-essential_, _ruby_, _curl_ and _git_ instal
     curl https://raw.githubusercontent.com/codecombat/codecombat/master/scripts/devSetup/bootstrap.sh | bash -s your_repository_url
     ```
    * If you haven't forked the repository, paste in the following command:
+   
     ```bash
     curl https://raw.githubusercontent.com/codecombat/codecombat/master/scripts/devSetup/bootstrap.sh | bash
     ```
