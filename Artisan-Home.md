@@ -10,6 +10,7 @@ Note, we recommend that you use [CodeCombat Direct](http://direct.codecombat.com
 
 * [[Important Artisan Concepts]]
 * [[Building A Level]]
+* [[Component Authoring Guide]]
 
 ######Level Editor
 
