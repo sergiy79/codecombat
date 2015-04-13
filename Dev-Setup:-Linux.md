@@ -34,13 +34,6 @@ On Linux, you'll need _make_, _build-essential_, _ruby_, _curl_ and _git_ instal
 9. Setup [MongoDB](#installing-the-database).
 9. Visit [http://localhost:3000](http://localhost:3000) to see your CodeCombat development environment!
 
-If you get errors with bower not being able to clone git repositories, try [cloning over https](http://stackoverflow.com/questions/1722807/git-convert-git-urls-to-http-urls/11383587#11383587).  If SASS brings up an error about file encodings being wrong, add this to your .bash_profile:
-```bash
-export LANG=en_US.UTF-8
-export LC_ALL=en_US.UTF-8
-```
-If you only see a white screen, check to see if the first line of app.css is `ERROR: Cannot load compass`. If so, try either uninstalling compass (`gem uninstall compass`) or re-installing it if you actually need it (`gem install compass --pre`).
-
 ####Complex Linux Installation
 
 1. [Set up a GitHub account](https://help.github.com/articles/set-up-git) if you don't already have one.
