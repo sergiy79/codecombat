@@ -13,8 +13,6 @@ We support the following, and only the following versions:
 * Windows 8.0 - Problems found
 * Windows 8.1
 
-**Note**: if your brunch isn't compiling sass properly (`public\stylesheets\app.css` is like 70KB instead of >600KB and you get a white screen on http://localhost:3000 with no JavaScript errors), try removing the bless-brunch entry from package.json and deleting the bless-brunch folder from node_modules. Also make sure you have the latest sass gem. If you rebrunch, it may work.
-
 Other versions, newer then _Windows XP_, and not listed above, might work, but we don't guarantee that they will.
 
 ###Detailed Windows Installation
