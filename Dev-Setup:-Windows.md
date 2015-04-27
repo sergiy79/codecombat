@@ -116,7 +116,7 @@ You can use whatever shell you'd like to do the install, however Git Bash is rec
 In your git bash, navigate to where you want to clone your repository (you can use the `cd` command to change directories, and `ls` to list the contents of the current directory). When you are in the folder that you'd like to clone the repository, run the command
 ```git clone https://github.com/codecombat/codecombat```
 
-When you forked the repository do
+If you have forked the repository (recommended), clone that instead:
 ```git clone https://github.com/[your GitHub username]/codecombat```
 
 #####Installing repository dependencies
