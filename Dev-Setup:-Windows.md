@@ -144,9 +144,9 @@ If there are any problems, you may need to update your version of the sass gem. 
 
 #####Setting up MongoDB
 
-- Create a `db` folder anywhere, for example `/c/db`. This is where MongoDB is going to keep the db data.
-- Run the command `mongod --setParameter textSearchEnabled=true --dbpath [PATH TO DB FOLDER]` where `[PATH TO DB FOLDER]` would be `/c/db/` in the example and leave it running.
-- Download the up-to-date database dump from [here](http://analytics.codecombat.com:8080/dump.tar.gz) somewhere else, and extract it.
+- Create a `db` folder anywhere, for example `c:\db`. This is where MongoDB is going to keep the db data.
+- Run the command `mongod --setParameter textSearchEnabled=true --dbpath [PATH TO DB FOLDER]` where `[PATH TO DB FOLDER]` would be `c:\db` in the example and leave it running.
+- Download the up-to-date database dump from [here](http://analytics.codecombat.com:8080/dump.tar.gz) somewhere else, and extract it. (You may have to extract the tar file from the .gz first, then extract the dump folder from the .tar file)
 - Navigate to the folder in which you extracted the dump (there should be a folder called `dump` in there)
 - In a new shell (with the mongod still running), run the command `mongorestore --drop dump`.
 
